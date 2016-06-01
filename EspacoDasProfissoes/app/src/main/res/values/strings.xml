@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Espaço das Profissões</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="tab_content">Conteúdo</string>
+    <string name="tab_maps">Mapas</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

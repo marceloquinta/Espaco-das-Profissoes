@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/navheader_height"
+    android:background="@drawable/nav_bg"
+    android:padding="@dimen/md_separator"
+    >
+
+    <ImageView
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_ufg"
+        android:layout_alignParentLeft="true"
+        android:scaleType="fitStart"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="8dp"
+        />
+</RelativeLayout>
