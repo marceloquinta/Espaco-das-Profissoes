@@ -42,7 +42,7 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
 
     SupportMapFragment mapFragment;
     GoogleMap map;
-    private Map<Marker,String> markers;
+    private Map<Marker, String> markers;
 
     public MapFragment() {
         // Required empty public constructor
@@ -115,11 +115,6 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
 
 // Add an overlay to the map, retaining a handle to the GroundOverlay object.
         GroundOverlay imageOverlay = map.addGroundOverlay(newarkMap);
-
-        LatLngBounds AUSTRALIA = new LatLngBounds(
-                new LatLng(-44, 113), new LatLng(-10, 154));
-
-        map.moveCamera(CameraUpdateFactory.newLatLngZoom(AUSTRALIA.getCenter(), 10));
     }
 
     @Override
@@ -128,6 +123,16 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
 
         if (grantResults.length > 0
                 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+            if (ActivityCompat.checkSelfPermission(getContext(), Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(getContext(), Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+                // TODO: Consider calling
+                //    ActivityCompat#requestPermissions
+                // here to request the missing permissions, and then overriding
+                //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+                //                                          int[] grantResults)
+                // to handle the case where the user grants the permission. See the documentation
+                // for ActivityCompat#requestPermissions for more details.
+                return;
+            }
             this.map.setMyLocationEnabled(true);
             this.map.getUiSettings().setMyLocationButtonEnabled(true);
         }
