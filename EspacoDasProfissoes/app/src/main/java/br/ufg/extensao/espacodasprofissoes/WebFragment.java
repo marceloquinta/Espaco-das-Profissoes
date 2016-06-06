@@ -44,7 +44,7 @@ public class WebFragment extends Fragment {
         webview.setWebChromeClient(new WebChromeClient());
         webview.getSettings().setJavaScriptEnabled(true);
         webview.getSettings().setDomStorageEnabled(true);
-//        webview.addJavascriptInterface(new WebAppInterface(getActivity(), company), "Android");
+        webview.addJavascriptInterface(new WebAppInterface(getActivity()), "Android");
         String folderPath = "file:android_asset/";
         String fileName = "index.html";
         String file = folderPath + fileName;

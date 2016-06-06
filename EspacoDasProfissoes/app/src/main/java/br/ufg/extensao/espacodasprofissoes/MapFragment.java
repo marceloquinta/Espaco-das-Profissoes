@@ -50,8 +50,12 @@ public class MapFragment extends Fragment implements OnMapReadyCallback,
 
     SupportMapFragment mapFragment;
     GoogleMap map;
+<<<<<<< HEAD
     private Map<Marker,Place> markers;
     private List<Place> places;
+=======
+    private Map<Marker, String> markers;
+>>>>>>> origin/master
 
     public MapFragment() {
         // Required empty public constructor
@@ -153,6 +157,7 @@ public class MapFragment extends Fragment implements OnMapReadyCallback,
 
     private void addMarker(Place place){
 
+<<<<<<< HEAD
         double latitude = place.getLatitude();
         double longitude = place.getLongitude();
         Marker marker = null;
@@ -176,6 +181,10 @@ public class MapFragment extends Fragment implements OnMapReadyCallback,
                 .width(5)
                 .color(Color.RED));
 
+=======
+// Add an overlay to the map, retaining a handle to the GroundOverlay object.
+        GroundOverlay imageOverlay = map.addGroundOverlay(newarkMap);
+>>>>>>> origin/master
     }
 
     @Override
@@ -184,6 +193,16 @@ public class MapFragment extends Fragment implements OnMapReadyCallback,
 
         if (grantResults.length > 0
                 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+            if (ActivityCompat.checkSelfPermission(getContext(), Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(getContext(), Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+                // TODO: Consider calling
+                //    ActivityCompat#requestPermissions
+                // here to request the missing permissions, and then overriding
+                //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+                //                                          int[] grantResults)
+                // to handle the case where the user grants the permission. See the documentation
+                // for ActivityCompat#requestPermissions for more details.
+                return;
+            }
             this.map.setMyLocationEnabled(true);
             this.map.getUiSettings().setMyLocationButtonEnabled(true);
         }
