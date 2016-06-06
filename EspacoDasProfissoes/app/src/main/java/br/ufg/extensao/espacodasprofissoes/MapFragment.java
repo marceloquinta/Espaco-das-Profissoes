@@ -19,6 +19,7 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptor;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.GroundOverlay;
@@ -30,19 +31,27 @@ import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.Polyline;
 import com.google.android.gms.maps.model.PolylineOptions;
 
+import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.NoSubscriberEvent;
+import org.greenrobot.eventbus.Subscribe;
+
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class MapFragment extends Fragment implements OnMapReadyCallback {
+public class MapFragment extends Fragment implements OnMapReadyCallback,
+        GoogleMap.OnInfoWindowClickListener, GoogleMap.OnMarkerClickListener {
 
 
     SupportMapFragment mapFragment;
     GoogleMap map;
-    private Map<Marker,String> markers;
+    private Map<Marker,Place> markers;
+    private List<Place> places;
 
     public MapFragment() {
         // Required empty public constructor
@@ -59,7 +68,31 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
         mapFragment = (SupportMapFragment) getChildFragmentManager().findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
         markers = new HashMap<>();
+        readPlaces();
         return view;
+    }
+
+    @NonNull
+    private void readPlaces() {
+        places = new ArrayList<>();
+        Place inf = new Place();
+        inf.setName("INF");
+        inf.setSnippet("Instituto de Informática");
+        inf.setLatitude(-16.6036908);
+        inf.setLongitude(-49.266449);
+        places.add(inf);
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        EventBus.getDefault().register(this);
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+        EventBus.getDefault().unregister(this);
     }
 
     /**
@@ -75,11 +108,6 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
     public void onMapReady(GoogleMap map) {
         this.map = map;
         map.setMapType(GoogleMap.MAP_TYPE_TERRAIN);
-        LatLng point = new LatLng(-16.6068122, -49.261486);
-
-
-        this.map.setMyLocationEnabled(true);
-        this.map.getUiSettings().setMyLocationButtonEnabled(true);
 
         if (ContextCompat.checkSelfPermission(getActivity(),
                 android.Manifest.permission.ACCESS_FINE_LOCATION) ==
@@ -87,39 +115,67 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
                 ContextCompat.checkSelfPermission(getActivity(),
                         android.Manifest.permission.ACCESS_COARSE_LOCATION) ==
                         PackageManager.PERMISSION_GRANTED) {
-
+            this.map.setMyLocationEnabled(true);
+            this.map.getUiSettings().setMyLocationButtonEnabled(true);
         } else {
             ActivityCompat.requestPermissions(getActivity(),
                     new String[]{Manifest.permission.ACCESS_COARSE_LOCATION,
                             Manifest.permission.ACCESS_FINE_LOCATION},
                     0);
         }
-        this.map.moveCamera(CameraUpdateFactory.newLatLngZoom(point, 19));
 
-        this.map.addMarker(new MarkerOptions()
-                .title("CIAR")
-                .snippet("Centro Integrado de Aprendizado em Rede")
-                .position(point)
-                .icon(BitmapDescriptorFactory.defaultMarker(200.0f)));
+//        GroundOverlayOptions newarkMap = new GroundOverlayOptions()
+//                .image(BitmapDescriptorFactory.fromResource(R.drawable.nav_bg))
+//                .position(inf, 300f, 300f);
+// Add an overlay to the map, retaining a handle to the GroundOverlay object.
+//        GroundOverlay imageOverlay = map.addGroundOverlay(newarkMap);
 
+        map.getUiSettings().setScrollGesturesEnabled(true);
+//        map.getUiSettings().setMapToolbarEnabled(false);
+        map.clear();
+        centerMap();
+        addMarkers();
+        addPaths();
+        map.setOnInfoWindowClickListener(this);
+
+    }
+
+    private void centerMap() {
+        LatLng point = new LatLng(-16.606231, -49.2622261);
+        this.map.moveCamera(CameraUpdateFactory.newLatLngZoom(point, 17));
+    }
+
+    private void addMarkers() {
+        for(Place place : places){
+            addMarker(place);
+        }
+    }
+
+    private void addMarker(Place place){
+
+        double latitude = place.getLatitude();
+        double longitude = place.getLongitude();
+        Marker marker = null;
+
+        BitmapDescriptor icon = BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET);
+        marker = map.addMarker(
+                new MarkerOptions()
+                        .position(new LatLng(latitude, longitude))
+                        .title(place.getName())
+                        .snippet(place.getSnippet())
+                        .icon(icon)
+        );
+        markers.put(marker, place);
+
+    }
+
+    private void addPaths() {
+        LatLng inf = new LatLng(-16.6036908, -49.266449);
         Polyline line = map.addPolyline(new PolylineOptions()
-                .add(new LatLng(-16.6068122, -49.261486), new LatLng(-16.6036908, -49.266449))
+                .add(new LatLng(-16.6068122, -49.261486), inf)
                 .width(5)
                 .color(Color.RED));
 
-        LatLng inf = new LatLng(-16.6036908, -49.266449);
-
-        GroundOverlayOptions newarkMap = new GroundOverlayOptions()
-                .image(BitmapDescriptorFactory.fromResource(R.drawable.nav_bg))
-                .position(inf, 300f, 300f);
-
-// Add an overlay to the map, retaining a handle to the GroundOverlay object.
-        GroundOverlay imageOverlay = map.addGroundOverlay(newarkMap);
-
-        LatLngBounds AUSTRALIA = new LatLngBounds(
-                new LatLng(-44, 113), new LatLng(-10, 154));
-
-        map.moveCamera(CameraUpdateFactory.newLatLngZoom(AUSTRALIA.getCenter(), 10));
     }
 
     @Override
@@ -131,13 +187,25 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
             this.map.setMyLocationEnabled(true);
             this.map.getUiSettings().setMyLocationButtonEnabled(true);
         }
+    }
 
-
-
+    @Subscribe
+    public void onEvent(Marker marker){
+        Place place = markers.get(marker);
 
     }
 
     public GoogleMap getMap() {
         return map;
+    }
+
+    @Override
+    public void onInfoWindowClick(Marker marker) {
+            EventBus.getDefault().post(marker);
+    }
+
+    @Override
+    public boolean onMarkerClick(Marker marker) {
+        return false;
     }
 }
