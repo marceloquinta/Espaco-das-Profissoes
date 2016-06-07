@@ -1,5 +1,6 @@
 package br.ufg.extensao.espacodasprofissoes;
 
+import android.content.Context;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.TabLayout;
 import android.support.graphics.drawable.VectorDrawableCompat;
@@ -15,6 +16,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -137,6 +140,14 @@ public class MainActivity extends AppCompatActivity {
             mDrawerLayout.openDrawer(GravityCompat.START);
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    public void hideKeyboard(){
+        View view = this.getCurrentFocus();
+        if (view != null) {
+            InputMethodManager imm = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
+            imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
+        }
     }
 }
 

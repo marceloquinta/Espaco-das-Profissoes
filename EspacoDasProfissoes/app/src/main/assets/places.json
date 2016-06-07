@@ -1,0 +1,60 @@
+{
+  "places" : [
+    {
+      "name" : "Laboratório de Genética e Biodiversidade",
+      "snippet" : "LGBIO",
+      "latitude" : -16.603166,
+      "longitude" : -49.260726,
+      "pinColor" : "",
+      "code" : "C3"
+    },
+    {
+      "name" : "Herbário",
+      "snippet" : "Unidade de Conservação",
+      "latitude" : -16.6065521,
+      "longitude" : -49.264145,
+      "pinColor" : ""
+    },
+    {
+      "name" : "Laboratório de Ecologia e Evolução",
+      "snippet" : "ECOEVOL",
+      "latitude" : -16.601750,
+      "longitude" : -49.261143,
+      "pinColor" : ""
+    },
+    {
+      "name" : "Escola de Veterinária e Zootecnia",
+      "snippet" : "EVZ",
+      "latitude" : -16.599782,
+      "longitude" : -49.277013,
+      "pinColor" : ""
+    },
+    {
+      "name" : "Escola de Agronomia",
+      "snippet" : "EA",
+      "latitude" : -16.598480,
+      "longitude" :  -49.281109,
+      "pinColor" : ""
+    }
+    ],
+    "routes" : [
+      {
+        "name" : "Rota Buriti",
+        "color" : "#8BC34A",
+        "path" : [
+          "-16.603166,-49.260726",
+          "-16.6065521,-49.264145",
+          "-16.601750, -49.261143"
+          ]
+      },
+      {
+        "name" : "Rota Pequi",
+        "color" : "#FFC107",
+        "path" : [
+          "-16.599782,-49.277013",
+          "-16.598480,-49.281109"
+          ]
+      }
+      
+    ]
+}

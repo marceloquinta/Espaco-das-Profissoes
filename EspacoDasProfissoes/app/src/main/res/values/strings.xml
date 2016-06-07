@@ -3,7 +3,9 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="tab_content">Conteúdo</string>
-    <string name="tab_maps">Mapas</string>
+    <string name="tab_maps">Locais</string>
+
+    <string name="menu_search">Procurar</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

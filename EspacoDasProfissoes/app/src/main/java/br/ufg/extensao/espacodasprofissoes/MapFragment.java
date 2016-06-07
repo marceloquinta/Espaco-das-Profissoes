@@ -2,15 +2,22 @@ package br.ufg.extensao.espacodasprofissoes;
 
 
 import android.Manifest;
+import android.app.SearchManager;
+import android.content.Context;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
-import android.location.Location;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.content.ContextCompat;
+import android.support.v7.widget.SearchView;
+import android.text.TextUtils;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
@@ -21,41 +28,42 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptor;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
-import com.google.android.gms.maps.model.CameraPosition;
-import com.google.android.gms.maps.model.GroundOverlay;
-import com.google.android.gms.maps.model.GroundOverlayOptions;
 import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.Polyline;
 import com.google.android.gms.maps.model.PolylineOptions;
 
 import org.greenrobot.eventbus.EventBus;
-import org.greenrobot.eventbus.NoSubscriberEvent;
 import org.greenrobot.eventbus.Subscribe;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import br.ufg.extensao.espacodasprofissoes.model.Place;
+import br.ufg.extensao.espacodasprofissoes.model.Route;
+import br.ufg.extensao.espacodasprofissoes.util.AssetReader;
+
 
 /**
  * A simple {@link Fragment} subclass.
  */
 public class MapFragment extends Fragment implements OnMapReadyCallback,
-        GoogleMap.OnInfoWindowClickListener, GoogleMap.OnMarkerClickListener {
+        GoogleMap.OnInfoWindowClickListener, GoogleMap.OnMarkerClickListener,
+        GoogleMap.OnPolylineClickListener {
 
-
-    SupportMapFragment mapFragment;
-    GoogleMap map;
-<<<<<<< HEAD
-    private Map<Marker,Place> markers;
+    private SupportMapFragment mapFragment;
+    private GoogleMap map;
+    private Map<Marker, Place> markers;
+    private Map<Polyline, Route> polylines;
     private List<Place> places;
-=======
-    private Map<Marker, String> markers;
->>>>>>> origin/master
+    private List<Place> filteredPlaces;
+    private List<Route> routes;
 
     public MapFragment() {
         // Required empty public constructor
@@ -72,19 +80,103 @@ public class MapFragment extends Fragment implements OnMapReadyCallback,
         mapFragment = (SupportMapFragment) getChildFragmentManager().findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
         markers = new HashMap<>();
+        polylines = new HashMap<>();
         readPlaces();
+        readRoutes();
+        setHasOptionsMenu(true);
         return view;
+    }
+
+    @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+        MainActivity activity = (MainActivity) getActivity();
+        inflater.inflate(R.menu.menu_maps, menu);
+
+
+        MenuItem searchItem = menu.findItem(R.id.action_search);
+
+        SearchManager searchManager = (SearchManager) getActivity().getSystemService(Context.SEARCH_SERVICE);
+        SearchView searchView = (SearchView) searchItem.getActionView();
+        searchView.setSearchableInfo(searchManager.getSearchableInfo(getActivity().getComponentName()));
+
+        SearchView.OnQueryTextListener textChangeListener = new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextChange(String cs) {
+                if (TextUtils.isEmpty(cs)) {
+                    List<Place> originalPlaces = places;
+                }
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                ((MainActivity) getActivity()).hideKeyboard();
+                filteredPlaces = new ArrayList<>();
+                for (Place place : places) {
+                    if (place.getName().toLowerCase().contains(query.trim().toLowerCase())) {
+                        filteredPlaces.add(place);
+                    }
+                }
+                if (filteredPlaces.size() == 1) {
+                    if (map != null) {
+                        Place place = filteredPlaces.get(0);
+                        centerMap(new LatLng(place.getLatitude(), place.getLongitude()));
+                    }
+                }
+                return true;
+            }
+        };
+        searchView.setOnQueryTextListener(textChangeListener);
+    }
+
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
     }
 
     @NonNull
     private void readPlaces() {
         places = new ArrayList<>();
-        Place inf = new Place();
-        inf.setName("INF");
-        inf.setSnippet("Instituto de Informática");
-        inf.setLatitude(-16.6036908);
-        inf.setLongitude(-49.266449);
-        places.add(inf);
+        String file = AssetReader.loadStringFromAsset(getActivity(), "places.json");
+        try {
+            JSONArray placesAsJSON = new JSONObject(file).getJSONArray("places");
+            for (int i = 0; i < placesAsJSON.length(); i++) {
+                JSONObject placeAsJSON = placesAsJSON.getJSONObject(i);
+                Place place = new Place();
+                place.setName(placeAsJSON.getString("name"));
+                place.setSnippet(placeAsJSON.getString("snippet"));
+                place.setLatitude(placeAsJSON.getDouble("latitude"));
+                place.setLongitude(placeAsJSON.getDouble("longitude"));
+                places.add(place);
+            }
+        } catch (JSONException e) {
+            throw new RuntimeException(e.getMessage());
+        }
+    }
+
+    @NonNull
+    private void readRoutes() {
+        routes = new ArrayList<>();
+        String file = AssetReader.loadStringFromAsset(getActivity(), "routes.json");
+        try {
+            JSONArray routesAsJSON = new JSONObject(file).getJSONArray("routes");
+            for (int i = 0; i < routesAsJSON.length(); i++) {
+                JSONObject routeAsJSONObject = routesAsJSON.getJSONObject(i);
+                Route route = new Route();
+                route.setName(routeAsJSONObject.getString("name"));
+                route.setColor(routeAsJSONObject.getString("color"));
+                ArrayList<String> edges = new ArrayList<>();
+                JSONArray edgesAsJSON = routeAsJSONObject.getJSONArray("path");
+                for (int j = 0; j < edgesAsJSON.length(); j++) {
+                    String edge = edgesAsJSON.getString(j);
+                    edges.add(edge);
+                }
+                route.setPoints(edges);
+                routes.add(route);
+            }
+        } catch (JSONException e) {
+            throw new RuntimeException(e.getMessage());
+        }
     }
 
     @Override
@@ -93,10 +185,16 @@ public class MapFragment extends Fragment implements OnMapReadyCallback,
         EventBus.getDefault().register(this);
     }
 
+
     @Override
     public void onStop() {
         super.onStop();
         EventBus.getDefault().unregister(this);
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
     }
 
     /**
@@ -111,6 +209,7 @@ public class MapFragment extends Fragment implements OnMapReadyCallback,
     @Override
     public void onMapReady(GoogleMap map) {
         this.map = map;
+        map.clear();
         map.setMapType(GoogleMap.MAP_TYPE_TERRAIN);
 
         if (ContextCompat.checkSelfPermission(getActivity(),
@@ -125,7 +224,7 @@ public class MapFragment extends Fragment implements OnMapReadyCallback,
             ActivityCompat.requestPermissions(getActivity(),
                     new String[]{Manifest.permission.ACCESS_COARSE_LOCATION,
                             Manifest.permission.ACCESS_FINE_LOCATION},
-                    0);
+                    42);
         }
 
 //        GroundOverlayOptions newarkMap = new GroundOverlayOptions()
@@ -133,31 +232,26 @@ public class MapFragment extends Fragment implements OnMapReadyCallback,
 //                .position(inf, 300f, 300f);
 // Add an overlay to the map, retaining a handle to the GroundOverlay object.
 //        GroundOverlay imageOverlay = map.addGroundOverlay(newarkMap);
-
-        map.getUiSettings().setScrollGesturesEnabled(true);
-//        map.getUiSettings().setMapToolbarEnabled(false);
-        map.clear();
-        centerMap();
+        LatLng centerUFG = new LatLng(-16.606231, -49.2622261);
+        centerMap(centerUFG);
         addMarkers();
         addPaths();
         map.setOnInfoWindowClickListener(this);
+        map.setOnPolylineClickListener(this);
 
     }
 
-    private void centerMap() {
-        LatLng point = new LatLng(-16.606231, -49.2622261);
-        this.map.moveCamera(CameraUpdateFactory.newLatLngZoom(point, 17));
+    private void centerMap(LatLng point) {
+        this.map.moveCamera(CameraUpdateFactory.newLatLngZoom(point, 15));
     }
 
     private void addMarkers() {
-        for(Place place : places){
+        for (Place place : places) {
             addMarker(place);
         }
     }
 
-    private void addMarker(Place place){
-
-<<<<<<< HEAD
+    private void addMarker(Place place) {
         double latitude = place.getLatitude();
         double longitude = place.getLongitude();
         Marker marker = null;
@@ -175,37 +269,24 @@ public class MapFragment extends Fragment implements OnMapReadyCallback,
     }
 
     private void addPaths() {
-        LatLng inf = new LatLng(-16.6036908, -49.266449);
-        Polyline line = map.addPolyline(new PolylineOptions()
-                .add(new LatLng(-16.6068122, -49.261486), inf)
-                .width(5)
-                .color(Color.RED));
-
-=======
-// Add an overlay to the map, retaining a handle to the GroundOverlay object.
-        GroundOverlay imageOverlay = map.addGroundOverlay(newarkMap);
->>>>>>> origin/master
+        for (Route route : routes) {
+            addRoute(route);
+        }
     }
 
-    @Override
-    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
-        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-
-        if (grantResults.length > 0
-                && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-            if (ActivityCompat.checkSelfPermission(getContext(), Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(getContext(), Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-                // TODO: Consider calling
-                //    ActivityCompat#requestPermissions
-                // here to request the missing permissions, and then overriding
-                //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
-                //                                          int[] grantResults)
-                // to handle the case where the user grants the permission. See the documentation
-                // for ActivityCompat#requestPermissions for more details.
-                return;
-            }
-            this.map.setMyLocationEnabled(true);
-            this.map.getUiSettings().setMyLocationButtonEnabled(true);
+    private void addRoute(Route route) {
+        List<LatLng> edges = new ArrayList<>();
+        for (String edge : route.getPoints()) {
+            String[] value = edge.split(",");
+            LatLng point = new LatLng(Double.parseDouble(value[0]), Double.parseDouble(value[1]));
+            edges.add(point);
         }
+        Polyline line = map.addPolyline(new PolylineOptions()
+                .addAll(edges)
+                .width(5)
+                .color(Color.parseColor(route.getColor())));
+        line.setClickable(true);
+        polylines.put(line, route);
     }
 
     @Subscribe
@@ -226,5 +307,12 @@ public class MapFragment extends Fragment implements OnMapReadyCallback,
     @Override
     public boolean onMarkerClick(Marker marker) {
         return false;
+    }
+
+
+    @Override
+    public void onPolylineClick(Polyline polyline) {
+        Route route = polylines.get(polyline);
+        Toast.makeText(getActivity(),route.getName(),Toast.LENGTH_SHORT).show();
     }
 }
