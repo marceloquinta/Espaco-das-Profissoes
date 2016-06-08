@@ -1,55 +1,1653 @@
-({
+ {
 	"regionais":[
 		{
 			"nome": "Goiânia",
 			"cursos":[
 				{
-					"nome": "",
-					"grau": ,
-					"processo_seletivo": ,
-					"duracao": ,
-					"turno": ,
-					"n_vagas": ,
-					"id_chamada": 
+					"nome": "Administração",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 4,
+					"n_vagas": 90,
+					"campus": 1,
+					"id": "admin"
 				},
 
 				{
-					"nome": "",
-					"grau": ,
-					"processo_seletivo": ,
-					"duracao": ,
-					"turno": ,
-					"n_vagas": ,
-					"id_chamada": 
+					"nome": "Agronomia",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 10,
+					"turno": 1,
+					"n_vagas": 140,
+					"campus": 1,
+					"id": "agro"
 				},
 
 				{
-					"nome": "",
-					"grau": ,
-					"processo_seletivo": ,
-					"duracao": ,
-					"turno": ,
-					"n_vagas": ,
-					"id_chamada": 
+					"nome": "Arquitetura e Urbanismo",
+					"grau": 1,
+					"ps": 3,
+					"duracao": 10,
+					"turno": 1,
+					"n_vagas": 35,
+					"campus": 1,
+					"id": "arq_urb"
 				},
 
+				{
+					"nome": "Artes Visuais",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 2,
+					"n_vagas": 30,
+					"campus": 1,
+					"id": "art_visu1"
+				},
+
+				{
+					"nome": "Artes Visuais",
+					"grau": 2,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 2,
+					"n_vagas": 30,
+					"campus": 1,
+					"id": "art_visu2"
+				},
+
+				{
+					"nome": "Biblioteconomia",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 2,
+					"n_vagas": 50,
+					"campus": 1,
+					"id": "biblioecon"
+				},
+
+				{
+					"nome": "Biomedicina",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 1,
+					"n_vagas": 60,
+					"campus": 1,
+					"id": "biomed"
+				},
+
+				{
+					"nome": "Biotecnologia",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 1,
+					"n_vagas": 30,
+					"campus": 2,
+					"id": "biotec"
+				},
+
+				{
+					"nome": "Ciências Ambientais",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 1,
+					"n_vagas": 50,
+					"campus": 1,
+					"id": "ciencias_amb"
+				},
+
+				{
+					"nome": "Ciências Biológicas",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 1,
+					"n_vagas": 40,
+					"campus": 1,
+					"id": "ciencias_bio1"
+				},
+
+				{
+					"nome": "Ciências Biológicas",
+					"grau": 2,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 4,
+					"n_vagas": 30,
+					"campus": 1,
+					"id": "ciencias_bio3"
+				},
+
+				{
+					"nome": "Ciências Biológicas",
+					"grau": 2,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 1,
+					"n_vagas": 40,
+					"campus": 1,
+					"id": "ciencias_bio2"
+				},
+
+				{
+					"nome": "Ciências Contábeis",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 2,
+					"n_vagas": 40,
+					"campus": 1,
+					"id": "ciencias_cont1"
+				},
+
+				{
+					"nome": "Ciências Contábeis",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 4,
+					"n_vagas": 40,
+					"campus": 1,
+					"id": "ciencias_cont2"
+				},
+
+				{
+					"nome": "Ciências da Computação",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 1,
+					"n_vagas": 80,
+					"campus": 1,
+					"id": "ciencias_comp"
+				},
+
+				{
+					"nome": "Ciências Econômicas",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 2,
+					"n_vagas": 40,
+					"campus": 1,
+					"id": "ciencias_eco1"
+				},
+
+				{
+					"nome": "Ciências Econômicas",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 4,
+					"n_vagas": 40,
+					"campus": 1,
+					"id": "ciencias_eco2"
+				},
+
+				{
+					"nome": "Ciências Sociais",
+					"grau": 3,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 2,
+					"n_vagas": 60,
+					"campus": 1,
+					"id": "ciencias_soc"
+				},
+
+				{
+					"nome": "Ciências Sociais - Políticas Públicas",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 4,
+					"n_vagas": 55,
+					"campus": 1,
+					"id": "ciencias_soc_pol_pub"
+				},
+
+				{
+					"nome": "Comunicação Social - Jornalismo",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 2,
+					"n_vagas": 50,
+					"campus": 1,
+					"id": "com_soc_jorn"
+				},
+
+				{
+					"nome": "Comunicação Social - Publicidade e Propaganda",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 3,
+					"n_vagas": 50,
+					"campus": 1,
+					"id": "com_soc_pub_prop"
+				},
+
+				{
+					"nome": "Comunicação Social - Relações Públicas",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 2,
+					"n_vagas": 50,
+					"campus": 1,
+					"id": "com_soc_rel_pub"
+				},
+
+				{
+					"nome": "Dança",
+					"grau": 2,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 2,
+					"n_vagas": 40,
+					"campus": 1,
+					"id": "danca"
+				},
+
+				{
+					"nome": "Design de Ambientes",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 2,
+					"n_vagas": 30,
+					"campus": 1,
+					"id": "des_amb"
+				},
+
+				{
+					"nome": "Design de Moda",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 4,
+					"n_vagas": 30,
+					"campus": 1,
+					"id": "des_moda"
+				},
+
+				{
+					"nome": "Design Gráfico",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 3,
+					"n_vagas": 35,
+					"campus": 1,
+					"id": "des_graf"
+				},
+
+				{
+					"nome": "Direção de Arte",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 3,
+					"n_vagas": 30,
+					"campus": 1,
+					"id": "dir_arte"
+				},
+
+				{
+					"nome": "Direito",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 10,
+					"turno": 2,
+					"n_vagas": 60,
+					"campus": 2,
+					"id": "direito2"
+				},
+
+				{
+					"nome": "Direito",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 10,
+					"turno": 4,
+					"n_vagas": 60,
+					"campus": 2,
+					"id": "direito1"
+				},
+
+				{
+					"nome": "Ecologia e Análise Ambiental",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 1,
+					"n_vagas": 50,
+					"campus": 1,
+					"id": "eco_ana_amb"
+				},
+
+				{
+					"nome": "Educação Física",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 3,
+					"n_vagas": 40,
+					"campus": 1,
+					"id": "ed_fisica2"
+				},
+
+				{
+					"nome": "Educação Física",
+					"grau": 2,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 2,
+					"n_vagas": 40,
+					"campus": 1,
+					"id": "ed_fisica1"
+				},
+
+				{
+					"nome": "Educação Física",
+					"grau": 2,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 3,
+					"n_vagas": 40,
+					"campus": 1,
+					"id": "ed_fisica3"
+				},
+
+				{
+					"nome": "Educação Intercultural",
+					"grau": 2,
+					"ps": 2,
+					"duracao": 8,
+					"turno": 1,
+					"n_vagas": 35,
+					"campus": 1,
+					"id": "edu_intercult"
+				},
+
+				{
+					"nome": "Enfermagem",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 10,
+					"turno": 1,
+					"n_vagas": 50,
+					"campus": 2,
+					"id": "enferm"
+				},
+
+				{
+					"nome": "Engenharia Ambiental e Sanitária",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 10,
+					"turno": 1,
+					"n_vagas": 45,
+					"campus": 2,
+					"id": "eng_amb_san"
+				},
+
+				{
+					"nome": "Engenharia Civil",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 10,
+					"turno": 1,
+					"n_vagas": 90,
+					"campus": 2,
+					"id": "eng_civ"
+				},
+
+				{
+					"nome": "Engenharia de Alimentos",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 10,
+					"turno": 1,
+					"n_vagas": 60,
+					"campus": 1,
+					"id": "eng_alim"
+				},
+
+				{
+					"nome": "Engenharia de Computação",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 10,
+					"turno": 4,
+					"n_vagas": 80,
+					"campus": 2,
+					"id": "eng_comp"
+				},
+
+				{
+					"nome": "Engenharia de Produção",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 10,
+					"turno": 1,
+					"n_vagas": 40,
+					"campus": 3,
+					"id": "eng_prod"
+				},
+
+				{
+					"nome": "Engenharia de Software",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 4,
+					"n_vagas": 40,
+					"campus": 1,
+					"id": "eng_soft"
+				},
+
+				{
+					"nome": "Engenharia de Transporte",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 10,
+					"turno": 1,
+					"n_vagas": 40,
+					"campus": 3,
+					"id": "eng_transp"
+				},
+
+				{
+					"nome": "Engenharia Elétrica",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 10,
+					"turno": 1,
+					"n_vagas": 80,
+					"campus": 2,
+					"id": "eng_elet"
+				},
+
+				{
+					"nome": "Engenharia Física",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 10,
+					"turno": 1,
+					"n_vagas": 25,
+					"campus": 1,
+					"id": "eng_fis"
+				},
+
+				{
+					"nome": "Engenharia Florestal",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 10,
+					"turno": 1,
+					"n_vagas": 40,
+					"campus": 1,
+					"id": "eng_florst"
+				},
+
+				{
+					"nome": "Engenharia Mecânica",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 10,
+					"turno": 1,
+					"n_vagas": 40,
+					"campus": 2,
+					"id": "eng_mec"
+				},
+
+				{
+					"nome": "Engenharia Química",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 10,
+					"turno": 1,
+					"n_vagas": 20,
+					"campus": 1,
+					"id": "eng_quim"
+				},
+
+				{
+					"nome": "Estatística",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 9,
+					"turno": 4,
+					"n_vagas": 50,
+					"campus": 1,
+					"id": "estast"
+				},
+
+				{
+					"nome": "Farmácia",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 10,
+					"turno": 1,
+					"n_vagas": 90,
+					"campus": 2,
+					"id": "farm"
+				},
+
+				{
+					"nome": "Filosofia",
+					"grau": 3,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 2,
+					"n_vagas": 46,
+					"campus": 1,
+					"id": "filos2"
+				},
+
+				{
+					"nome": "Filosofia",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 4,
+					"n_vagas": 50,
+					"campus": 1,
+					"id": "filos1"
+				},
+
+				{
+					"nome": "Física",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 1,
+					"n_vagas": 25,
+					"campus": 1,
+					"id": "fisica1"
+				},
+
+				{
+					"nome": "Física",
+					"grau": 2,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 1,
+					"n_vagas": 25,
+					"campus": 1,
+					"id": "fisica2"
+				},
+
+				{
+					"nome": "Física",
+					"grau": 2,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 4,
+					"n_vagas": 40,
+					"campus": 1,
+					"id": "fisica3"
+				},
+
+				{
+					"nome": "Física Médica",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 10,
+					"turno": 1,
+					"n_vagas": 25,
+					"campus": 1,
+					"id": "fisica_med"
+				},
+
+				{
+					"nome": "Geografia",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 2,
+					"n_vagas": 30,
+					"campus": 1,
+					"id": "geo1"
+				},
+
+				{
+					"nome": "Geografia",
+					"grau": 2,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 4,
+					"n_vagas": 40,
+					"campus": 1,
+					"id": "geo2"
+				},
+
+				{
+					"nome": "Geografia",
+					"grau": 2,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 2,
+					"n_vagas": 30,
+					"campus": 1,
+					"id": "geo3"
+				},
+
+				{
+					"nome": "Geologia",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 10,
+					"turno": 1,
+					"n_vagas": 40,
+					"campus": 3,
+					"id": "geologia"
+				},
+
+				{
+					"nome": "Gestão da Informação",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 2,
+					"n_vagas": 40,
+					"campus": 1,
+					"id": "gest_info"
+				},
+
+				{
+					"nome": "História",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 4,
+					"n_vagas": 30,
+					"campus": 1,
+					"id": "hist1"
+				},
+
+				{
+					"nome": "História",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 2,
+					"n_vagas": 25,
+					"campus": 1,
+					"id": "hist2"
+				},
+
+				{
+					"nome": "História",
+					"grau": 2,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 2,
+					"n_vagas": 30,
+					"campus": 1,
+					"id": "hist3"
+				},
+
+				{
+					"nome": "História",
+					"grau": 2,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 4,
+					"n_vagas": 25,
+					"campus": 1,
+					"id": "hist4"
+				},
+
+				{
+					"nome": "Letras: Espanhol",
+					"grau": 2,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 2,
+					"n_vagas": 25,
+					"campus": 1,
+					"id": "letras_esp"
+				},
+
+				{
+					"nome": "Letras: Linguística",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 3,
+					"n_vagas": 10,
+					"campus": 1,
+					"id": "letras_ling"
+				},
+
+				{
+					"nome": "Letras: Estudos Literários",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 3,
+					"n_vagas": 10,
+					"campus": 1,
+					"id": "letras_est_lit"
+				},
+
+				{
+					"nome": "Letras: Francês",
+					"grau": 2,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 2,
+					"n_vagas": 10,
+					"campus": 1,
+					"id": "letras_fran"
+				},
+
+				{
+					"nome": "Letras: Inglês",
+					"grau": 2,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 2,
+					"n_vagas": 25,
+					"campus": 1,
+					"id": "letras_ingl"
+				},
+
+				{
+					"nome": "Letras: Libras",
+					"grau": 2,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 4,
+					"n_vagas": 25,
+					"campus": 1,
+					"id": "letras_lib1"
+				},
+
+				{
+					"nome": "Letras: Libras",
+					"grau": 2,
+					"ps": 2,
+					"duracao": 8,
+					"turno": 4,
+					"n_vagas": 15,
+					"campus": 1,
+					"id": "letras_lib2"
+				},
+
+				{
+					"nome": "Letras: Português",
+					"grau": 2,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 3,
+					"n_vagas": 50,
+					"campus": 1,
+					"id": "letras_port2"
+				},
+
+				{
+					"nome": "Letras: Português",
+					"grau": 2,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 2,
+					"n_vagas": 40,
+					"campus": 1,
+					"id": "letras_port1"
+				},
+
+				{
+					"nome": "Letras: Trad. e Interpretação em Libras/Português",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 4,
+					"n_vagas": 30,
+					"campus": 1,
+					"id": "letras_trad_intp_lib"
+				},
+
+				{
+					"nome": "Matemática",
+					"grau": 3,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 3,
+					"n_vagas": 60,
+					"campus": 1,
+					"id": "mat2"
+				},
+
+				{
+					"nome": "Matemática",
+					"grau": 2,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 4,
+					"n_vagas": 50,
+					"campus": 1,
+					"id": "mat1"
+				},
+
+				{
+					"nome": "Medicina",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 12,
+					"turno": 1,
+					"n_vagas": 110,
+					"campus": 2,
+					"id": "med"
+				},
+
+				{
+					"nome": "Medicina Veterinária",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 10,
+					"turno": 1,
+					"n_vagas": 102,
+					"campus": 1,
+					"id": "med_vet"
+				},
+
+				{
+					"nome": "Museologia",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 4,
+					"n_vagas": 30,
+					"campus": 1,
+					"id": "museo"
+				},
+
+				{
+					"nome": "Música - Canto",
+					"grau": 1,
+					"ps": 3,
+					"duracao": 8,
+					"turno": 1,
+					"n_vagas": 2,
+					"campus": 1,
+					"id": "mus_canto"
+				},
+
+				{
+					"nome": "Música - Composição",
+					"grau": 1,
+					"ps": 3,
+					"duracao": 8,
+					"turno": 1,
+					"n_vagas": 2,
+					"campus": 1,
+					"id": "mus_compos"
+				},
+
+				{
+					"nome": "Música - Educação Musical",
+					"grau": 2,
+					"ps": 3,
+					"duracao": 8,
+					"turno": 1,
+					"n_vagas": 48,
+					"campus": 1,
+					"id": "mus_ed_music"
+				},
+
+				{
+					"nome": "Música - Ensino do Canto",
+					"grau": 2,
+					"ps": 3,
+					"duracao": 8,
+					"turno": 1,
+					"n_vagas": 4,
+					"campus": 1,
+					"id": "mus_ens_canto"
+				},
+
+				{
+					"nome": "Música - Ensino do Instrumento Musical",
+					"grau": 2,
+					"ps": 3,
+					"duracao": 8,
+					"turno": 1,
+					"n_vagas": 36,
+					"campus": 1,
+					"id": "mus_ens_inst_music"
+				},
+
+				{
+					"nome": "Música - Intrumento Musical",
+					"grau": 1,
+					"ps": 3,
+					"duracao": 8,
+					"turno": 1,
+					"n_vagas": 20,
+					"campus": 1,
+					"id": "mus_inst_music"
+				},
+
+				{
+					"nome": "Música - Regência",
+					"grau": 1,
+					"ps": 3,
+					"duracao": 8,
+					"turno": 1,
+					"n_vagas": 4,
+					"campus": 1,
+					"id": "mus_reg"
+				},
+
+				{
+					"nome": "Musicoterapia",
+					"grau": 1,
+					"ps": 3,
+					"duracao": 8,
+					"turno": 1,
+					"n_vagas": 24,
+					"campus": 1,
+					"id": "musicotep"
+				},
+
+				{
+					"nome": "Nutrição",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 10,
+					"turno": 1,
+					"n_vagas": 72,
+					"campus": 2,
+					"id": "nutri"
+				},
+
+				{
+					"nome": "Odontologia",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 10,
+					"turno": 1,
+					"n_vagas": 60,
+					"campus": 2,
+					"id": "odonto"
+				},
+
+				{
+					"nome": "Pedagogia",
+					"grau": 2,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 2,
+					"n_vagas": 70,
+					"campus": 2,
+					"id": "pedag1"
+				},
+
+				{
+					"nome": "Pedagogia",
+					"grau": 2,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 4,
+					"n_vagas": 70,
+					"campus": 2,
+					"id": "pedag2"
+				},
+
+				{
+					"nome": "Psicologia",
+					"grau": 4,
+					"ps": 1,
+					"duracao": 10,
+					"turno": 1,
+					"n_vagas": 35,
+					"campus": 2,
+					"id": "psic"
+				},
+
+				{
+					"nome": "Química",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 1,
+					"n_vagas": 46,
+					"campus": 1,
+					"id": "quim2"
+				},
+
+				{
+					"nome": "Química",
+					"grau": 2,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 4,
+					"n_vagas": 40,
+					"campus": 1,
+					"id": "quim1"
+				},
+
+				{
+					"nome": "Química",
+					"grau": 2,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 1,
+					"n_vagas": 14,
+					"campus": 1,
+					"id": "quim3"
+				},
+
+				{
+					"nome": "Relações Internacionais",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 2,
+					"n_vagas": 40,
+					"campus": 1,
+					"id": "rel_inter"
+				},
+
+				{
+					"nome": "Sistemas de Informação",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 4,
+					"n_vagas": 80,
+					"campus": 1,
+					"id": "sist_info"
+				},
+
+				{
+					"nome": "Teatro",
+					"grau": 2,
+					"ps": 3,
+					"duracao": 8,
+					"turno": 3,
+					"n_vagas": 30,
+					"campus": 1,
+					"id": "teatro"
+				},
+
+				{
+					"nome": "Zootecnia",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 10,
+					"turno": 1,
+					"n_vagas": 40,
+					"campus": 1,
+					"id": "zoot"
+				}
 
 			]
 		},
 
 		{
 			"nome": "Jataí",
-			"cursos":[]
+			"cursos":[
+				{
+					"nome": "Agronomia",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 10,
+					"turno": 1,
+					"n_vagas": 60,
+					"id": "agron"
+				},
+
+				{
+					"nome": "Biomedicina",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 1,
+					"n_vagas": 40,
+					"id": "bio_med"
+				},
+
+				{
+					"nome": "Ciências Biológicas",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 1,
+					"n_vagas": 40,
+					"id": "ciencias_bio1"
+				},
+
+				{
+					"nome": "Ciências Biológicas",
+					"grau": 2,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 1,
+					"n_vagas": 30,
+					"id": "ciencias_bio2"
+				},
+
+				{
+					"nome": "Ciências da Computação",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 1,
+					"n_vagas": 50,
+					"id": "ciencias_comp"
+				},
+
+				{
+					"nome": "Direito",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 10,
+					"turno": 4,
+					"n_vagas": 60,
+					"id": "direito"
+				},
+
+				{
+					"nome": "Educação Física",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 4,
+					"n_vagas": 40,
+					"id": "ed_fisica2"
+				},
+
+				{
+					"nome": "Educação Física",
+					"grau": 2,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 2,
+					"n_vagas": 40,
+					"id": "ed_fisica1"
+				},
+
+				{
+					"nome": "Enfermagem",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 10,
+					"turno": 1,
+					"n_vagas": 30,
+					"id": "enferm"
+				},
+
+				{
+					"nome": "Engenharia Florestal",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 10,
+					"turno": 1,
+					"n_vagas": 50,
+					"id": "eng_florst"
+				},
+
+				{
+					"nome": "Física",
+					"grau": 2,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 4,
+					"n_vagas": 40,
+					"id": "fisica"
+				},
+
+				{
+					"nome": "Fisioterapia",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 10,
+					"turno": 1,
+					"n_vagas": 40,
+					"id": "fisiot"
+				},
+
+				{
+					"nome": "Geografia",
+					"grau": 3,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 4,
+					"n_vagas": 40,
+					"id": "geo"
+				},
+
+				{
+					"nome": "História",
+					"grau": 2,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 4,
+					"n_vagas": 50,
+					"id": "hist"
+				},
+
+				{
+					"nome": "Letras - Inglês",
+					"grau": 2,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 4,
+					"n_vagas": 30,
+					"id": "letras_ingl"
+				},
+
+				{
+					"nome": "Letras - Português",
+					"grau": 2,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 4,
+					"n_vagas": 40,
+					"id": "letras_port"
+				},
+
+				{
+					"nome": "Matemática",
+					"grau": 2,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 4,
+					"n_vagas": 45,
+					"id": "mat"
+				},
+
+				{
+					"nome": "Medicina",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 12,
+					"turno": 1,
+					"n_vagas": 60,
+					"id": "med"
+				},
+
+				{
+					"nome": "Medicina Veterinária",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 10,
+					"turno": 1,
+					"n_vagas": 60,
+					"id": "med_vet"
+				},
+
+				{
+					"nome": "Pedagogia",
+					"grau": 2,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 2,
+					"n_vagas": 40,
+					"id": "pedag1"
+				},
+
+				{
+					"nome": "Pedagogia",
+					"grau": 2,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 4,
+					"n_vagas": 40,
+					"id": "pedag2"
+				},
+
+				{
+					"nome": "Psicologia",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 10,
+					"turno": 1,
+					"n_vagas": 40,
+					"id": "psic"
+				},
+
+				{
+					"nome": "Química",
+					"grau": 2,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 4,
+					"n_vagas": 45,
+					"id": "quim1"
+				},
+
+				{
+					"nome": "Química",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 1,
+					"n_vagas": 40,
+					"id": "quim2"
+				},
+
+				{
+					"nome": "Zootecnia",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 10,
+					"turno": 1,
+					"n_vagas": 30,
+					"id": "zoot"
+				}
+			]
 		},
 
 		{
 			"nome": "Catalão",
-			"cursos":[]
+			"cursos":[
+				{
+					"nome": "Administração",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 4,
+					"n_vagas": 50,
+					"id": "admin"
+				},
+
+				{
+					"nome": "Ciências Biológicas",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 1,
+					"n_vagas": 30,
+					"id": "ciencias_bio1"
+				},
+
+				{
+					"nome": "Ciências Biológicas",
+					"grau": 2,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 1,
+					"n_vagas": 50,
+					"id": "ciencias_bio2"
+				},
+
+				{
+					"nome": "Ciências da Computação",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 1,
+					"n_vagas": 35,
+					"id": "ciencias_comp"
+				},
+
+				{
+					"nome": "Ciências Sociais",
+					"grau": 3,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 2,
+					"n_vagas": 60,
+					"id": "ciencias_soc"
+				},
+
+				{
+					"nome": "Educação Física",
+					"grau": 2,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 2,
+					"n_vagas": 45,
+					"id": "ed_fisica1"
+				},
+
+				{
+					"nome": "Educação no Campo",
+					"grau": 2,
+					"ps": 2,
+					"duracao": 8,
+					"turno": 1,
+					"n_vagas": 120,
+					"id": "edu_campo"
+				},
+
+				{
+					"nome": "Enfermagem",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 10,
+					"turno": 1,
+					"n_vagas": 40,
+					"id": "enferm"
+				},
+
+				{
+					"nome": "Engenharia Civil",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 10,
+					"turno": 1,
+					"n_vagas": 50,
+					"id": "eng_civ"
+				},
+
+				{
+					"nome": "Engenharia de Minas",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 10,
+					"turno": 1,
+					"n_vagas": 50,
+					"id": "eng_minas"
+				},
+
+				{
+					"nome": "Engenharia de Produção",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 10,
+					"turno": 1,
+					"n_vagas": 50,
+					"id": "eng_prod"
+				},
+
+				{
+					"nome": "Física",
+					"grau": 2,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 4,
+					"n_vagas": 50,
+					"id": "fisica"
+				},
+
+				{
+					"nome": "Geografia",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 4,
+					"n_vagas": 30,
+					"id": "geo1"
+				},
+
+				{
+					"nome": "Geografia",
+					"grau": 2,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 4,
+					"n_vagas": 50,
+					"id": "geo2"
+				},
+
+				{
+					"nome": "História",
+					"grau": 3,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 4,
+					"n_vagas": 50,
+					"id": "hist"
+				},
+
+				{
+					"nome": "Letras - Português",
+					"grau": 2,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 4,
+					"n_vagas": 50,
+					"id": "letras_port"
+				},
+
+				{
+					"nome": "Letras - Português/Inglês",
+					"grau": 2,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 2,
+					"n_vagas": 50,
+					"id": "letras_port_ingl"
+				},
+
+				{
+					"nome": "Matemática",
+					"grau": 2,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 4,
+					"n_vagas": 50,
+					"id": "mat"
+				},
+
+				{
+					"nome": "Matemática Industrial",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 2,
+					"n_vagas": 50,
+					"id": "mat_indus"
+				},
+
+				{
+					"nome": "Pedagogia",
+					"grau": 2,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 4,
+					"n_vagas": 50,
+					"id": "pedag"
+				},
+
+				{
+					"nome": "Psicologia",
+					"grau": 4,
+					"ps": 1,
+					"duracao": 10,
+					"turno": 1,
+					"n_vagas": 50,
+					"id": "psic"
+				},
+
+				{
+					"nome": "Química",
+					"grau": 3,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 4,
+					"n_vagas": 50,
+					"id": "quim"
+				}
+			]
 		},
 
 		{
 			"nome": "Goiás",
-			"cursos":[]
+			"cursos":[
+				{
+					"nome": "Administração",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 2,
+					"n_vagas": 50,
+					"id": "admin"
+				},
+
+				{
+					"nome": "Arquitetura e Urbanismo",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 10,
+					"turno": 1,
+					"n_vagas": 30,
+					"id": "arq_urb"
+				},
+
+				{
+					"nome": "Direito",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 10,
+					"turno": 4,
+					"n_vagas": 60,
+					"id": "direito"
+				},
+
+				{
+					"nome": "Educação no Campo",
+					"grau": 2,
+					"ps": 2,
+					"duracao": 8,
+					"turno": 1,
+					"n_vagas": 120,
+					"id": "edu_campo"
+				},
+
+				{
+					"nome": "Filosofia",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 4,
+					"n_vagas": 50,
+					"id": "filos1"
+				},
+
+				{
+					"nome": "Filosofia",
+					"grau": 2,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 4,
+					"n_vagas": 50,
+					"id": "filos2"
+				},
+
+				{
+					"nome": "Serviço Social",
+					"grau": 1,
+					"ps": 1,
+					"duracao": 8,
+					"turno": 4,
+					"n_vagas": 50,
+					"id": "serv_soc"
+				}
+			]
 		}
 	]
-})
+}
