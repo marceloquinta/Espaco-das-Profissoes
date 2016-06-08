@@ -1,0 +1,12 @@
+({
+	"dias":{
+		"1o": "20-06-2016",
+		"2o": "21-06-2016"
+	},
+	"cursos":{
+		"graus": ["Bacharelado", "Licenciatura", "Bacharelado e Licenciatura", "Bacharelado e bacharelado/licenciatura"],
+		"processos_seletivos": ["SiSU", "PS", "VHCE"],
+		"turnos": ["Integral", "Matutino", "Vespertino", "Noturno"],
+		"campi": ["Samambaia", "Colemar Natal e Silva", "Aparecida de Goiânia"]
+	}
+})

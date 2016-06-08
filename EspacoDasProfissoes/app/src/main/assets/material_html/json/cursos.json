@@ -1,0 +1,55 @@
+({
+	"regionais":[
+		{
+			"nome": "Goiânia",
+			"cursos":[
+				{
+					"nome": "",
+					"grau": ,
+					"processo_seletivo": ,
+					"duracao": ,
+					"turno": ,
+					"n_vagas": ,
+					"id_chamada": 
+				},
+
+				{
+					"nome": "",
+					"grau": ,
+					"processo_seletivo": ,
+					"duracao": ,
+					"turno": ,
+					"n_vagas": ,
+					"id_chamada": 
+				},
+
+				{
+					"nome": "",
+					"grau": ,
+					"processo_seletivo": ,
+					"duracao": ,
+					"turno": ,
+					"n_vagas": ,
+					"id_chamada": 
+				},
+
+
+			]
+		},
+
+		{
+			"nome": "Jataí",
+			"cursos":[]
+		},
+
+		{
+			"nome": "Catalão",
+			"cursos":[]
+		},
+
+		{
+			"nome": "Goiás",
+			"cursos":[]
+		}
+	]
+})
