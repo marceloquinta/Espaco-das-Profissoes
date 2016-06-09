@@ -95,5 +95,10 @@
 			"nome": "Faculdade de Educação Física e Dança - FEFD",
 			"id-mapa": "E1"
 		}
+	],
+	"tipos-de-evento": [
+		"Palestra geral",
+		"Palestras dos cursos",
+		"Evento Cutural"
 	]
 }

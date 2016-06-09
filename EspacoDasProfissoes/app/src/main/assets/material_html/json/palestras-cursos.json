@@ -1,0 +1,709 @@
+{
+	"palestras": [
+		{
+			"curso": "Engenharia de Transportes",
+			"local": "Sala 1 do Centro de Eventos",
+			"id-local": "C2",
+			"id": "eng_transp",
+			"horarios": {
+				"1o": ["14h20", "19h50"],
+				"2o": ["08h50", "14h20"]
+			}
+		}, 
+
+		{
+			"curso": "Odontologia",
+			"local": "Sala 2 do Centro de Eventos",
+			"id-local": "C2",
+			"id": "odonto",
+			"horarios": {
+				"1o": ["14h20", "19h50"],
+				"2o": ["08h50", "14h20"]
+			}
+		}, 
+
+		{
+			"curso": "Agronomia",
+			"local": "Auditório do ICB I",
+			"id-local": "A8",
+			"id": "agro",
+			"horarios": {
+				"1o": ["14h20", "19h50"],
+				"2o": ["08h50", "14h20"]
+			}
+		}, 
+
+		{
+			"curso": "Ciências Biológicas",
+			"local": "Auditório do ICB II",
+			"id-local": "A8",
+			"id": "ciencias_bio",
+			"horarios": {
+				"1o": ["14h20", "19h50"],
+				"2o": ["08h50", "14h20"]
+			}
+		}, 
+
+		{
+			"curso": "Biomedicina",
+			"local": "Auditório do ICB III",
+			"id-local": "A16",
+			"id": "biomed",
+			"horarios": {
+				"1o": ["14h20", "19h50"],
+				"2o": ["08h50", "14h20"]
+			}
+		}, 
+
+		{
+			"curso": "Arquitetura e Urbanismo",
+			"local": "Auditório do ICB IV",
+			"id-local": "A16",
+			"id": "arq_urb",
+			"horarios": {
+				"1o": ["14h20", "19h50"],
+				"2o": ["08h50", "14h20"]
+			}
+		}, 
+
+		{
+			"curso": "Música",
+			"local": "Miniauditório da EMAC – 1",
+			"id-local": "A1",
+			"id": "musica",
+			"horarios": {
+				"1o": ["14h20", "19h50"],
+				"2o": ["08h50", "14h20"]
+			}
+		}, 
+
+		{
+			"curso": "Direito",
+			"local": "Auditório da Biblioteca",
+			"id-local": "A2",
+			"id": "direito",
+			"horarios": {
+				"1o": ["14h20", "19h50"],
+				"2o": ["08h50", "14h20"]
+			}
+		}, 
+
+		{
+			"curso": "Design de Moda",
+			"local": "Auditório da FAV",
+			"id-local": "A3",
+			"id": "des_moda",
+			"horarios": {
+				"1o": ["14h20", "19h50"],
+				"2o": ["08h50", "14h20"]
+			}
+		}, 
+
+		{
+			"curso": "Veterinária",
+			"local": "Auditório do IQ I",
+			"id-local": "A9",
+			"id": "med_vet",
+			"horarios": {
+				"1o": ["14h20", "19h50"],
+				"2o": ["08h50", "14h20"]
+			}
+		}, 
+
+		{
+			"curso": "Química",
+			"local": "Auditório do IQ II",
+			"id-local": "A9",
+			"id": "quim",
+			"horarios": {
+				"1o": ["14h20", "19h50"],
+				"2o": ["08h50", "14h20"]
+			}
+		}, 
+
+		{
+			"curso": "Engenharia Mecânica",
+			"local": "Auditório do IF 1",
+			"id-local": "A10",
+			"id": "eng_mec",
+			"horarios": {
+				"1o": ["14h20", "19h50"],
+				"2o": ["08h50", "14h20"]
+			}
+		}, 
+
+		{
+			"curso": "Ciências da Computação",
+			"local": "Auditório do IF 2",
+			"id-local": "A10",
+			"id": "ciencias_comp",
+			"horarios": {
+				"1o": ["14h20", "19h50"],
+				"2o": ["08h50", "14h20"]
+			}
+		}, 
+
+		{
+			"curso": "Física Médica",
+			"local": "Auditório do Pátio da Ciência",
+			"id-local": "A10",
+			"id": "fisica_med",
+			"horarios": {
+				"1o": ["14h20", "19h50"],
+				"2o": ["08h50", "14h20"]
+			}
+		}, 
+
+		{
+			"curso": "Relações Internacionais",
+			"local": "Miniauditório do IF",
+			"id-local": "A10",
+			"id": "rel_inter",
+			"horarios": {
+				"1o": ["14h20", "19h50"],
+				"2o": ["08h50", "14h20"]
+			}
+		}, 
+
+		{
+			"curso": "Gestão da Informação",
+			"local": "Auditório da FIC",
+			"id-local": "A12",
+			"id": "gest_info",
+			"horarios": {
+				"1o": ["14h20", "19h50"],
+				"2o": ["08h50", "14h20"]
+			}
+		}, 
+
+		{
+			"curso": "Jornalismo",
+			"local": "Auditório da FH",
+			"id-local": "A11",
+			"id": "com_soc_jorn",
+			"horarios": {
+				"1o": ["14h20", "19h50"],
+				"2o": ["08h50", "14h20"]
+			}
+		}, 
+
+		{
+			"curso": "História",
+			"local": "Miniauditório da FH",
+			"id-local": "A11",
+			"id": "hist",
+			"horarios": {
+				"1o": ["14h20", "19h50"],
+				"2o": ["08h50", "14h20"]
+			}
+		}, 
+
+		{
+			"curso": "Letras (todos)",
+			"local": "Cinema (FL)",
+			"id-local": "A15",
+			"id": "letras_linguas",
+			"horarios": {
+				"1o": ["14h20", "19h50"],
+				"2o": ["08h50", "14h20"]
+			}
+		}, 
+
+		{
+			"curso": "Ciências Ambientais",
+			"local": "Miniauditório da FL",
+			"id-local": "A19",
+			"id": "ciencias_amb",
+			"horarios": {
+				"1o": ["14h20", "19h50"],
+				"2o": ["08h50", "14h20"]
+			}
+		}, 
+
+		{
+			"curso": "Administração",
+			"local": "Miniauditório da FACE",
+			"id-local": "D7",
+			"id": "admin",
+			"horarios": {
+				"1o": ["14h20", "19h50"],
+				"2o": ["08h50", "14h20"]
+			}
+		}, 
+
+		{
+			"curso": "Engenharia de Produção",
+			"local": "Sala 1 do Centro de Eventos",
+			"id-local": "C2",
+			"id": "eng_prod",
+			"horarios": {
+				"1o": ["15h00", "20h25"],
+				"2o": ["09h30", "15h00"]
+			}
+		}, 
+
+		{
+			"curso": "Eng. Ambiental e Sanitária",
+			"local": "Sala 2 do Centro de Eventos",
+			"id-local": "C2",
+			"id": "eng_amb_san",
+			"horarios": {
+				"1o": ["15h00", "20h25"],
+				"2o": ["09h30", "15h00"]
+			}
+		}, 
+
+		{
+			"curso": "Engenharia Florestal",
+			"local": "Auditório do ICB I",
+			"id-local": "A8",
+			"id": "eng_florest",
+			"horarios": {
+				"1o": ["15h00", "20h25"],
+				"2o": ["09h30", "15h00"]
+			}
+		}, 
+
+		{
+			"curso": "Ecologia e Análise Ambiental",
+			"local": "Auditório do ICB II",
+			"id-local": "A8",
+			"id": "eco_ana_amb",
+			"horarios": {
+				"1o": ["15h00", "20h25"],
+				"2o": ["09h30", "15h00"]
+			}
+		}, 
+
+		{
+			"curso": "Enfermagem",
+			"local": "Auditório do ICB III",
+			"id-local": "A16",
+			"id": "enferm",
+			"horarios": {
+				"1o": ["15h00", "20h25"],
+				"2o": ["09h30", "15h00"]
+			}
+		}, 
+
+		{
+			"curso": "Direção de Arte",
+			"local": "Auditório do ICB IV",
+			"id-local": "A16",
+			"id": "dir_arte",
+			"horarios": {
+				"1o": ["15h00", "20h25"],
+				"2o": ["09h30", "15h00"]
+			}
+		}, 
+
+		{
+			"curso": "Musicoterapia",
+			"local": "Miniauditório da EMAC – 1",
+			"id-local": "A1",
+			"id": "musicoter",
+			"horarios": {
+				"1o": ["15h00", "20h25"],
+				"2o": ["09h30", "15h00"]
+			}
+		}, 
+
+		{
+			"curso": "Design de Ambientes",
+			"local": "Auditório da FAV",
+			"id-local": "A3",
+			"id": "des_amb",
+			"horarios": {
+				"1o": ["15h00", "20h25"],
+				"2o": ["09h30", "15h00"]
+			}
+		}, 
+
+		{
+			"curso": "Farmácia",
+			"local": "Auditório do IQ I",
+			"id-local": "A9",
+			"id": "farm",
+			"horarios": {
+				"1o": ["15h00", "20h25"],
+				"2o": ["09h30", "15h00"]
+			}
+		}, 
+
+		{
+			"curso": "Engenharia Química",
+			"local": "Auditório do IQ II",
+			"id-local": "A9",
+			"id": "eng_quim",
+			"horarios": {
+				"1o": ["15h00", "20h25"],
+				"2o": ["09h30", "15h00"]
+			}
+		}, 
+
+		{
+			"curso": "Engenharia Elétrica",
+			"local": "Auditório do IF 1",
+			"id-local": "A10",
+			"id": "eng_elet",
+			"horarios": {
+				"1o": ["15h00", "20h25"],
+				"2o": ["09h30", "15h00"]
+			}
+		}, 
+
+		{
+			"curso": "Sistemas de Informação",
+			"local": "Auditório do IF 2",
+			"id-local": "A10",
+			"id": "sist_info",
+			"horarios": {
+				"1o": ["15h00", "20h25"],
+				"2o": ["09h30", "15h00"]
+			}
+		}, 
+
+		{
+			"curso": "Física",
+			"local": "Auditório do Pátio da Ciência",
+			"id-local": "A10",
+			"id": "fisica",
+			"horarios": {
+				"1o": ["15h00", "20h25"],
+				"2o": ["09h30", "15h00"]
+			}
+		}, 
+
+		{
+			"curso": "Biblioteconomia",
+			"local": "Miniauditório do IF",
+			"id-local": "A10",
+			"id": "bibliotecon",
+			"horarios": {
+				"1o": ["15h00", "20h25"],
+				"2o": ["09h30", "15h00"]
+			}
+		}, 
+
+		{
+			"curso": "Publicidade e Propaganda",
+			"local": "Auditório da FIC",
+			"id-local": "A12",
+			"id": "com_soc_pub_prop",
+			"horarios": {
+				"1o": ["15h00", "20h25"],
+				"2o": ["09h30", "15h00"]
+			}
+		}, 
+
+		{
+			"curso": "Psicologia",
+			"local": "Auditório da FH",
+			"id-local": "A11",
+			"id": "psic",
+			"horarios": {
+				"1o": ["15h00", "20h25"],
+				"2o": ["09h30", "15h00"]
+			}
+		}, 
+
+		{
+			"curso": "Ciências Sociais",
+			"local": "Miniauditório da FH",
+			"id-local": "A11",
+			"id": "ciencias_soc",
+			"horarios": {
+				"1o": ["15h00", "20h25"],
+				"2o": ["09h30", "15h00"]
+			}
+		}, 
+
+		{
+			"curso": "Letras (Libras/Trad. e Interp.)",
+			"local": "Cinema (FL)",
+			"id-local": "A15",
+			"id": "letras_libras",
+			"horarios": {
+				"1o": ["15h00", "20h25"],
+				"2o": ["09h30", "15h00"]
+			}
+		}, 
+
+		{
+			"curso": "Estatística",
+			"local": "Miniauditório da FL",
+			"id-local": "A19",
+			"id": "estat",
+			"horarios": {
+				"1o": ["15h00", "20h25"],
+				"2o": ["09h30", "15h00"]
+			}
+		}, 
+
+		{
+			"curso": "Ciências Contábeis",
+			"local": "Miniauditório da FACE",
+			"id-local": "D7",
+			"id": "ciencias_cont",
+			"horarios": {
+				"1o": ["15h00", "20h25"],
+				"2o": ["09h30", "15h00"]
+			}
+		}, 
+
+		{
+			"curso": "Educação Física",
+			"local": "Fac. de Ed. Física e Dança",
+			"id-local": "E1",
+			"id": "ed_fisica",
+			"horarios": {
+				"1o": ["15h00", "20h25"],
+				"2o": ["09h30", "15h00"]
+			}
+		}, 
+
+		{
+			"curso": "Geologia",
+			"local": "Sala 1 do Centro de Eventos",
+			"id-local": "C2",
+			"id": "geologia",
+			"horarios": {
+				"1o": ["15h40", "21h00"],
+				"2o": ["10h10", "15h40"]
+			}
+		}, 
+
+		{
+			"curso": "Engenharia Civil",
+			"local": "Sala 2 do Centro de Eventos",
+			"id-local": "C2",
+			"id": "eng_civ",
+			"horarios": {
+				"1o": ["15h40", "21h00"],
+				"2o": ["10h10", "15h40"]
+			}
+		}, 
+
+		{
+			"curso": "Engenharia de Alimentos",
+			"local": "Auditório do ICB I",
+			"id-local": "A8",
+			"id": "eng_alim",
+			"horarios": {
+				"1o": ["15h40", "21h00"],
+				"2o": ["10h10", "15h40"]
+			}
+		}, 
+
+		{
+			"curso": "Biotecnologia",
+			"local": "Auditório do ICB II",
+			"id-local": "A8",
+			"id": "biotec",
+			"horarios": {
+				"1o": ["15h40", "21h00"],
+				"2o": ["10h10", "15h40"]
+			}
+		}, 
+
+		{
+			"curso": "Nutrição",
+			"local": "Auditório do ICB III",
+			"id-local": "A16",
+			"id": "nutri",
+			"horarios": {
+				"1o": ["15h40", "21h00"],
+				"2o": ["10h10", "15h40"]
+			}
+		}, 
+
+		{
+			"curso": "Teatro",
+			"local": "Auditório do ICB IV",
+			"id-local": "A16",
+			"id": "teatro",
+			"horarios": {
+				"1o": ["15h40", "21h00"],
+				"2o": ["10h10", "15h40"]
+			}
+		}, 
+
+		{
+			"curso": "Artes Visuais",
+			"local": "Miniauditório da EMAC – 1",
+			"id-local": "A1",
+			"id": "art_visu",
+			"horarios": {
+				"1o": ["15h40", "21h00"],
+				"2o": ["10h10", "15h40"]
+			}
+		}, 
+
+		{
+			"curso": "Medicina",
+			"local": "Auditório da Biblioteca",
+			"id-local": "A2",
+			"id": "med",
+			"horarios": {
+				"1o": ["15h40", "21h00"],
+				"2o": ["10h10", "15h40"]
+			}
+		}, 
+
+		{
+			"curso": "Design Gráfico",
+			"local": "Auditório da FAV",
+			"id-local": "A3",
+			"id": "des_graf",
+			"horarios": {
+				"1o": ["15h40", "21h00"],
+				"2o": ["10h10", "15h40"]
+			}
+		}, 
+
+		{
+			"curso": "Zootecnia",
+			"local": "Auditório do IQ I",
+			"id-local": "A9",
+			"id": "zoot",
+			"horarios": {
+				"1o": ["15h40", "21h00"],
+				"2o": ["10h10", "15h40"]
+			}
+		}, 
+
+		{
+			"curso": "Filosofia",
+			"local": "Auditório do IQ II",
+			"id-local": "A9",
+			"id": "filos",
+			"horarios": {
+				"1o": ["15h40", "21h00"],
+				"2o": ["10h10", "15h40"]
+			}
+		}, 
+
+		{
+			"curso": "Engenharia de Computação",
+			"local": "Auditório do IF 1",
+			"id-local": "A10",
+			"id": "eng_comp",
+			"horarios": {
+				"1o": ["15h40", "21h00"],
+				"2o": ["10h10", "15h40"]
+			}
+		}, 
+
+		{
+			"curso": "Engenharia de Software",
+			"local": "Auditório do IF 2",
+			"id-local": "A10",
+			"id": "eng_soft",
+			"horarios": {
+				"1o": ["15h40", "21h00"],
+				"2o": ["10h10", "15h40"]
+			}
+		}, 
+
+		{
+			"curso": "Engenharia Física",
+			"local": "Auditório do Pátio da Ciência",
+			"id-local": "A10",
+			"id": "eng_fis",
+			"horarios": {
+				"1o": ["15h40", "21h00"],
+				"2o": ["10h10", "15h40"]
+			}
+		}, 
+
+		{
+			"curso": "Museologia",
+			"local": "Miniauditório do IF",
+			"id-local": "A10",
+			"id": "museo",
+			"horarios": {
+				"1o": ["15h40", "21h00"],
+				"2o": ["10h10", "15h40"]
+			}
+		}, 
+
+		{
+			"curso": "Relações Públicas",
+			"local": "Auditório da FIC",
+			"id-local": "A12",
+			"id": "com_soc_rel_pub",
+			"horarios": {
+				"1o": ["15h40", "21h00"],
+				"2o": ["10h10", "15h40"]
+			}
+		}, 
+
+		{
+			"curso": "Pedagogia",
+			"local": "Auditório da FH",
+			"id-local": "A11",
+			"id": "pedag",
+			"horarios": {
+				"1o": ["15h40", "21h00"],
+				"2o": ["10h10", "15h40"]
+			}
+		}, 
+
+		{
+			"curso": "C. Sociais (Políticas Públicas)",
+			"local": "Miniauditório da FH",
+			"id-local": "A11",
+			"id": "ciencias_soc_pol_pub",
+			"horarios": {
+				"1o": ["15h40", "21h00"],
+				"2o": ["10h10", "15h40"]
+			}
+		}, 
+
+		{
+			"curso": "Geografia",
+			"local": "Cinema (FL)",
+			"id-local": "A15",
+			"id": "geo",
+			"horarios": {
+				"1o": ["15h40", "21h00"],
+				"2o": ["10h10", "15h40"]
+			}
+		}, 
+
+		{
+			"curso": "Matemática",
+			"local": "Miniauditório da FL",
+			"id-local": "A19",
+			"id": "mat",
+			"horarios": {
+				"1o": ["15h40", "21h00"],
+				"2o": ["10h10", "15h40"]
+			}
+		}, 
+
+		{
+			"curso": "Ciências Econômicas",
+			"local": "Miniauditório da FACE",
+			"id-local": "D7",
+			"id": "ciencias_eco",
+			"horarios": {
+				"1o": ["15h40", "21h00"],
+				"2o": ["10h10", "15h40"]
+			}
+		}, 
+
+		{
+			"curso": "Dança",
+			"local": "Fac. de Ed. Física e Dança",
+			"id-local": "E1",
+			"id": "danca",
+			"horarios": {
+				"1o": ["15h40", "21h00"],
+				"2o": ["10h10", "15h40"]
+			}
+		}
+
+
+	]
+}
