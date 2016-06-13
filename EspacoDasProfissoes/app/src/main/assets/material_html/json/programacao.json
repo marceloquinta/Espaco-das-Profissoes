@@ -53,7 +53,7 @@
 
 			{
 				"tipo": 2 ,
-				"Nome": "Engenharia de Transportes, Odontologia, Agronomia, Ciências Biológicas, Biomedicina, Arquitetura e Urbanismo, Música, Direito, Design de Moda, Veterinária, Química, Engenharia Mecânica, Ciências da Computação, Física Médica, Relações Internacionais, Gestão da Informação, Jornalismo, História, Letras (todos), Ciências Ambientais, Administração" ,
+				"Nome": ["Engenharia de Transportes", "Odontologia", "Agronomia", "Ciências Biológicas", "Biomedicina", "Arquitetura e Urbanismo", "Música", "Direito", "Design de Moda", "Veterinária", "Química", "Engenharia Mecânica", "Ciências da Computação", "Física Médica", "Relações Internacionais", "Gestão da Informação", "Jornalismo", "História", "Letras (todos)", "Ciências Ambientais", "Administração"] ,
 				"extra": "" ,
 				"horario": "14h20" ,
 				"duracao": "30 min" ,
@@ -73,7 +73,7 @@
 
 			{
 				"tipo": 2 ,
-				"Nome": "Engenharia de Produção, Eng. Ambiental e Sanitária, Engenharia Florestal, Ecologia e Análise Ambiental, Enfermagem, Direção de Arte, Musicoterapia, Design de Ambientes, Farmácia, Engenharia Química, Engenharia Elétrica, Sistemas de Informação, Física, Biblioteconomia, Publicidade e Propaganda, Psicologia, Ciências Sociais, Letras (Libras/Trad. e Interp.), Estatística, Ciências Contábeis, Educação Física" ,
+				"Nome": ["Engenharia de Produção", "Eng. Ambiental e Sanitária", "Engenharia Florestal", "Ecologia e Análise Ambiental", "Enfermagem", "Direção de Arte", "Musicoterapia", "Design de Ambientes", "Farmácia", "Engenharia Química", "Engenharia Elétrica", "Sistemas de Informação", "Física", "Biblioteconomia", "Publicidade e Propaganda", "Psicologia", "Ciências Sociais", "Letras (Libras/Trad. e Interp.)", "Estatística", "Ciências Contábeis", "Educação Física"] ,
 				"extra": "" ,
 				"horario": "15h00" ,
 				"duracao": "30 min" ,
@@ -103,7 +103,7 @@
 
 			{
 				"tipo": 2 ,
-				"Nome": "Geologia, Engenharia Civil, Engenharia de Alimentos, Biotecnologia, Nutrição, Teatro, Artes Visuais, Medicina, Design Gráfico, Zootecnia, Filosofia, Engenharia de Computação, Engenharia de Software, Engenharia Física, Museologia, Relações Públicas, Pedagogia, C. Sociais (Políticas Públicas), Geografia, Matemática, Ciências Econômicas, Dança" ,
+				"Nome": ["Geologia", "Engenharia Civil", "Engenharia de Alimentos", "Biotecnologia", "Nutrição", "Teatro", "Artes Visuais", "Medicina", "Design Gráfico", "Zootecnia", "Filosofia", "Engenharia de Computação", "Engenharia de Software", "Engenharia Física", "Museologia", "Relações Públicas", "Pedagogia", "C. Sociais (Políticas Públicas)", "Geografia", "Matemática", "Ciências Econômicas", "Dança"] ,
 				"extra": "" ,
 				"horario": "15h40" ,
 				"duracao": "30 min" ,
@@ -203,7 +203,7 @@
 
 			{
 				"tipo": 2 ,
-				"Nome": "Engenharia de Transportes, Odontologia, Agronomia, Ciências Biológicas, Biomedicina, Arquitetura e Urbanismo, Música, Direito, Design de Moda, Veterinária, Química, Engenharia Mecânica, Ciências da Computação, Física Médica, Relações Internacionais, Gestão da Informação, Jornalismo, História, Letras (todos), Ciências Ambientais, Administração" ,
+				"Nome": ["Engenharia de Transportes", "Odontologia", "Agronomia", "Ciências Biológicas", "Biomedicina", "Arquitetura e Urbanismo", "Música", "Direito", "Design de Moda", "Veterinária", "Química", "Engenharia Mecânica", "Ciências da Computação", "Física Médica", "Relações Internacionais", "Gestão da Informação", "Jornalismo", "História", "Letras (todos)", "Ciências Ambientais", "Administração"] ,
 				"extra": "" ,
 				"horario": "19h50" ,
 				"duracao": "30 min" ,
@@ -233,7 +233,7 @@
 
 			{
 				"tipo": 2 ,
-				"Nome": "Engenharia de Produção, Eng. Ambiental e Sanitária, Engenharia Florestal, Ecologia e Análise Ambiental, Enfermagem, Direção de Arte, Musicoterapia, Design de Ambientes, Farmácia, Engenharia Química, Engenharia Elétrica, Sistemas de Informação, Física, Biblioteconomia, Publicidade e Propaganda, Psicologia, Ciências Sociais, Letras (Libras/Trad. e Interp.), Estatística, Ciências Contábeis, Educação Física" ,
+				"Nome": ["Engenharia de Produção", "Eng. Ambiental e Sanitária", "Engenharia Florestal", "Ecologia e Análise Ambiental", "Enfermagem", "Direção de Arte", "Musicoterapia", "Design de Ambientes", "Farmácia", "Engenharia Química", "Engenharia Elétrica", "Sistemas de Informação", "Física", "Biblioteconomia", "Publicidade e Propaganda", "Psicologia", "Ciências Sociais", "Letras (Libras/Trad. e Interp.)", "Estatística", "Ciências Contábeis", "Educação Física"] ,
 				"extra": "" ,
 				"horario": "20h25" ,
 				"duracao": "30 min" ,
@@ -253,7 +253,7 @@
 
 			{
 				"tipo": 2 ,
-				"Nome": "Geologia, Engenharia Civil, Engenharia de Alimentos, Biotecnologia, Nutrição, Teatro, Artes Visuais, Medicina, Design Gráfico, Zootecnia, Filosofia, Engenharia de Computação, Engenharia de Software, Engenharia Física, Museologia, Relações Públicas, Pedagogia, C. Sociais (Políticas Públicas), Geografia, Matemática, Ciências Econômicas, Dança" ,
+				"Nome": ["Geologia", "Engenharia Civil", "Engenharia de Alimentos", "Biotecnologia", "Nutrição", "Teatro", "Artes Visuais", "Medicina", "Design Gráfico", "Zootecnia", "Filosofia", "Engenharia de Computação", "Engenharia de Software", "Engenharia Física", "Museologia", "Relações Públicas", "Pedagogia", "C. Sociais (Políticas Públicas)", "Geografia", "Matemática", "Ciências Econômicas", "Dança"] ,
 				"extra": "" ,
 				"horario": "21h00" ,
 				"duracao": "30 min" ,
@@ -286,7 +286,7 @@
 
 			{
 				"tipo": 2 ,
-				"Nome": "Engenharia de Transportes, Odontologia, Agronomia, Ciências Biológicas, Biomedicina, Arquitetura e Urbanismo, Música, Direito, Design de Moda, Veterinária, Química, Engenharia Mecânica, Ciências da Computação, Física Médica, Relações Internacionais, Gestão da Informação, Jornalismo, História, Letras (todos), Ciências Ambientais, Administração" ,
+				"Nome": ["Engenharia de Transportes", "Odontologia", "Agronomia", "Ciências Biológicas", "Biomedicina", "Arquitetura e Urbanismo", "Música", "Direito", "Design de Moda", "Veterinária", "Química", "Engenharia Mecânica", "Ciências da Computação", "Física Médica", "Relações Internacionais", "Gestão da Informação", "Jornalismo", "História", "Letras (todos)", "Ciências Ambientais", "Administração"] ,
 				"extra": "" ,
 				"horario": "08h50" ,
 				"duracao": "30 min" ,
@@ -336,7 +336,7 @@
 
 			{
 				"tipo": 2 ,
-				"Nome": "Engenharia de Produção, Eng. Ambiental e Sanitária, Engenharia Florestal, Ecologia e Análise Ambiental, Enfermagem, Direção de Arte, Musicoterapia, Design de Ambientes, Farmácia, Engenharia Química, Engenharia Elétrica, Sistemas de Informação, Física, Biblioteconomia, Publicidade e Propaganda, Psicologia, Ciências Sociais, Letras (Libras/Trad. e Interp.), Estatística, Ciências Contábeis, Educação Física" ,
+				"Nome": ["Engenharia de Produção", "Eng. Ambiental e Sanitária", "Engenharia Florestal", "Ecologia e Análise Ambiental", "Enfermagem", "Direção de Arte", "Musicoterapia", "Design de Ambientes", "Farmácia", "Engenharia Química", "Engenharia Elétrica", "Sistemas de Informação", "Física", "Biblioteconomia", "Publicidade e Propaganda", "Psicologia", "Ciências Sociais", "Letras (Libras/Trad. e Interp.)", "Estatística", "Ciências Contábeis", "Educação Física"] ,
 				"extra": "" ,
 				"horario": "9h30" ,
 				"duracao": "30 min" ,
@@ -386,7 +386,7 @@
 
 			{
 				"tipo": 2 ,
-				"Nome": "Geologia, Engenharia Civil, Engenharia de Alimentos, Biotecnologia, Nutrição, Teatro, Artes Visuais, Medicina, Design Gráfico, Zootecnia, Filosofia, Engenharia de Computação, Engenharia de Software, Engenharia Física, Museologia, Relações Públicas, Pedagogia, C. Sociais (Políticas Públicas), Geografia, Matemática, Ciências Econômicas, Dança" ,
+				"Nome": ["Geologia", "Engenharia Civil", "Engenharia de Alimentos", "Biotecnologia", "Nutrição", "Teatro", "Artes Visuais", "Medicina", "Design Gráfico", "Zootecnia", "Filosofia", "Engenharia de Computação", "Engenharia de Software", "Engenharia Física", "Museologia", "Relações Públicas", "Pedagogia", "C. Sociais (Políticas Públicas)", "Geografia", "Matemática", "Ciências Econômicas", "Dança"] ,
 				"extra": "" ,
 				"horario": "10h10" ,
 				"duracao": "30 min" ,
@@ -486,7 +486,7 @@
 
 			{
 				"tipo": 2 ,
-				"Nome": "Engenharia de Transportes, Odontologia, Agronomia, Ciências Biológicas, Biomedicina, Arquitetura e Urbanismo, Música, Direito, Design de Moda, Veterinária, Química, Engenharia Mecânica, Ciências da Computação, Física Médica, Relações Internacionais, Gestão da Informação, Jornalismo, História, Letras (todos), Ciências Ambientais, Administração" ,
+				"Nome": ["Engenharia de Transportes", "Odontologia", "Agronomia", "Ciências Biológicas", "Biomedicina", "Arquitetura e Urbanismo", "Música", "Direito", "Design de Moda", "Veterinária", "Química", "Engenharia Mecânica", "Ciências da Computação", "Física Médica", "Relações Internacionais", "Gestão da Informação", "Jornalismo", "História", "Letras (todos)", "Ciências Ambientais", "Administração"] ,
 				"extra": "" ,
 				"horario": "14h20" ,
 				"duracao": "30 min" ,
@@ -526,7 +526,7 @@
 
 			{
 				"tipo": 2 ,
-				"Nome": "Engenharia de Produção, Eng. Ambiental e Sanitária, Engenharia Florestal, Ecologia e Análise Ambiental, Enfermagem, Direção de Arte, Musicoterapia, Design de Ambientes, Farmácia, Engenharia Química, Engenharia Elétrica, Sistemas de Informação, Física, Biblioteconomia, Publicidade e Propaganda, Psicologia, Ciências Sociais, Letras (Libras/Trad. e Interp.), Estatística, Ciências Contábeis, Educação Física" ,
+				"Nome": ["Engenharia de Produção", "Eng. Ambiental e Sanitária", "Engenharia Florestal", "Ecologia e Análise Ambiental", "Enfermagem", "Direção de Arte", "Musicoterapia", "Design de Ambientes", "Farmácia", "Engenharia Química", "Engenharia Elétrica", "Sistemas de Informação", "Física", "Biblioteconomia", "Publicidade e Propaganda", "Psicologia", "Ciências Sociais", "Letras (Libras/Trad. e Interp.)", "Estatística", "Ciências Contábeis", "Educação Física"] ,
 				"extra": "" ,
 				"horario": "15h00" ,
 				"duracao": "30 min" ,
@@ -556,7 +556,7 @@
 
 			{
 				"tipo": 2 ,
-				"Nome": "Geologia, Engenharia Civil, Engenharia de Alimentos, Biotecnologia, Nutrição, Teatro, Artes Visuais, Medicina, Design Gráfico, Zootecnia, Filosofia, Engenharia de Computação, Engenharia de Software, Engenharia Física, Museologia, Relações Públicas, Pedagogia, C. Sociais (Políticas Públicas), Geografia, Matemática, Ciências Econômicas, Dança" ,
+				"Nome": ["Geologia", "Engenharia Civil", "Engenharia de Alimentos", "Biotecnologia", "Nutrição", "Teatro", "Artes Visuais", "Medicina", "Design Gráfico", "Zootecnia", "Filosofia", "Engenharia de Computação", "Engenharia de Software", "Engenharia Física", "Museologia", "Relações Públicas", "Pedagogia", "C. Sociais (Políticas Públicas)", "Geografia", "Matemática", "Ciências Econômicas", "Dança"] ,
 				"extra": "" ,
 				"horario": "15h40" ,
 				"duracao": "30 min" ,
