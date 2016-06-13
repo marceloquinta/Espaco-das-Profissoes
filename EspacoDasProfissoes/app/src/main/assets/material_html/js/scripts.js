@@ -1,5 +1,6 @@
-$(document).ready(function() {
-    $('.ripple').on('click', function (event) {
+function adicionarRipple(){
+  $('.ripple').each(function(index, el) {
+    $(el).on('click', function (event) {
       event.preventDefault();
       
       var $div = $('<div/>'),
@@ -26,4 +27,7 @@ $(document).ready(function() {
         $div.remove();
       }, 1400);
     });
-});
+  });
+
+  
+}
