@@ -7,9 +7,11 @@ import java.util.List;
  */
 public class Route {
 
+    private int id;
     private String name;
     private String color;
     private List<String> points;
+    private int day;
 
     public String getName() {
         return name;
@@ -33,5 +35,21 @@ public class Route {
 
     public void setPoints(List<String> points) {
         this.points = points;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public int getDay() {
+        return day;
+    }
+
+    public void setDay(int day) {
+        this.day = day;
     }
 }

@@ -1,17 +1,15 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@android:color/holo_green_light"
-    tools:context="br.ufg.extensao.espacodasprofissoes.WebFragment">
+    android:layout_height="match_parent">
 
     <WebView
         android:id="@+id/webview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="80dp"
         android:background="@android:color/holo_blue_bright"
+        android:layout_marginTop="96dp"
         />
 
 
-</FrameLayout>
+</android.support.design.widget.CoordinatorLayout>

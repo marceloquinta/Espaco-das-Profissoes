@@ -1,14 +1,21 @@
 package br.ufg.extensao.espacodasprofissoes;
 
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.content.ContextCompat;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+
+import br.ufg.extensao.espacodasprofissoes.model.PageContent;
+import br.ufg.extensao.espacodasprofissoes.web.SpecialWebViewClient;
+import br.ufg.extensao.espacodasprofissoes.web.WebAppInterface;
 
 
 /**
@@ -18,11 +25,21 @@ public class WebFragment extends Fragment {
 
     private WebView webview;
 
+    private PageContent pageContent;
+
+    private WebAppInterface webAppInterface;
 
     public WebFragment() {
         // Required empty public constructor
     }
 
+    public PageContent getPageContent() {
+        return pageContent;
+    }
+
+    public void setPageContent(PageContent pageContent) {
+        this.pageContent = pageContent;
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -30,7 +47,6 @@ public class WebFragment extends Fragment {
         // Inflate the layout for this fragment
 
         View v =  inflater.inflate(R.layout.fragment_web, container, false);
-
 
         webview = (WebView) v.findViewById(R.id.webview);
         loadWebView();
@@ -44,24 +60,21 @@ public class WebFragment extends Fragment {
         webview.setWebChromeClient(new WebChromeClient());
         webview.getSettings().setJavaScriptEnabled(true);
         webview.getSettings().setDomStorageEnabled(true);
-        webview.addJavascriptInterface(new WebAppInterface(getActivity()), "Android");
-        String folderPath = "file:android_asset/";
-        String fileName = "index.html";
+        webview.getSettings().setAllowContentAccess(true);
+        webview.getSettings().setAllowFileAccess(true);
+        webview.getSettings().setAllowUniversalAccessFromFileURLs(true);
+
+        webview.addJavascriptInterface(webAppInterface, "Android");
+        String folderPath = "file:android_asset/material_html/";
+        String fileName = pageContent.getPageName();
         String file = folderPath + fileName;
         webview.loadUrl(file);
     }
 
-
-    private class SpecialWebViewClient extends WebViewClient {
-        @Override
-        public boolean shouldOverrideUrlLoading(WebView view, String url) {
-            view.getSettings().setJavaScriptEnabled(true);
-            view.getSettings().setJavaScriptCanOpenWindowsAutomatically(true);
-            view.loadUrl(url);
-            view.setScrollbarFadingEnabled(true);
-            view.setScrollBarStyle(WebView.SCROLLBARS_INSIDE_OVERLAY);
-            return true;
-        }
+    public void setWebAppInterface(WebAppInterface webInterface){
+        this.webAppInterface = webInterface;
     }
+
+
 
 }

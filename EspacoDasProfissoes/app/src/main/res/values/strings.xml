@@ -2,8 +2,10 @@
     <string name="app_name">Espaço das Profissões</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="tab_content">Conteúdo</string>
-    <string name="tab_maps">Locais</string>
+    <string name="tab_courses">Cursos</string>
+    <string name="tab_agenda">Atividades</string>
+    <string name="tab_routes">Rotas</string>
+    <string name="tab_places">Mapa</string>
 
     <string name="menu_search">Procurar</string>
 
