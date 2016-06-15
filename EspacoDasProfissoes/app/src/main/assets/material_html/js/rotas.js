@@ -2,9 +2,10 @@ jQuery(document).ready(function($) {
 	var btRotas = $('div.lista.rotas ul li'),
 		dadosRotas,
 		getRotas = $.ajax({
-      url: 'json/rotas.json',
-      type: 'GET'
-      });
+	      url: 'json/rotas.json',
+	      type: 'GET',
+	      crossDomain: true
+	  	});
 
 	adicionarRipple();
 	getRotas.done(function(data){
@@ -15,18 +16,24 @@ jQuery(document).ready(function($) {
       criarBtsRotas();
     });
 
+    //função que envia Rota escolhida p/ Android
+    function enviarRota(indice, rota){
+    	Android.setRota(indice, rota);
+    }
 
     function criarBtsRotas(){
     	btRotas.on('click', function(event) {
     		var indexClicado = btRotas.index($(this));
+    		var nomeRota = dadosRotas.dias.d1[indexClicado].rota;
+    		console.log(indexClicado, nomeRota);
 
-    		Android.setRota(indexClicado, 
-    			dadosRotas
-    			.dias
-    			.d1[indexClicado]
-    			.rota);
-    		/* Act on the event */
+		    //chamando função
+    		enviarRota(indexClicado, nomeRota);
+
+    		
     	});
     }
+
+    
 	
 });
