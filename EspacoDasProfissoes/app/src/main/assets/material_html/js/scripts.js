@@ -27,7 +27,14 @@ function adicionarRipple(){
         $div.remove();
       }, 1400);
     });
-  });
-
-  
+  });  
 }
+
+
+
+$(document).ready(function() {
+  $('.wrap-slider').bxSlider({
+    controls: false,
+    pagerCustom: '.bottombar'
+  });
+});
