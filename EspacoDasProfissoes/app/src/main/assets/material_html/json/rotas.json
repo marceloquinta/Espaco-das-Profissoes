@@ -1,6 +1,6 @@
 {
 	"dias":{
-		"1o": [
+		"d1": [
 			{
 				"rota": "Buriti",
 				"espacos": [
@@ -148,7 +148,7 @@
 			}
 		],
 
-		"2o": [
+		"d2": [
 			{
 				"rota": "Buriti",
 				"espacos": [
