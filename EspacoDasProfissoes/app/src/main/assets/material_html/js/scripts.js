@@ -33,8 +33,12 @@ function adicionarRipple(){
 
 
 $(document).ready(function() {
-  $('.wrap-slider').bxSlider({
+  if ($('.wrap-slider').length>0) {
+    $('.wrap-slider').bxSlider({
     controls: false,
-    pagerCustom: '.bottombar'
+    pagerCustom: '.bottombar',
+    infiniteLoop: false,
+    touchEnabled: false
   });
+  }
 });
