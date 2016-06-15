@@ -10,22 +10,70 @@
 </head>
 <body>
 
-
-<div class="lista">
-  <ul>
-    <li class="ripple">
-      <span class="titulo"></span>
-      <span class="subtitulo"></span>
-    </li>
-   
-  </ul>
+<div class="wrap-slider">
+  <div class="itemslider">
+    <div class="lista">
+      <ul>
+        <li class="ripple">
+          <span class="titulo"></span>
+          <span class="subtitulo"></span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="itemslider">  
+    <div class="lista">
+      <ul>
+        <li class="ripple">
+          <span class="titulo"></span>
+          <span class="subtitulo"></span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="itemslider">
+    <div class="lista">
+      <ul>
+        <li class="ripple">
+          <span class="titulo"></span>
+          <span class="subtitulo"></span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="itemslider">  
+    <div class="lista">
+      <ul>
+        <li class="ripple">
+          <span class="titulo"></span>
+          <span class="subtitulo"></span>
+        </li>
+      </ul>
+    </div>
+  </div>
 </div>
 
+<div class="bottombar">
+  <a data-slide-index="0" href="">Goiânia</a>
+  <a data-slide-index="1" href="">Jataí</a>
+  <a data-slide-index="2" href="">Catalão</a>
+  <a data-slide-index="3" href="">Goiás</a>
+</div>
 
 <script src="js/jquery.js"></script>
+<script src="js/bxslider.js"></script>
 <script src="js/scripts.js"></script>
 <script type="text/javascript">
   var regional = 0;
+  console.log('sadasd');
+
+  $(document).ready(function() {
+    $('.wrap-slider').bxSlider({
+      controls: false,
+      pagerCustom: '.bottombar'
+    });
+  });
+  
 </script>
 <script src="js/lista-cursos.js"></script>
 
