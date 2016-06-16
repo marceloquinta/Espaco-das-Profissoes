@@ -37,7 +37,7 @@ public class CourseWebInterface extends WebAppInterface{
         }
         course.setId(idCurso);
         course.setRegionalId(idRegional);
-        course.getName();
+        course.setName(nomeCurso);
         EventBus.getDefault().post(course);
     }
 
