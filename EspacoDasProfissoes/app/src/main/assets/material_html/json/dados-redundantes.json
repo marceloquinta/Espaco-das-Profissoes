@@ -30,70 +30,70 @@
 			"Aparecida de Goiânia"
 		]
 	},
-	"locais-espacos-interativos": [
+	"locais_espacos_interativos": [
 		{
 			"nome": "Centro de Aulas Aroeira",
-			"id-mapa": "A18"
+			"id_mapa": "A18"
 		},
 
 		{
 			"nome": "Lab. de Engenharia Química",
-			"id-mapa": "A9"
+			"id_mapa": "A9"
 		},
 
 		{
 			"nome": "Pátio da Ciência",
-			"id-mapa": "A10"
+			"id_mapa": "A10"
 		},
 
 		{
-			"nome": "Centro de Aulas &quot;Baru&quot;", 
-			"id-mapa": "D6"
+			"nome": "Centro de Aulas Baru", 
+			"id_mapa": "D6"
 		},
 
 		{
 			"nome": "Faculdade de Informação e Comunicação - FIC",
-			"id-mapa": "A12"
+			"id_mapa": "A12"
 		},
 
 		{
-			"nome": "Centro de Aulas &quot;Caraíbas&quot;",
-			"id-mapa": "D1"
+			"nome": "Centro de Aulas Caraíbas",
+			"id_mapa": "D1"
 		},
 
 		{
 			"nome": "Faculdade de História - FH",
-			"id-mapa": "A11"
+			"id_mapa": "A11"
 		},
 
 		{
 			"nome": "Faculdade de Artes Visuais - FAV",
-			"id-mapa": "A3"
+			"id_mapa": "A3"
 		},
 
 		{
 			"nome": "Faculdade de Letras - FL ",
-			"id-mapa": "A19"
+			"id_mapa": "A19"
 		},
 
 		{
 			"nome": "Escola de Música e Artes Cênicas - EMAC",
-			"id-mapa": "A1"
+			"id_mapa": "A1"
 		},
 
 		{
 			"nome": "Escola de Agronomia",
-			"id-mapa": "K2"
+			"id_mapa": "K2"
 		},
 
 		{
 			"nome": "Escola de Veterinária e Zootecnia - EVZ",
-			"id-mapa": "K1"
+			"id_mapa": "K1"
 		},
 
 		{
 			"nome": "Faculdade de Educação Física e Dança - FEFD",
-			"id-mapa": "E1"
+			"id_mapa": "E1"
 		}
 	],
 
@@ -119,7 +119,7 @@
 			"21/06, às 15h40"
 		]
 	],
-	"tipos-de-evento": [
+	"tipos_de_evento": [
 		"Palestra geral",
 		"Palestras dos cursos",
 		"Evento Cutural"

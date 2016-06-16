@@ -8,7 +8,7 @@
 					"extra": "LGBIO",
 					"horario": ["14h - 17h"],
 					"local": "Instituto de Ciências Biológicas - ICB I e II",
-					"id-local": "A8",
+					"id_local": "A8",
 					"transporte": false
 				},
 
@@ -17,7 +17,7 @@
 					"extra": "",
 					"horario": ["14h - 17h"],
 					"local": "Instituto de Ciências Biológicas - ICB I e II",
-					"id-local": "A8",
+					"id_local": "A8",
 					"transporte": false
 				},
 
@@ -26,7 +26,7 @@
 					"extra": "",
 					"horario": ["14h - 17h"],
 					"local": "Instituto de Química",
-					"id-local": "A9",
+					"id_local": "A9",
 					"transporte": false
 				},
 				{
@@ -34,7 +34,7 @@
 					"extra": "",
 					"horario": ["14h - 17h"],
 					"local": "Centro de Convivência",
-					"id-local": "A7",
+					"id_local": "A7",
 					"transporte": false
 				}
 			]
@@ -48,7 +48,7 @@
 					"extra": "",
 					"horario": ["14h - 17h"],
 					"local": "",
-					"id-local": "A2",
+					"id_local": "A2",
 					"transporte": false
 				},
 
@@ -57,7 +57,7 @@
 					"extra": "MEDIALAB",
 					"horario": ["14h - 17h"],
 					"local": "",
-					"id-local": "A5",
+					"id_local": "A5",
 					"transporte": false
 				},
 
@@ -66,7 +66,7 @@
 					"extra": "",
 					"horario": ["14h - 17h"],
 					"local": "",
-					"id-local": "F3",
+					"id_local": "F3",
 					"transporte": false
 				}
 			]
@@ -80,7 +80,7 @@
 					"extra": "LABMIC",
 					"horario": ["14h - 15h30"],
 					"local": "Instituto de Física",
-					"id-local": "A10",
+					"id_local": "A10",
 					"transporte": false
 				},
 
@@ -89,7 +89,7 @@
 					"extra": "LAPIG",
 					"horario": ["14h - 17h"],
 					"local": "",
-					"id-local": "I3",
+					"id_local": "I3",
 					"transporte": false
 				},
 
@@ -98,7 +98,7 @@
 					"extra": "LABTIME",
 					"horario": ["14h - 17h"],
 					"local": "",
-					"id-local": "I5",
+					"id_local": "I5",
 					"transporte": false
 				}
 			]
@@ -112,7 +112,7 @@
 					"extra": "FEFD",
 					"horario": ["14h - 17h"],
 					"local": "",
-					"id-local": "E1",
+					"id_local": "E1",
 					"transporte": false
 				},
 
@@ -121,7 +121,7 @@
 					"extra": "EVZ",
 					"horario": ["14h - 17h"],
 					"local": "",
-					"id-local": "K1",
+					"id_local": "K1",
 					"transporte": true
 				},
 
@@ -130,7 +130,7 @@
 					"extra": "EA",
 					"horario": ["14h - 17h"],
 					"local": "",
-					"id-local": "K2",
+					"id_local": "K2",
 					"transporte": true
 				},
 
@@ -139,7 +139,7 @@
 					"extra": "CEGRAF - A fábrica de livros",
 					"horario": ["14h - 17h"],
 					"local": "",
-					"id-local": "J8",
+					"id_local": "J8",
 					"transporte": true
 				}
 			]
@@ -155,7 +155,7 @@
 					"extra": "LGBIO",
 					"horario": ["09h - 12h"],
 					"local": "Instituto de Ciências Biológicas - ICB I e II",
-					"id-local": "A8",
+					"id_local": "A8",
 					"transporte": false
 				},
 
@@ -164,7 +164,7 @@
 					"extra": "",
 					"horario": ["09h - 12h"],
 					"local": "Instituto de Ciências Biológicas - ICB I e II",
-					"id-local": "A8",
+					"id_local": "A8",
 					"transporte": false
 				},
 
@@ -173,7 +173,7 @@
 					"extra": "",
 					"horario": ["14h - 17h"],
 					"local": "Instituto de Química",
-					"id-local": "A9",
+					"id_local": "A9",
 					"transporte": false
 				},
 
@@ -182,7 +182,7 @@
 					"extra": "",
 					"horario": ["09h - 12h", "14h - 17h"],
 					"local": "Centro de Convivência",
-					"id-local": "A7",
+					"id_local": "A7",
 					"transporte": false
 				},
 
@@ -191,7 +191,7 @@
 					"extra": "",
 					"horario": ["14h - 17h"],
 					"local": "Instituto de Ciências Biológicas - ICB V",
-					"id-local": "C3",
+					"id_local": "C3",
 					"transporte": false
 				},
 
@@ -200,7 +200,7 @@
 					"extra": "",
 					"horario": ["14h - 17h"],
 					"local": "Instituto de Ciências Biológicas - ICB V",
-					"id-local": "C3",
+					"id_local": "C3",
 					"transporte": false
 				}
 			]
@@ -214,7 +214,7 @@
 					"extra": "",
 					"horario": ["09h - 12h"],
 					"local": "",
-					"id-local": "A2",
+					"id_local": "A2",
 					"transporte": false
 				},
 
@@ -223,7 +223,7 @@
 					"extra": "MEDIALAB",
 					"horario": ["09h - 12h", "14h - 17h"],
 					"local": "",
-					"id-local": "A5",
+					"id_local": "A5",
 					"transporte": false
 				},
 
@@ -232,7 +232,7 @@
 					"extra": "",
 					"horario": ["14h - 17h"],
 					"local": "",
-					"id-local": "F3",
+					"id_local": "F3",
 					"transporte": false
 				},
 
@@ -241,7 +241,7 @@
 					"extra": "",
 					"horario": ["09h - 12h", "14h - 17h"],
 					"local": "Herbário",
-					"id-local": "G2",
+					"id_local": "G2",
 					"transporte": false
 				}
 			]
@@ -255,7 +255,7 @@
 					"extra": "LABMIC",
 					"horario": ["09h - 11h30", "14h - 15h30"],
 					"local": "Instituto de Física",
-					"id-local": "A10",
+					"id_local": "A10",
 					"transporte": false
 				},
 
@@ -264,7 +264,7 @@
 					"extra": "LAPIG",
 					"horario": ["09h - 12h", "15h"],
 					"local": "",
-					"id-local": "I3",
+					"id_local": "I3",
 					"transporte": false
 				},
 
@@ -273,7 +273,7 @@
 					"extra": "LABTIME",
 					"horario": ["11h - 12h", "14h - 15h"],
 					"local": "",
-					"id-local": "i5",
+					"id_local": "i5",
 					"transporte": false
 				},
 
@@ -282,7 +282,7 @@
 					"extra": "",
 					"horario": ["10h - 15h"],
 					"local": "Faculdade de Letras",
-					"id-local": "A19",
+					"id_local": "A19",
 					"transporte": false
 				}
 			]
@@ -296,7 +296,7 @@
 					"extra": "FEFD",
 					"horario": ["09h - 12h", "14h - 17h"],
 					"local": "",
-					"id-local": "E1",
+					"id_local": "E1",
 					"transporte": false
 				},
 
@@ -305,7 +305,7 @@
 					"extra": "EVZ",
 					"horario": ["09h - 12h", "14h - 17h"],
 					"local": "",
-					"id-local": "K1",
+					"id_local": "K1",
 					"transporte": true
 				},
 
@@ -314,7 +314,7 @@
 					"extra": "EA",
 					"horario": ["09h - 12h", "14h - 17h"],
 					"local": "",
-					"id-local": "K2",
+					"id_local": "K2",
 					"transporte": true
 				},
 
@@ -323,7 +323,7 @@
 					"extra": "CEGRAF - A fábrica de livros",
 					"horario": ["09h - 12h", "14h - 17h"],
 					"local": "",
-					"id-local": "J8",
+					"id_local": "J8",
 					"transporte": true
 				}
 			]
