@@ -12,15 +12,15 @@ jQuery(document).ready(function($) {
         dataType: 'text'
 
       }),
-      domInfo = $('div.lista ul li'),
+      domInfo = $('div.lista ul li');
 
       // código para testes no navegador
-      // regionalSelecionada = localStorage.getItem('curso-regional'),
-      // cursoSelecionado = localStorage.getItem('curso-index');
+      // var regionalSelecionada = localStorage.getItem('curso-regional');
+      // var cursoSelecionado = localStorage.getItem('curso-index');
       
       //código final para o app mesmo
-      regionalSelecionada = Android.getRegionalId();
-      cursoSelecionado = Android.getCursoId();
+      var regionalSelecionada = Android.getRegionalId();
+      var cursoSelecionado = Android.getCursoId();
 
 
     getDadosCurso.done(function(data){
