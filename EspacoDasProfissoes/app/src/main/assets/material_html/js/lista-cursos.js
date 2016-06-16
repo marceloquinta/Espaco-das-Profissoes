@@ -2,23 +2,26 @@ jQuery(document).ready(function($) {
     var dadosCurso,
       dadosRedundantes,
       getDadosCurso = $.ajax({
-      url: 'json/cursos.json',
-      type: 'GET',
-    }),
+        url: 'json/cursos.json',
+        type: 'GET',
+        dataType: "text"
+      }),
       getRedundantes = $.ajax({
         url: 'json/dados-redundantes.json',
         type: 'GET',
+        dataType: "text"
       }),
-      lista = $('div.lista ul');
-      
+      lista = $('div.lista > ul'),
+      itemLista = lista.children('li').eq(0).clone();
 
+    lista.empty();
 
     getDadosCurso.done(function(data){
-      dadosCurso = data;
+      dadosCurso = $.parseJSON(data);
     });
 
     getRedundantes.done(function(data){
-      dadosRedundantes = data;
+      dadosRedundantes = $.parseJSON(data);
     });
 
     $.when(getDadosCurso, getRedundantes).then(function(){
@@ -27,27 +30,31 @@ jQuery(document).ready(function($) {
     
 
     function popularCursos(){
-      var itemListaTemplate = lista.find('li').eq(0).clone();
-      lista.empty();
-      console.log(itemListaTemplate);
-      $.each(dadosCurso.regionais[regional].cursos, function(index, val) {
-         var itemclonado = itemListaTemplate.clone();
-         itemclonado.children('span.titulo').text(val.nome);
-         itemclonado.children('span.subtitulo').text(dadosRedundantes.cursos.graus[val.grau]+', '+dadosRedundantes.cursos.turnos[val.turno]);
-         lista.append(itemclonado);
+      lista.each(function(index, el) {
+        var listaAtual = $(el);
+        
+        $.each(dadosCurso.regionais[index].cursos, function(ind, valor) {
+           var itemListaClone = itemLista.clone();
+           itemListaClone.children('span.titulo').text(valor.nome);
+           itemListaClone.children('span.subtitulo').text(dadosRedundantes.cursos.graus[valor.grau]+', '+dadosRedundantes.cursos.turnos[valor.turno]);
+           listaAtual.append(itemListaClone);
+        });
       });
+      
          adicionarRipple();
          lista.children('li').on('click', function(event) {
+          var regionalIndex = lista.index($(this).parent());
+          var cursoIndex = $(this).parent().children('li').index($(this));
+          console.log(dadosCurso.regionais[regionalIndex].cursos[cursoIndex].nome+' da região '+dadosCurso.regionais[regionalIndex].nome)
+          
 
-          // Apenas para teste
-          localStorage.setItem("curso-regional", regional);
-          localStorage.setItem("curso-index", lista.children('li').index($(this)));
+          // código para teste de escolha de curso
+          localStorage.setItem("curso-regional", regionalIndex);
+          localStorage.setItem("curso-index", cursoIndex);
           window.location.href = "../curso-info.html";
 
+          //código para o app de fato;
 
-           // método definido pelo Marcelo. arg1: regional; arg2: index do curso
-
-           // metodoDoMarcelo(regional, lista.children('li').index($(this)));
          });
       
     }
