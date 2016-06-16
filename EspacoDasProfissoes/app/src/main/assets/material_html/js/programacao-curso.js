@@ -30,12 +30,12 @@ jQuery(document).ready(function($) {
       cardEspaco = $("div.card[data-tipo='info-espaco']").eq(0).clone();
       
       // código para testes no navegador
-      var regionalSelecionada = localStorage.getItem('curso-regional');
-      var cursoSelecionado = localStorage.getItem('curso-index');
+      // var regionalSelecionada = localStorage.getItem('curso-regional');
+      // var cursoSelecionado = localStorage.getItem('curso-index');
       
       //código final para o app mesmo
-      // var regionalSelecionada = Android.getRegionalId();
-      // var cursoSelecionado = Android.getCursoId();
+      var regionalSelecionada = Android.getRegionalId();
+      var cursoSelecionado = Android.getCursoId();
 
       $("div.card[data-tipo='info-palestras']").remove();
       $("div.card[data-tipo='info-espaco']").remove();
@@ -65,15 +65,14 @@ jQuery(document).ready(function($) {
 
     function colocarDados(){
       // checar se ao menos existe programação desse curso
-      if (dadosCurso.regionais[regionalSelecionada].cursos[cursoSelecionado].pal_numero != "") {
+
+      var valorPalestra = 
+        dadosCurso.regionais[regionalSelecionada].cursos[cursoSelecionado].pal_numero;
+
+      if (valorPalestra != "") {
 
       // o número da palestra do curso escolhido
-      var numeroPalestra = parseInt(
-        dadosCurso
-        .regionais[regionalSelecionada]
-        .cursos[cursoSelecionado]
-        .pal_numero
-        );
+      var numeroPalestra = parseInt(valorPalestra);
 
       // o conjunto de espaços do curso escolhido
       var numerosEspaco = 
