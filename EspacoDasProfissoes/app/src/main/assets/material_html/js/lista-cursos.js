@@ -49,12 +49,17 @@ jQuery(document).ready(function($) {
           
 
           // código para teste de escolha de curso
-          localStorage.setItem("curso-regional", regionalIndex);
-          localStorage.setItem("curso-index", cursoIndex);
-          window.location.href = "../curso-info.html";
+          // localStorage.setItem("curso-regional", regionalIndex);
+          // localStorage.setItem("curso-index", cursoIndex);
+          // window.location.href = "../curso-info.html";
 
-          //código para o app de fato;
+          //código para o app de fato
 
+          var nomeCursoEscolhido = dadosCurso.regionais[regionalIndex].cursos[cursoIndex].nome;
+          Android.setCurso(
+            nomeCursoEscolhido,
+            cursoIndex,
+            regionalIndex);
          });
       
     }

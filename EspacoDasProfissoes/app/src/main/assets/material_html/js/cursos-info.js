@@ -4,23 +4,31 @@ jQuery(document).ready(function($) {
       getDadosCurso = $.ajax({
       url: 'json/cursos.json',
       type: 'GET',
+      dataType: 'text'
     }),
       getRedundantes = $.ajax({
         url: 'json/dados-redundantes.json',
         type: 'GET',
+        dataType: 'text'
+
       }),
       domInfo = $('div.lista ul li'),
-      regionalSelecionada = localStorage.getItem('curso-regional'),
-      cursoSelecionado = localStorage.getItem('curso-index');
+
+      // código para testes no navegador
+      // regionalSelecionada = localStorage.getItem('curso-regional'),
+      // cursoSelecionado = localStorage.getItem('curso-index');
       
+      //código final para o app mesmo
+      regionalSelecionada = Android.getRegionalId();
+      cursoSelecionado = Android.getCursoId();
 
 
     getDadosCurso.done(function(data){
-      dadosCurso = data;
+      dadosCurso = $.parseJSON(data);
     });
 
     getRedundantes.done(function(data){
-      dadosRedundantes = data;
+      dadosRedundantes = $.parseJSON(data);
     });
 
     $.when(getDadosCurso, getRedundantes).then(function(){
