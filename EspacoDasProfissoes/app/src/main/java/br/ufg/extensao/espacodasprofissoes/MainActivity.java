@@ -55,8 +55,15 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onStart() {
-        EventBus.getDefault().register(this);
         super.onStart();
+    }
+
+    @Override
+    protected void onResume() {
+        if(!EventBus.getDefault().isRegistered(this)) {
+            EventBus.getDefault().register(this);
+        }
+        super.onResume();
     }
 
     @Override

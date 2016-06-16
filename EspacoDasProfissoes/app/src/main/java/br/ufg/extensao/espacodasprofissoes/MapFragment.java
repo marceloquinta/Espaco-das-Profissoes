@@ -61,6 +61,7 @@ public class MapFragment extends Fragment implements OnMapReadyCallback,
     private SupportMapFragment mapFragment;
     private GoogleMap map;
     private Map<Marker, Place> markers;
+    private Map<Place, Marker> placesToMarker;
     private Map<Polyline, Route> polylines;
     private List<Place> places;
     private List<Place> filteredPlaces;
@@ -90,6 +91,7 @@ public class MapFragment extends Fragment implements OnMapReadyCallback,
         mapFragment = (SupportMapFragment) getChildFragmentManager().findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
         markers = new HashMap<>();
+        placesToMarker = new HashMap<>();
         polylines = new HashMap<>();
         readPlaces();
         readRoutes();
@@ -131,6 +133,8 @@ public class MapFragment extends Fragment implements OnMapReadyCallback,
                     if (map != null) {
                         Place place = filteredPlaces.get(0);
                         centerMap(new LatLng(place.getLatitude(), place.getLongitude()));
+                        Marker marker = placesToMarker.get(place);
+                        marker.showInfoWindow();
                     }
                 }
                 return true;
@@ -275,6 +279,7 @@ public class MapFragment extends Fragment implements OnMapReadyCallback,
                         .icon(icon)
         );
         markers.put(marker, place);
+        placesToMarker.put(place,marker);
 
     }
 

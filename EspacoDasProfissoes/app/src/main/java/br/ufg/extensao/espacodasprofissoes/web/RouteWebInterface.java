@@ -1,9 +1,13 @@
 package br.ufg.extensao.espacodasprofissoes.web;
 
 import android.content.Context;
+import android.content.res.AssetManager;
 import android.webkit.JavascriptInterface;
 
 import org.greenrobot.eventbus.EventBus;
+
+import java.io.IOException;
+import java.io.InputStream;
 
 import br.ufg.extensao.espacodasprofissoes.model.Route;
 

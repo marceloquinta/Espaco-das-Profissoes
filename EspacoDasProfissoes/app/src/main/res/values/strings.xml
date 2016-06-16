@@ -6,6 +6,7 @@
     <string name="tab_agenda">Atividades</string>
     <string name="tab_routes">Rotas</string>
     <string name="tab_places">Mapa</string>
+    <string name="tab_info">Info</string>
 
     <string name="menu_search">Procurar</string>
 

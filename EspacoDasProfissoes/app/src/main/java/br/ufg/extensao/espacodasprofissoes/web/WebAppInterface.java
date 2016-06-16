@@ -19,5 +19,7 @@ public class WebAppInterface {
 
     }
 
-
+    public Context getmContext() {
+        return mContext;
+    }
 }

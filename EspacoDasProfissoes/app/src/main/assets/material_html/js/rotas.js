@@ -24,13 +24,9 @@ jQuery(document).ready(function($) {
     function criarBtsRotas(){
     	btRotas.on('click', function(event) {
     		var indexClicado = btRotas.index($(this));
-    		var nomeRota = dadosRotas.dias.d1[indexClicado].rota;
-    		console.log(indexClicado, nomeRota);
-
-		    //chamando função
-    		enviarRota(indexClicado, nomeRota);
-
-    		
+    		var jsonRotas = JSON.parse(dadosRotas);
+    		var nomeRota = jsonRotas.dias.d1[indexClicado].rota;
+            Android.setRota(indexClicado, nomeRota);
     	});
     }
 
