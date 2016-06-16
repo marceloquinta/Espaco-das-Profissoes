@@ -25,7 +25,7 @@ public class RouteWebInterface extends WebAppInterface {
 
     @JavascriptInterface
     public int getRotaId() {
-        return 0;
+        return route.getId();
     }
 
     @JavascriptInterface
