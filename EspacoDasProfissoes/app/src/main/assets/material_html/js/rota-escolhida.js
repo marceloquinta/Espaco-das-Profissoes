@@ -2,18 +2,17 @@ jQuery(document).ready(function($) {
 	var dadosRotas,
   		getRotas = $.ajax({
         url: 'json/rotas.json',
-        type: 'GET'
+        type: 'GET',
+        dataType: "text"
       }),
       containerDias = $('div.itemslider > div.container'),
       card = $('div.card'),
-      rotaEscolhida = 0; // variavel que armezena a rota escolhida
-
-      // código para testar interface com Android
-      // card.find('span.titulo').text(Android.getRotaId());
+      rotaEscolhida = Android.getRotaId(); // valor real para o app
+      // rotaEscolhida = 3; //valor fixo para testes
 
 
 	getRotas.done(function(data){
-      dadosRotas = data;
+      dadosRotas = $.parseJSON(data);
     });
 
     $.when(getRotas).then(function(){
@@ -23,64 +22,48 @@ jQuery(document).ready(function($) {
 
     function colocarDadosRotas(){
     	var cloneCard = card.clone(),
-        infoDiaUm = dadosRotas.dias.d1[rotaEscolhida],
-        infoDiaDois = dadosRotas.dias.d2[rotaEscolhida];
+        infoDiaUm = dadosRotas.d1[rotaEscolhida],
+        infoDiaDois = dadosRotas.d2[rotaEscolhida];
       containerDias.empty();
-      $.each(infoDiaUm.espacos, function(index, val) {
-         var cloneDoClone = cloneCard.clone();
 
-         if (!val.transporte) {
-          cloneDoClone.find('.requertransporte').addClass('esconder');
-         }
+      function popularEInserirCards(dia, containerIndex){
+          $.each(dia.espacos, function(index, val) {
+           var cloneDoClone = cloneCard.clone();
 
-         cloneDoClone.find('span.titulo').text(val.nome);
+           if (!val.transporte) {
+            cloneDoClone.find('.requertransporte').addClass('esconder');
+           }
 
-         if (val.extra) {
-           cloneDoClone.find('span.subtitulo').text(val.extra);
-         } else {
-          cloneDoClone.find('span.subtitulo').addClass('esconder');
-         }
+           cloneDoClone.find('span.titulo').text(val.nome);
 
-         var cloneTagHorario = cloneDoClone.find('span.horario').clone();
-         var conjHorarios = val.horario;
-         cloneDoClone.find('span.horario').remove();
-         $.each(conjHorarios, function(index2, val2) {
-            var cloneHorario = cloneTagHorario.clone();
-            cloneHorario.text(val2).appendTo(cloneDoClone.find('div.content').eq(1));
-         });
+           if (val.extra) {
+             cloneDoClone.find('span.subtitulo').eq(0).text(val.extra);
+           } else {
+            cloneDoClone.find('span.subtitulo').eq(0).addClass('esconder');
+           }
 
-         cloneDoClone.find('span.local').text(val.local);
+           var cloneTagHorario = cloneDoClone.find('span.horario').clone();
+           var conjHorarios = val.horario;
+           cloneDoClone.find('span.horario').remove();
+           $.each(conjHorarios, function(index2, val2) {
+              var cloneHorario = cloneTagHorario.clone();
+              cloneHorario.text(val2).appendTo(cloneDoClone.find('div.content').eq(1));
+           });
 
-         containerDias.eq(0).append(cloneDoClone);
-      });
+           if (val.local) {
+             cloneDoClone.find('span.local').text(val.local);
+           } else {
+            cloneDoClone.find('span.local').addClass('esconder');
+           }
+           
 
-      $.each(infoDiaDois.espacos, function(index, val) {
-         var cloneDoClone = cloneCard.clone();
+           containerDias.eq(containerIndex).append(cloneDoClone);
+        });
+      }
 
-         if (!val.transporte) {
-          cloneDoClone.find('.requertransporte').addClass('esconder');
-         }
+      popularEInserirCards(infoDiaUm, 0);
+      popularEInserirCards(infoDiaDois, 1);
 
-         cloneDoClone.find('span.titulo').text(val.nome);
-
-         if (val.extra) {
-           cloneDoClone.find('span.subtitulo').text(val.extra);
-         } else {
-          cloneDoClone.find('span.subtitulo').addClass('esconder');
-         }
-
-         var cloneTagHorario = cloneDoClone.find('span.horario').clone();
-         var conjHorarios = val.horario;
-         cloneDoClone.find('span.horario').remove();
-         $.each(conjHorarios, function(index2, val2) {
-            var cloneHorario = cloneTagHorario.clone();
-            cloneHorario.text(val2).appendTo(cloneDoClone.find('div.content').eq(1));
-         });
-
-         cloneDoClone.find('span.local').text(val.local);
-
-         containerDias.eq(1).append(cloneDoClone);
-      });
     }
 	
 });

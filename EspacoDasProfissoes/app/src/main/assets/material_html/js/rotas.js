@@ -4,12 +4,13 @@ jQuery(document).ready(function($) {
 		getRotas = $.ajax({
 	      url: 'json/rotas.json',
 	      type: 'GET',
-	      crossDomain: true
+	      dataType: "text"
+	      
 	  	});
 
 	adicionarRipple();
 	getRotas.done(function(data){
-      dadosRotas = data;
+      dadosRotas = $.parseJSON(data);
     });
 
     $.when(getRotas).then(function(){
@@ -24,9 +25,11 @@ jQuery(document).ready(function($) {
     function criarBtsRotas(){
     	btRotas.on('click', function(event) {
     		var indexClicado = btRotas.index($(this));
-    		var jsonRotas = JSON.parse(dadosRotas);
-    		var nomeRota = jsonRotas.dias.d1[indexClicado].rota;
-            Android.setRota(indexClicado, nomeRota);
+    		var nomeRota = dadosRotas.d1[indexClicado].rota;
+    		// console.log(indexClicado, nomeRota);
+
+		    //chamando função
+    		enviarRota(indexClicado, nomeRota);
     	});
     }
 
