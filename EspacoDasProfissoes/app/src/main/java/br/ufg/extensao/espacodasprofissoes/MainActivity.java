@@ -2,23 +2,13 @@ package br.ufg.extensao.espacodasprofissoes;
 
 import android.content.Context;
 import android.content.Intent;
-import android.content.res.ColorStateList;
-import android.content.res.XmlResourceParser;
-import android.graphics.PorterDuff;
-import android.support.design.widget.NavigationView;
+import android.os.Bundle;
 import android.support.design.widget.TabLayout;
-import android.support.graphics.drawable.VectorDrawableCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.content.ContextCompat;
-import android.support.v4.content.res.ResourcesCompat;
-import android.support.v4.view.GravityCompat;
 import android.support.v4.view.ViewPager;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
@@ -75,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
     private void setupToolbar() {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
     }
 
     private void setupViewPager() {
@@ -101,24 +92,29 @@ public class MainActivity extends AppCompatActivity {
         TabLayout tabs = (TabLayout) findViewById(R.id.tabs);
         tabs.setupWithViewPager(viewPager);
         setupTabIcons(tabs);
+
     }
 
     private void setupTabIcons(TabLayout tabLayout) {
         TextView tabOne = (TextView) LayoutInflater.from(this).inflate(R.layout.custom_tab, null);
         tabOne.setText(getString(R.string.tab_courses));
         tabOne.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.ic_school_black_24dp, 0, 0);
+        tabOne.setTextSize(getResources().getDimension(R.dimen.tab_font_size));
 
         TextView tabTwo = (TextView) LayoutInflater.from(this).inflate(R.layout.custom_tab, null);
         tabTwo.setText(getString(R.string.tab_agenda));
         tabTwo.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.ic_event_note_black_24dp, 0, 0);
+        tabTwo.setTextSize(getResources().getDimension(R.dimen.tab_font_size));
 
         TextView tabThree = (TextView) LayoutInflater.from(this).inflate(R.layout.custom_tab, null);
         tabThree.setText(getString(R.string.tab_routes));
         tabThree.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.ic_timeline_black_24dp, 0, 0);
+        tabThree.setTextSize(getResources().getDimension(R.dimen.tab_font_size));
 
         TextView tabFour = (TextView) LayoutInflater.from(this).inflate(R.layout.custom_tab, null);
         tabFour.setText(getString(R.string.tab_places));
         tabFour.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.ic_place_black_24dp, 0, 0);
+        tabFour.setTextSize(getResources().getDimension(R.dimen.tab_font_size));
 
         tabLayout.getTabAt(0).setCustomView(tabOne);
         tabLayout.getTabAt(1).setCustomView(tabTwo);

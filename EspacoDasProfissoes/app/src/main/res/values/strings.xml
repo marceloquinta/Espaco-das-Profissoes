@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Espaço das Profissões</string>
+    <string name="app_name">Espaço UFG</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="tab_courses">Cursos</string>
@@ -8,6 +8,7 @@
     <string name="tab_places">Mapa</string>
     <string name="tab_info">Info</string>
 
+    <string name="app_nameW_with_spacer"> - Espaço das Profissões</string>
     <string name="menu_search">Procurar</string>
 
     <!-- TODO: Remove or change this placeholder text -->

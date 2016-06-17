@@ -27,26 +27,29 @@
                 android:layout_height="wrap_content"
                 android:minHeight="?attr/actionBarSize"
                 android:background="?attr/colorPrimary"
-                local:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+                local:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                app:layout_scrollFlags="scroll|enterAlways"
+                android:layout_marginBottom="4dp"
+                >
 
-                <!--<ImageView-->
-                    <!--android:id="@+id/image_logo"-->
-                    <!--android:layout_width="32dp"-->
-                    <!--android:layout_height="32dp"-->
-                    <!--android:scaleType="centerCrop"-->
-                    <!--app:srcCompat="@drawable/logo_ufg1"-->
-                    <!--android:layout_marginTop="4dp"/>-->
+                <ImageView
+                    android:id="@+id/image_logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/logo_ufg1"
+                    android:layout_marginTop="4dp"/>
 
-                <!--<TextView-->
-                    <!--android:id="@+id/label_nameplace"-->
-                    <!--android:layout_width="wrap_content"-->
-                    <!--android:layout_height="32dp"-->
-                    <!--android:textStyle="bold"-->
-                    <!--android:text="@string/app_name"-->
-                    <!--android:gravity="center_vertical"-->
-                    <!--android:textColor="@color/white"-->
-                    <!--android:textSize="18sp"-->
-                    <!--android:layout_marginLeft="28dp"/>-->
+                <TextView
+                    android:id="@+id/label_nameplace"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:text="@string/app_nameW_with_spacer"
+                    android:textStyle="bold"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/title_size"
+                    android:layout_marginLeft="28dp"/>
             </android.support.v7.widget.Toolbar>
 
             <android.support.design.widget.TabLayout
@@ -54,7 +57,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:tabMode="fixed"
-                app:tabGravity="fill"/>
+                app:tabGravity="fill"
+                style="@style/MyCustomTabLayout"/>
 
         </android.support.design.widget.AppBarLayout>
 
