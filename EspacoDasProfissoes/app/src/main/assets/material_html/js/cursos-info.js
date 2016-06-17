@@ -39,40 +39,44 @@ jQuery(document).ready(function($) {
     function colocarDados(){
 
       var dadosDoCursoSelecionado = dadosCurso.regionais[regionalSelecionada].cursos[cursoSelecionado];
-      
+
       domInfo.eq(0).children('span.subtitulo').text(
+          dadosCurso.regionais[regionalSelecionada].nome
+        );
+
+      domInfo.eq(1).children('span.subtitulo').text(
           dadosRedundantes
           .cursos
           .graus
           [dadosDoCursoSelecionado
           .grau]
         );
-      domInfo.eq(1).children('span.subtitulo').text(
+      domInfo.eq(2).children('span.subtitulo').text(
           dadosRedundantes
           .cursos
           .processos_seletivos
           [dadosDoCursoSelecionado
           .ps]
         ); 
-      domInfo.eq(2).children('span.subtitulo').text(
+      domInfo.eq(3).children('span.subtitulo').text(
           dadosDoCursoSelecionado
           .duracao
           .toString()+' semestres'
         ); 
-      domInfo.eq(3).children('span.subtitulo').text(
+      domInfo.eq(4).children('span.subtitulo').text(
           dadosRedundantes
           .cursos
           .turnos
           [dadosDoCursoSelecionado
           .turno]
         ); 
-      domInfo.eq(4).children('span.subtitulo').text(
+      domInfo.eq(5).children('span.subtitulo').text(
           dadosDoCursoSelecionado
           .n_vagas
           .toString()
         );
       if (regionalSelecionada == 0) {
-        domInfo.eq(5).removeClass('esconder').children('span.subtitulo').text(
+        domInfo.eq(6).removeClass('esconder').children('span.subtitulo').text(
           dadosRedundantes
           .cursos
           .campi

@@ -1394,6 +1394,7 @@
 
 		{
 			"nome": "Jataí",
+			"data_evento": "15 de junho",
 			"cursos":[
 				{
 					"nome": "Agronomia",
@@ -1724,6 +1725,7 @@
 
 		{
 			"nome": "Catalão",
+			"data_evento": "28 de setembro",
 			"cursos":[
 				{
 					"nome": "Administração",
@@ -2015,6 +2017,7 @@
 
 		{
 			"nome": "Goiás",
+			"data_evento": "14 de setembro",
 			"cursos":[
 				{
 					"nome": "Administração",

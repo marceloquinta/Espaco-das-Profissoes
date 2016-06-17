@@ -6,11 +6,11 @@ jQuery(document).ready(function($) {
         dataType: "text"
       }),
       containerDias = $('div.itemslider > div.container'),
-      card = $('div.card'),
+      card = $('div.card').clone(),
       rotaEscolhida = Android.getRotaId(); // valor real para o app
       // rotaEscolhida = 3; //valor fixo para testes
 
-
+  $('div.card').remove();
 	getRotas.done(function(data){
       dadosRotas = $.parseJSON(data);
     });
