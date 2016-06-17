@@ -14,6 +14,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.SearchView;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.InflateException;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -78,13 +79,11 @@ public class MapFragment extends Fragment implements OnMapReadyCallback,
         View view = getView();
         if (view != null) {
             ViewGroup parent = (ViewGroup) view.getParent();
-            if (parent != null)
-                parent.removeView(view);
         }
         try {
             view = inflater.inflate(R.layout.fragment_maps, container, false);
         } catch (InflateException e) {
-        /* map is already there, just return view as it is */
+            Log.d("BUG",e.getMessage());
         }
 
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
