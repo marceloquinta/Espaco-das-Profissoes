@@ -26,6 +26,8 @@ import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.MapView;
+import com.google.android.gms.maps.MapsInitializer;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptor;
@@ -59,14 +61,15 @@ public class MapFragment extends Fragment implements OnMapReadyCallback,
         GoogleMap.OnInfoWindowClickListener, GoogleMap.OnMarkerClickListener,
         GoogleMap.OnPolylineClickListener {
 
-    private SupportMapFragment mapFragment;
     private GoogleMap map;
+    private MapView mapView;
     private Map<Marker, Place> markers;
     private Map<Place, Marker> placesToMarker;
     private Map<Polyline, Route> polylines;
     private List<Place> places;
     private List<Place> filteredPlaces;
     private List<Route> routes;
+    private View view;
 
     public MapFragment() {
         // Required empty public constructor
@@ -75,26 +78,27 @@ public class MapFragment extends Fragment implements OnMapReadyCallback,
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        view = inflater.inflate(R.layout.fragment_maps, container,
+                false);
+        mapView = (MapView) view.findViewById(R.id.map);
+        mapView.onCreate(savedInstanceState);
 
-        View view = getView();
-        if (view != null) {
-            ViewGroup parent = (ViewGroup) view.getParent();
-        }
+        mapView.onResume();
+
         try {
-            view = inflater.inflate(R.layout.fragment_maps, container, false);
-        } catch (InflateException e) {
-            Log.d("BUG",e.getMessage());
+            MapsInitializer.initialize(getActivity().getApplicationContext());
+        } catch (Exception e) {
+            e.printStackTrace();
         }
 
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
-        mapFragment = (SupportMapFragment) getChildFragmentManager().findFragmentById(R.id.map);
-        mapFragment.getMapAsync(this);
         markers = new HashMap<>();
         placesToMarker = new HashMap<>();
         polylines = new HashMap<>();
         readPlaces();
         readRoutes();
         setHasOptionsMenu(true);
+        mapView.getMapAsync(this);
         return view;
     }
 
@@ -124,7 +128,8 @@ public class MapFragment extends Fragment implements OnMapReadyCallback,
                 ((MainActivity) getActivity()).hideKeyboard();
                 filteredPlaces = new ArrayList<>();
                 for (Place place : places) {
-                    if (place.getName().toLowerCase().contains(query.trim().toLowerCase())) {
+                    if (place.getName().toLowerCase().contains(query.trim().toLowerCase()) ||
+                            place.getSnippet().toLowerCase().contains(query.trim().toLowerCase())) {
                         filteredPlaces.add(place);
                     }
                 }
@@ -160,6 +165,7 @@ public class MapFragment extends Fragment implements OnMapReadyCallback,
                 place.setSnippet(placeAsJSON.getString("snippet"));
                 place.setLatitude(placeAsJSON.getDouble("latitude"));
                 place.setLongitude(placeAsJSON.getDouble("longitude"));
+                place.setPinColor(placeAsJSON.getString("pinColor"));
                 places.add(place);
             }
         } catch (JSONException e) {
@@ -269,7 +275,27 @@ public class MapFragment extends Fragment implements OnMapReadyCallback,
         double longitude = place.getLongitude();
         Marker marker = null;
 
-        BitmapDescriptor icon = BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET);
+        BitmapDescriptor icon = BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_YELLOW);
+        switch (place.getPinColor()){
+            case "VERMELHO":
+                icon = BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED);
+                break;
+            case "AZUL":
+                icon = BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE);
+                break;
+            case "GREEN":
+                icon = BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN);
+                break;
+            case "AZURE":
+                icon = BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE);
+                break;
+            case "ROSE":
+                icon = BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ROSE);
+                break;
+            case "ROXO":
+                icon = BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET);
+                break;
+        }
         marker = map.addMarker(
                 new MarkerOptions()
                         .position(new LatLng(latitude, longitude))

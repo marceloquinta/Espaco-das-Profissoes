@@ -7,6 +7,7 @@ public class Place {
     private double latitude;
     private double longitude;
     private String snippet;
+    private String pinColor;
 
     public String getName() {
         return name;
@@ -38,5 +39,13 @@ public class Place {
 
     public void setSnippet(String snippet) {
         this.snippet = snippet;
+    }
+
+    public String getPinColor() {
+        return pinColor;
+    }
+
+    public void setPinColor(String pinColor) {
+        this.pinColor = pinColor;
     }
 }

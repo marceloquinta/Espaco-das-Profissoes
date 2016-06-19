@@ -8,7 +8,7 @@ import android.webkit.WebViewClient;
 public class SpecialWebViewClient extends WebViewClient {
     @Override
     public boolean shouldOverrideUrlLoading(WebView view, String url) {
-        if (url != null && url.startsWith("http://")) {
+        if (url != null && url.startsWith("http://") ) {
             view.getContext().startActivity(
                     new Intent(Intent.ACTION_VIEW, Uri.parse(url)));
             return true;
