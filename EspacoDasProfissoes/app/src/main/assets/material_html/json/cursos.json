@@ -305,7 +305,7 @@
           "pal_numero": "16"
         },
         {
-          "nome": "Comunicação Social - Publicidade e Propaganda",
+          "nome": "Publicidade e Propaganda",
           "grau": 0,
           "ps": 0,
           "duracao": 8,
@@ -1985,7 +1985,7 @@
           "duracao": 10,
           "turno": 0,
           "n_vagas": 50,
-          "id_ei": "",
+          "id_ei": "eng_mina",
           "ei_numero": [
             ""
           ],
@@ -2111,7 +2111,7 @@
           "duracao": 8,
           "turno": 1,
           "n_vagas": 50,
-          "id_ei": "",
+          "id_ei": "mat_ind",
           "ei_numero": [
             ""
           ],

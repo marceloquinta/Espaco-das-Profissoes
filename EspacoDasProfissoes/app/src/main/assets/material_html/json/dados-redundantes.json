@@ -41,19 +41,27 @@
       "id_mapa": "A10"
     },
     {
-      "nome": "Centro de Aulas Baru",
-      "id_mapa": "D6"
+      "nome": "ICB III - Pav. Térreo",
+      "id_mapa": ""
+    },
+    {
+      "nome": "ICB III - Pav. Superior",
+      "id_mapa": ""
     },
     {
       "nome": "Faculdade de Informação e Comunicação - FIC",
       "id_mapa": "A12"
     },
     {
+      "nome": "Centro de Aulas Baru",
+      "id_mapa": "D6"
+    },    
+    {
       "nome": "Centro de Aulas Caraíbas",
       "id_mapa": "D1"
     },
     {
-      "nome": "Faculdade de História - FH",
+      "nome": "FCS/FAFIL/FH",
       "id_mapa": "A11"
     },
     {
@@ -61,16 +69,12 @@
       "id_mapa": "A3"
     },
     {
-      "nome": "Faculdade de Letras - FL ",
+      "nome": "Faculdade de Letras - FL",
       "id_mapa": "A19"
     },
     {
       "nome": "Escola de Música e Artes Cênicas - EMAC",
       "id_mapa": "A1"
-    },
-    {
-      "nome": "Escola de Agronomia",
-      "id_mapa": "K2"
     },
     {
       "nome": "Escola de Veterinária e Zootecnia - EVZ",

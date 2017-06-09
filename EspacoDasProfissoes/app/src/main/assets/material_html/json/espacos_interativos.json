@@ -1,58 +1,64 @@
 {
   "espacos_interativos": [
     {
-      "curso": "Engenharia Ambiental e Sanitária",
-      "ID": "eng_amb_san",
+      "curso": "Engenharia de Minas (Catalão)",
+      "ID": "eng_mina",
       "local": "0",
       "sala": "102"
-    },
-    {
-      "curso": "Engenharia Civil",
-      "ID": "eng_civ",
-      "local": "0",
-      "sala": "103"
-    },
-    {
-      "curso": "Química (Bacharelado)",
-      "ID": "quim_ba",
-      "local": "0",
-      "sala": "201"
-    },
-    {
-      "curso": "Engenharia de Transportes",
-      "ID": "eng_transp",
-      "local": "0",
-      "sala": "203"
-    },
-    {
-      "curso": "Engenharia de Produção",
-      "ID": "eng_prod",
-      "local": "0",
-      "sala": "204"
-    },
-    {
-      "curso": "Geologia",
-      "ID": "geologia",
-      "local": "0",
-      "sala": "205"
-    },
-    {
-      "curso": "Engenharia Mecânica",
-      "ID": "eng_mec",
-      "local": "0",
-      "sala": "301"
-    },
-    {
-      "curso": "Engenharia Elétrica",
-      "ID": "eng_elet",
-      "local": "0",
-      "sala": "304"
     },
     {
       "curso": "Engenharia de Computação",
       "ID": "eng_comp",
       "local": "0",
-      "sala": "305"
+      "sala": "103"
+    }, 
+    {
+      "curso": "Química - Bacharelado",
+      "ID": "quim_ba",
+      "local": "0",
+      "sala": "109"
+    }, 
+    {
+      "curso": "Engenharia Mecânica",
+      "ID": "eng_mec",
+      "local": "0",
+      "sala": "110"
+    },
+    {
+      "curso": "Engenharia Ambiental e Sanitária",
+      "ID": "eng_amb_san",
+      "local": "0",
+      "sala": "201"
+    },
+    {
+      "curso": "Geologia",
+      "ID": "geologia",
+      "local": "0",
+      "sala": "202"
+    },
+    {
+      "curso": "Engenharia Civil",
+      "ID": "eng_civ",
+      "local": "0",
+      "sala": "204"
+    },
+    {
+      "curso": "Engenharia de Transportes",
+      "ID": "eng_transp",
+      "local": "0",
+      "sala": "209"
+    },
+    {
+      "curso": "Engenharia de Produção",
+      "ID": "eng_prod",
+      "local": "0",
+      "sala": "208"
+    },
+    {
+      "curso": "Engenharia Elétrica",
+      "ID": "eng_elet",
+      "local": "0",
+      "sala": "208"
     },
     {
       "curso": "Engenharia Química",
@@ -79,321 +85,357 @@
       "sala": ""
     },
     {
-      "curso": "Sistemas de Informação",
-      "ID": "sist_info",
-      "local": "3",
-      "sala": "101"
-    },
-    {
-      "curso": "Ciências da Computação",
-      "ID": "ciencias_comp",
-      "local": "3",
-      "sala": "103"
-    },
-    {
-      "curso": "Engenharia de Software",
-      "ID": "eng_soft",
-      "local": "3",
-      "sala": "109"
-    },
-    {
-      "curso": "Quimica (Licenciatura)",
+      "curso": "Quimica",
       "ID": "quim_li",
-      "local": "3",
-      "sala": "110"
-    },
-    {
-      "curso": "Ciências Biológicas",
-      "ID": "ciencias_bio",
-      "local": "3",
-      "sala": "201"
-    },
-    {
-      "curso": "Ecologia e Análise Ambiental",
-      "ID": "eco_ana_amb",
-      "local": "3",
-      "sala": "202"
-    },
-    {
-      "curso": "Medicina",
-      "ID": "med",
-      "local": "3",
-      "sala": "205"
-    },
-    {
-      "curso": "Enfermagem",
-      "ID": "enferm",
-      "local": "3",
-      "sala": "208"
-    },
-    {
-      "curso": "Biotecnologia",
-      "ID": "biotec",
-      "local": "3",
-      "sala": "301"
-    },
-    {
-      "curso": "Odontologia",
-      "ID": "odonto",
-      "local": "3",
-      "sala": "304"
-    },
-    {
-      "curso": "Farmácia",
-      "ID": "farm",
-      "local": "3",
-      "sala": "305"
-    },
+      "local": "2",
+      "sala": ""
+    },  
     {
       "curso": "Biomedicina",
       "ID": "biomed",
       "local": "3",
-      "sala": "307"
+      "sala": "Sala Magda"
     },
     {
-      "curso": "Nutrição",
-      "ID": "nutri",
-      "local": "3",
-      "sala": "309"
-    },
+      "curso": "Biomedicina",
+      "ID": "biomed",
+      "local": "4",
+      "sala": "Museu de Anatomia"
+    },    
     {
       "curso": "Biblioteconomia",
       "ID": "biblioecon",
-      "local": "4",
+      "local": "5",
       "sala": "4"
     },
     {
-      "curso": "Com. Social (Publicidade e Propaganda)",
+      "curso": "Publicidade e Propaganda",
       "ID": "com_soc_pub_prop",
-      "local": "4",
+      "local": "5",
       "sala": "5"
     },
     {
-      "curso": "Com. Social (Jornalismo)",
+      "curso": "Jornalismo",
       "ID": "com_soc_jorn",
-      "local": "4",
+      "local": "5",
       "sala": "6"
     },
     {
       "curso": "Com. Social (Relações Públicas)",
       "ID": "com_soc_rel_pub",
-      "local": "4",
+      "local": "5",
       "sala": "7"
     },
     {
-      "curso": "Gestão da Informação",
-      "ID": "gest_info",
-      "local": "4",
-      "sala": "8"
+      "curso": "Odontologia",
+      "ID": "odonto",
+      "local": "6",
+      "sala": "101"
     },
     {
-      "curso": "Pedagogia",
-      "ID": "pedag",
-      "local": "5",
-      "sala": "104"
+      "curso": "Biotecnologia",
+      "ID": "biotec",
+      "local": "6",
+      "sala": "102"
+    },      
+    {
+      "curso": "Quimica (Licenciatura)",
+      "ID": "quim_li",
+      "local": "6",
+      "sala": "103"
+    },
+    {
+      "curso": "Engenharia de Alimentos",
+      "ID": "eng_alim",
+      "local": "6",
+      "sala": "107"
+    },
+    {
+      "curso": "Engenharia Florestal",
+      "ID": "eng_florest",
+      "local": "6",
+      "sala": "109"
+    },    
+    {
+      "curso": "Agronomia",
+      "ID": "agro",
+      "local": "6",
+      "sala": "110"
+    },
+    {
+      "curso": "Nutrição",
+      "ID": "nutri",
+      "local": "6",
+      "sala": "202"
+    },    
+    {
+      "curso": "Medicina",
+      "ID": "med",
+      "local": "6",
+      "sala": "204"
+    },
+    {
+      "curso": "Medicina",
+      "ID": "med",
+      "local": "6",
+      "sala": "205"
+    },
+    {
+      "curso": "Enfermagem",
+      "ID": "enferm",
+      "local": "6",
+      "sala": "208"
+    },    
+    {
+      "curso": "Ciências Biológicas",
+      "ID": "ciencias_bio",
+      "local": "6",
+      "sala": "301"
+    },
+    {
+      "curso": "Farmácia",
+      "ID": "farm",
+      "local": "6",
+      "sala": "304"
     },
     {
       "curso": "Psicologia",
       "ID": "psic",
-      "local": "5",
-      "sala": "106"
+      "local": "6",
+      "sala": "305"
+    },      
+    {
+      "curso": "Ecologia e Análise Ambiental",
+      "ID": "eco_ana_amb",
+      "local": "6",
+      "sala": "310"
     },
     {
-      "curso": "Geografia",
+      "curso": "Geografia (Bacharelado e Licenciatura)",
       "ID": "geo",
-      "local": "5",
-      "sala": "109"
+      "local": "7",
+      "sala": "102 (Ateliê)"
     },
     {
       "curso": "Ciências Ambientais",
       "ID": "ciencias_amb",
-      "local": "5",
-      "sala": "110"
-    },
+      "local": "7",
+      "sala": "102 (Ateliê)"
+    },    
     {
-      "curso": "Estatística",
-      "ID": "estat",
-      "local": "5",
-      "sala": "201"
-    },
-    {
-      "curso": "Matemática",
-      "ID": "mat",
-      "local": "5",
-      "sala": "202"
+      "curso": "Pedagogia",
+      "ID": "pedag",
+      "local": "7",
+      "sala": "104"
     },
     {
       "curso": "Direito",
       "ID": "direito",
-      "local": "5",
+      "local": "7",
+      "sala": "106"
+    },
+    {
+      "curso": "Sistemas de Informação",
+      "ID": "sist_info",
+      "local": "7",
+      "sala": "203"
+    },
+    {
+      "curso": "Ciências da Computação",
+      "ID": "ciencias_comp",
+      "local": "7",
       "sala": "204"
     },
     {
-      "curso": "Ciências Sociais (Bacharelado e Políticas Públicas)",
-      "ID": "ciencias_soc_ba_pol_pub",
-      "local": "6",
-      "sala": "CS-1"
+      "curso": "Matemática",
+      "ID": "mat",
+      "local": "7",
+      "sala": "205"
     },
     {
-      "curso": "Ciências Sociais (Licenciatura)",
-      "ID": "ciencias_soc_li",
-      "local": "6",
+      "curso": "Engenharia de Software",
+      "ID": "eng_soft",
+      "local": "7",
+      "sala": "206"
+    },
+    {
+      "curso": "Gestão da Informação",
+      "ID": "gest_info",
+      "local": "7",
+      "sala": "208"
+    },
+    {
+      "curso": "Matemática Industrial (Catalão)",
+      "ID": "mat_ind",
+      "local": "7",
+      "sala": "209"
+    },
+    {
+      "curso": "Ciências Sociais (Políticas Públicas)",
+      "ID": "ciencias_soc_ba_pol_pub",
+      "local": "8",
       "sala": "CS-3"
     },
     {
       "curso": "Museologia",
       "ID": "museo",
-      "local": "6",
-      "sala": "CS-2"
+      "local": "8",
+      "sala": "CS-4"
+    },
+    {
+      "curso": "Ciências Sociais (Laboratório de Ciências Sociais)",
+      "ID": "ciencias_soc_li",
+      "local": "8",
+      "sala": "HI (CS-05)"
     },
     {
       "curso": "História",
       "ID": "hist",
-      "local": "6",
-      "sala": "H4"
+      "local": "8",
+      "sala": "H2"
     },
     {
       "curso": "Relações Internacionais",
       "ID": "rel_inter",
-      "local": "6",
-      "sala": "H2"
+      "local": "8",
+      "sala": "H3"
     },
     {
       "curso": "Filosofia",
       "ID": "filos",
-      "local": "6",
+      "local": "8",
       "sala": "F1"
     },
     {
-      "curso": "Artes Visuais - Bacharelado",
+      "curso": "Artes Visuais - Bacharelado (Expolab)",
       "ID": "art_visu_ba",
-      "local": "7",
-      "sala": "9 e 16"
-    },
-    {
-      "curso": "Artes Visuais - Licenciatura",
-      "ID": "art_visu_li",
-      "local": "7",
-      "sala": "13"
+      "local": "9",
+      "sala": "9"
     },
     {
       "curso": "Arquitetura e Urbanismo",
       "ID": "arq_urb",
-      "local": "7",
+      "local": "9",
       "sala": "11"
+    },
+    {
+      "curso": "Artes Visuais - Licenciatura",
+      "ID": "art_visu_li",
+      "local": "9",
+      "sala": "13"
     },
     {
       "curso": "Design de Ambientes",
       "ID": "des_amb",
-      "local": "7",
+      "local": "9",
       "sala": "15"
     },
     {
+      "curso": "Artes Visuais - Bacharelado (Ateliê de Pintura)",
+      "ID": "art_visu_ba",
+      "local": "9",
+      "sala": "16"
+    },    
+    {
       "curso": "Design de Moda",
       "ID": "des_moda",
-      "local": "7",
+      "local": "9",
       "sala": "17"
     },
     {
       "curso": "Design Gráfico",
       "ID": "des_graf",
-      "local": "7",
+      "local": "9",
       "sala": "19"
     },
     {
       "curso": "Letras (Esp., Fr., Ing., Port., Est. Lit., Linguíst.)",
       "ID": "letras_linguas",
-      "local": "8",
-      "sala": "2"
+      "local": "10",
+      "sala": "4"
     },
     {
       "curso": "Letras (Libras, Trad. Interp. Libras/port.)",
       "ID": "letras_libras",
-      "local": "8",
-      "sala": "3"
-    },
-    {
-      "curso": "Administração",
-      "ID": "admin",
-      "local": "8",
+      "local": "10",
       "sala": "5"
     },
     {
       "curso": "Ciências Econômicas",
       "ID": "ciencias_eco",
-      "local": "8",
+      "local": "10",
       "sala": "17"
     },
     {
       "curso": "Ciências Contábeis",
       "ID": "ciencias_cont",
-      "local": "8",
-      "sala": "21"
+      "local": "10",
+      "sala": "20"
     },
     {
-      "curso": "Teatro",
+      "curso": "Administração",
+      "ID": "admin",
+      "local": "10",
+      "sala": "21"
+    },   
+    {
+      "curso": "Estatística",
+      "ID": "estat",
+      "local": "10",
+      "sala": "22"
+    }, 
+    {
+      "curso": "Teatro Licenciatura",
       "ID": "teatro",
-      "local": "9",
-      "sala": "121 - Lab 01"
+      "local": "11",
+      "sala": "Lab 01"
     },
     {
       "curso": "Direção de Arte",
       "ID": "dir_arte",
-      "local": "9",
-      "sala": "124 - Lab 04"
+      "local": "11",
+      "sala": "Lab 02"
     },
     {
-      "curso": "Música",
+      "curso": "Música Bacharelado",
       "ID": "musica",
-      "local": "9",
-      "sala": "126"
+      "local": "11",
+      "sala": "110"
+    },
+    {
+      "curso": "Música Licenciatura",
+      "ID": "musica",
+      "local": "11",
+      "sala": "102"
     },
     {
       "curso": "Musicoterapia",
       "ID": "musicotep",
-      "local": "9",
-      "sala": "127"
-    },
-    {
-      "curso": "Agronomia",
-      "ID": "agro",
-      "local": "10",
-      "sala": ""
-    },
-    {
-      "curso": "Engenharia Florestal",
-      "ID": "eng_florest",
-      "local": "10",
-      "sala": ""
-    },
-    {
-      "curso": "Engenharia de Alimentos",
-      "ID": "eng_alim",
-      "local": "10",
-      "sala": ""
+      "local": "11",
+      "sala": "103"
     },
     {
       "curso": "Medicina Veterinária",
       "ID": "med_vet",
-      "local": "11",
+      "local": "12",
       "sala": ""
     },
     {
       "curso": "Zootecnia",
       "ID": "zoot",
-      "local": "11",
+      "local": "12",
       "sala": ""
     },
     {
       "curso": "Educação Física",
       "ID": "ed_fisica",
-      "local": "12",
+      "local": "13",
       "sala": ""
     },
     {
       "curso": "Dança",
       "ID": "danca",
-      "local": "12",
+      "local": "13",
       "sala": ""
     }
   ]
