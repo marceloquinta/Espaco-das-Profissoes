@@ -1,127 +1,109 @@
 {
-	"dias":{
-		"1o": "20/06",
-		"2o": "21/06"
-	},
-	"cursos":{
-		"graus": [
-			"Bacharelado", 
-			"Licenciatura", 
-			"Bacharelado e Licenciatura", 
-			"Bacharelado e bacharelado/licenciatura"
-		],
-		"processos_seletivos": 
-		[
-			"SiSU", 
-			"PS", 
-			"VHCE"
-		],
-		"turnos": 
-		[
-			"Integral", 
-			"Matutino", 
-			"Vespertino", 
-			"Noturno"
-		],
-		"campi": 
-		[
-			"Samambaia", 
-			"Colemar Natal e Silva", 
-			"Aparecida de Goiânia"
-		]
-	},
-	"locais_espacos_interativos": [
-		{
-			"nome": "Centro de Aulas Aroeira",
-			"id_mapa": "A18"
-		},
-
-		{
-			"nome": "Lab. de Engenharia Química",
-			"id_mapa": "A9"
-		},
-
-		{
-			"nome": "Pátio da Ciência",
-			"id_mapa": "A10"
-		},
-
-		{
-			"nome": "Centro de Aulas Baru", 
-			"id_mapa": "D6"
-		},
-
-		{
-			"nome": "Faculdade de Informação e Comunicação - FIC",
-			"id_mapa": "A12"
-		},
-
-		{
-			"nome": "Centro de Aulas Caraíbas",
-			"id_mapa": "D1"
-		},
-
-		{
-			"nome": "Faculdade de História - FH",
-			"id_mapa": "A11"
-		},
-
-		{
-			"nome": "Faculdade de Artes Visuais - FAV",
-			"id_mapa": "A3"
-		},
-
-		{
-			"nome": "Faculdade de Letras - FL ",
-			"id_mapa": "A19"
-		},
-
-		{
-			"nome": "Escola de Música e Artes Cênicas - EMAC",
-			"id_mapa": "A1"
-		},
-
-		{
-			"nome": "Escola de Agronomia",
-			"id_mapa": "K2"
-		},
-
-		{
-			"nome": "Escola de Veterinária e Zootecnia - EVZ",
-			"id_mapa": "K1"
-		},
-
-		{
-			"nome": "Faculdade de Educação Física e Dança - FEFD",
-			"id_mapa": "E1"
-		}
-	],
-
-	"horarios_palestras_cursos":[
-		[
-			"20/06, às 14h20",
-			"20/06, às 19h50",
-			"21/06, às 08h50",
-			"21/06, às 14h20"
-		],
-
-		[
-			"20/06, às 15h00",
-			"20/06, às 20h25",
-			"21/06, às 09h30",
-			"21/06, às 15h00"
-		],
-
-		[
-			"20/06, às 15h40",
-			"20/06, às 21h00",
-			"21/06, às 10h10",
-			"21/06, às 15h40"
-		]
-	],
-	"tipos_de_evento": [
-		"Palestra geral",
-		"Palestras dos cursos",
-		"Evento Cutural"
-	]
+  "dias": {
+    "1o": "20/06",
+    "2o": "21/06"
+  },
+  "cursos": {
+    "graus": [
+      "Bacharelado",
+      "Licenciatura",
+      "Bacharelado e Licenciatura",
+      "Bacharelado e bacharelado/licenciatura"
+    ],
+    "processos_seletivos": [
+      "SiSU",
+      "PS",
+      "VHCE"
+    ],
+    "turnos": [
+      "Integral",
+      "Matutino",
+      "Vespertino",
+      "Noturno"
+    ],
+    "campi": [
+      "Samambaia",
+      "Colemar Natal e Silva",
+      "Aparecida de Goiânia"
+    ]
+  },
+  "locais_espacos_interativos": [
+    {
+      "nome": "Centro de Aulas Aroeira",
+      "id_mapa": "A18"
+    },
+    {
+      "nome": "Lab. de Engenharia Química",
+      "id_mapa": "A9"
+    },
+    {
+      "nome": "Pátio da Ciência",
+      "id_mapa": "A10"
+    },
+    {
+      "nome": "Centro de Aulas Baru",
+      "id_mapa": "D6"
+    },
+    {
+      "nome": "Faculdade de Informação e Comunicação - FIC",
+      "id_mapa": "A12"
+    },
+    {
+      "nome": "Centro de Aulas Caraíbas",
+      "id_mapa": "D1"
+    },
+    {
+      "nome": "Faculdade de História - FH",
+      "id_mapa": "A11"
+    },
+    {
+      "nome": "Faculdade de Artes Visuais - FAV",
+      "id_mapa": "A3"
+    },
+    {
+      "nome": "Faculdade de Letras - FL ",
+      "id_mapa": "A19"
+    },
+    {
+      "nome": "Escola de Música e Artes Cênicas - EMAC",
+      "id_mapa": "A1"
+    },
+    {
+      "nome": "Escola de Agronomia",
+      "id_mapa": "K2"
+    },
+    {
+      "nome": "Escola de Veterinária e Zootecnia - EVZ",
+      "id_mapa": "K1"
+    },
+    {
+      "nome": "Faculdade de Educação Física e Dança - FEFD",
+      "id_mapa": "E1"
+    }
+  ],
+  "horarios_palestras_cursos": [
+    [
+      "20/06, às 14h20",
+      "20/06, às 19h50",
+      "21/06, às 08h50",
+      "21/06, às 14h20"
+    ],
+    [
+      "20/06, às 15h00",
+      "20/06, às 20h25",
+      "21/06, às 09h30",
+      "21/06, às 15h00"
+    ],
+    [
+      "20/06, às 15h40",
+      "20/06, às 21h00",
+      "21/06, às 10h10",
+      "21/06, às 15h40"
+    ]
+  ],
+  "tipos_de_evento": [
+    "Palestra geral",
+    "Palestras dos cursos",
+    "Evento Cutural"
+  ]
 }

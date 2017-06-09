@@ -1,263 +1,263 @@
 {
-  "places" : [
+  "places": [
     {
-      "name" : "Laboratório de Genética e Biodiversidade",
-      "snippet" : "LGBIO",
-      "latitude" : -16.603166,
-      "longitude" : -49.260726,
-      "pinColor" : "GREEN"
+      "name": "Laboratório de Genética e Biodiversidade",
+      "snippet": "LGBIO",
+      "latitude": -16.603166,
+      "longitude": -49.260726,
+      "pinColor": "GREEN"
     },
     {
-      "name" : "Herbário",
-      "snippet" : "Unidade de Conservação (G2)",
-      "latitude" : -16.6065521,
-      "longitude" : -49.264145,
-      "pinColor" : "ROSE"
+      "name": "Herbário",
+      "snippet": "Unidade de Conservação (G2)",
+      "latitude": -16.6065521,
+      "longitude": -49.264145,
+      "pinColor": "ROSE"
     },
     {
-      "name" : "Laboratório de Ecologia e Evolução",
-      "snippet" : "ECOEVOL (C3)",
-      "latitude" : -16.601750,
-      "longitude" : -49.261143,
-      "pinColor" : "GREEN"
+      "name": "Laboratório de Ecologia e Evolução",
+      "snippet": "ECOEVOL (C3)",
+      "latitude": -16.601750,
+      "longitude": -49.261143,
+      "pinColor": "GREEN"
     },
     {
-      "name" : "Escola de Veterinária e Zootecnia",
-      "snippet" : "EVZ (K1)",
-      "latitude" : -16.599782,
-      "longitude" : -49.277013,
-      "pinColor" : ""
+      "name": "Escola de Veterinária e Zootecnia",
+      "snippet": "EVZ (K1)",
+      "latitude": -16.599782,
+      "longitude": -49.277013,
+      "pinColor": ""
     },
     {
-      "name" : "Escola de Agronomia",
-      "snippet" : "EA (K2)",
-      "latitude" : -16.598480,
-      "longitude" :  -49.281109,
-      "pinColor" : ""
+      "name": "Escola de Agronomia",
+      "snippet": "EA (K2)",
+      "latitude": -16.598480,
+      "longitude": -49.281109,
+      "pinColor": ""
     },
     {
-      "name" : "Biblioteca central",
-      "snippet" : "BC (A2)",
-      "latitude" : -16.605630,
-      "longitude" :  -49.261204,
-      "pinColor" : "GREEN"
+      "name": "Biblioteca central",
+      "snippet": "BC (A2)",
+      "latitude": -16.605630,
+      "longitude": -49.261204,
+      "pinColor": "GREEN"
     },
     {
-      "name" : "Centro de Aulas Aroeira",
-      "snippet" : "CA A (A18)",
-      "latitude" : -16.602730,
-      "longitude" :  -49.262792,
-      "pinColor" : "GREEN"
+      "name": "Centro de Aulas Aroeira",
+      "snippet": "CA A (A18)",
+      "latitude": -16.602730,
+      "longitude": -49.262792,
+      "pinColor": "GREEN"
     },
     {
-      "name" : "Centro de Aulas Baru",
-      "snippet" : "CA B (D6)",
-      "latitude" : -16.603146,
-      "longitude" :  -49.265796,
-      "pinColor" : "ROXO"
+      "name": "Centro de Aulas Baru",
+      "snippet": "CA B (D6)",
+      "latitude": -16.603146,
+      "longitude": -49.265796,
+      "pinColor": "ROXO"
     },
     {
-      "name" : "Centro de Aulas Caraíba",
-      "snippet" : "CA C (D1)",
-      "latitude" : -16.604190,
-      "longitude" :  -49.264562,
-      "pinColor" : "ROXO"
+      "name": "Centro de Aulas Caraíba",
+      "snippet": "CA C (D1)",
+      "latitude": -16.604190,
+      "longitude": -49.264562,
+      "pinColor": "ROXO"
     },
     {
-      "name" : "Centro de Convivência - Quadra A",
-      "snippet" : "CC (A7)",
-      "latitude" : -16.603809,
-      "longitude" :  -49.260416,
-      "pinColor" : "GREEN"
+      "name": "Centro de Convivência - Quadra A",
+      "snippet": "CC (A7)",
+      "latitude": -16.603809,
+      "longitude": -49.260416,
+      "pinColor": "GREEN"
     },
     {
-      "name" : "Centro de Eventos Prof. Ricardo Freua Bufaiçal",
-      "snippet" : "C2",
-      "latitude" : -16.604144,
-      "longitude" :  -49.259064,
-      "pinColor" : "AZURE"
+      "name": "Centro de Eventos Prof. Ricardo Freua Bufaiçal",
+      "snippet": "C2",
+      "latitude": -16.604144,
+      "longitude": -49.259064,
+      "pinColor": "AZURE"
     },
     {
-      "name" : "Escola de música e Artes Cênicas",
-      "snippet" : "EMAC (A1)",
-      "latitude" : -16.605069,
-      "longitude" :  -49.260115,
-      "pinColor" : "GREEN"
+      "name": "Escola de música e Artes Cênicas",
+      "snippet": "EMAC (A1)",
+      "latitude": -16.605069,
+      "longitude": -49.260115,
+      "pinColor": "GREEN"
     },
     {
-      "name" : "Faculdade de Artes Visuais",
-      "snippet" : "FAV (A3)",
-      "latitude" : -16.605604,
-      "longitude" :  -49.262046,
-      "pinColor" : "GREEN"
+      "name": "Faculdade de Artes Visuais",
+      "snippet": "FAV (A3)",
+      "latitude": -16.605604,
+      "longitude": -49.262046,
+      "pinColor": "GREEN"
     },
     {
-      "name" : "Faculdade de Educação Física e Dança",
-      "snippet" : "FEFD (E1)",
-      "latitude" : -16.604766,
-      "longitude" :  -49.268516,
-      "pinColor" : "VERMELHO"
+      "name": "Faculdade de Educação Física e Dança",
+      "snippet": "FEFD (E1)",
+      "latitude": -16.604766,
+      "longitude": -49.268516,
+      "pinColor": "VERMELHO"
     },
     {
-      "name" : "Faculdade de Letras",
-      "snippet" : "FL (A19)",
-      "latitude" : -16.602763,
-      "longitude" :  -49.263868,
-      "pinColor" : "GREEN"
+      "name": "Faculdade de Letras",
+      "snippet": "FL (A19)",
+      "latitude": -16.602763,
+      "longitude": -49.263868,
+      "pinColor": "GREEN"
     },
     {
-      "name" : "Faculdade de História",
-      "snippet" : "FH (A11)",
-      "latitude" : -16.603491,
-      "longitude" :  -49.263350,
-      "pinColor" : "GREEN"
+      "name": "Faculdade de História",
+      "snippet": "FH (A11)",
+      "latitude": -16.603491,
+      "longitude": -49.263350,
+      "pinColor": "GREEN"
     },
     {
-      "name" : "Instituto de Ciências Biológicas I",
-      "snippet" : "ICB I (A8)",
-      "latitude" : -16.603100,
-      "longitude" :  -49.260960,
-      "pinColor" : "GREEN"
+      "name": "Instituto de Ciências Biológicas I",
+      "snippet": "ICB I (A8)",
+      "latitude": -16.603100,
+      "longitude": -49.260960,
+      "pinColor": "GREEN"
     },
     {
-      "name" : "Instituto de Ciências Biológicas II",
-      "snippet" : "ICB II (A8)",
-      "latitude" : -16.602797,
-      "longitude" :  -49.261140,
-      "pinColor" : "GREEN"
+      "name": "Instituto de Ciências Biológicas II",
+      "snippet": "ICB II (A8)",
+      "latitude": -16.602797,
+      "longitude": -49.261140,
+      "pinColor": "GREEN"
     },
     {
-      "name" : "Instituto de Ciências Biológicas III",
-      "snippet" : "ICB III (A16)",
-      "latitude" : -16.602157,
-      "longitude" :  -49.261301,
-      "pinColor" : "GREEN"
+      "name": "Instituto de Ciências Biológicas III",
+      "snippet": "ICB III (A16)",
+      "latitude": -16.602157,
+      "longitude": -49.261301,
+      "pinColor": "GREEN"
     },
     {
-      "name" : "Instituto de Ciências Biológicas IV",
-      "snippet" : "ICB IV (A16)",
-      "latitude" : -16.601725,
-      "longitude" :  -49.261051,
-      "pinColor" : "GREEN"
+      "name": "Instituto de Ciências Biológicas IV",
+      "snippet": "ICB IV (A16)",
+      "latitude": -16.601725,
+      "longitude": -49.261051,
+      "pinColor": "GREEN"
     },
     {
-      "name" : "Instituto de Estudos Sócio-Ambientais",
-      "snippet" : "IESA (D3)",
-      "latitude" : -16.604164,
-      "longitude" :  -49.265580,
-      "pinColor" : "ROXO"
+      "name": "Instituto de Estudos Sócio-Ambientais",
+      "snippet": "IESA (D3)",
+      "latitude": -16.604164,
+      "longitude": -49.265580,
+      "pinColor": "ROXO"
     },
     {
-      "name" : "Instituto de Matemática e Estatística",
-      "snippet" : "IME (D4)",
-      "latitude" : -16.604619,
-      "longitude" :  -49.266682,
-      "pinColor" : "ROXO"
+      "name": "Instituto de Matemática e Estatística",
+      "snippet": "IME (D4)",
+      "latitude": -16.604619,
+      "longitude": -49.266682,
+      "pinColor": "ROXO"
     },
     {
-      "name" : "Instituto de Física 1",
-      "snippet" : "IF (A10)",
-      "latitude" : -16.603280,
-      "longitude" : -49.262675,
-      "pinColor" : "GREEN"
+      "name": "Instituto de Física 1",
+      "snippet": "IF (A10)",
+      "latitude": -16.603280,
+      "longitude": -49.262675,
+      "pinColor": "GREEN"
     },
     {
-      "name" : "Instituto de Física 2",
-      "snippet" : "IF 2 (A10)",
-      "latitude" : -16.603667,
-      "longitude" :  -49.262653,
-      "pinColor" : "GREEN"
+      "name": "Instituto de Física 2",
+      "snippet": "IF 2 (A10)",
+      "latitude": -16.603667,
+      "longitude": -49.262653,
+      "pinColor": "GREEN"
     },
     {
-      "name" : "Instituto de Química 1",
-      "snippet" : "IQ1 (A9)",
-      "latitude" : -16.603295,
-      "longitude" :  -49.261857,
-      "pinColor" : "GREEN"
+      "name": "Instituto de Química 1",
+      "snippet": "IQ1 (A9)",
+      "latitude": -16.603295,
+      "longitude": -49.261857,
+      "pinColor": "GREEN"
     },
     {
-      "name" : "Instituto de Química 2",
-      "snippet" : "IQ2 (A9)",
-      "latitude" : -16.603076,
-      "longitude" : -49.261762,
-      "pinColor" : "GREEN"
+      "name": "Instituto de Química 2",
+      "snippet": "IQ2 (A9)",
+      "latitude": -16.603076,
+      "longitude": -49.261762,
+      "pinColor": "GREEN"
     },
     {
-      "name" : "Pátio da Ciência",
-      "snippet" : "Patio (A10)",
-      "latitude" : -16.603335,
-      "longitude" :  -49.262147,
-      "pinColor" : "GREEN"
+      "name": "Pátio da Ciência",
+      "snippet": "Patio (A10)",
+      "latitude": -16.603335,
+      "longitude": -49.262147,
+      "pinColor": "GREEN"
     },
     {
-      "name" : "Faculdade de Informação e Comunicação",
-      "snippet" : "FIC (A12)",
-      "latitude" : -16.603914,
-      "longitude" :  -49.263462,
-      "pinColor" : "GREEN"
+      "name": "Faculdade de Informação e Comunicação",
+      "snippet": "FIC (A12)",
+      "latitude": -16.603914,
+      "longitude": -49.263462,
+      "pinColor": "GREEN"
     },
     {
-      "name" : "Faculdade de Administração, Ciências Contábeis e Ciências Econômicas",
-      "snippet" : "FACE (D7)",
-      "latitude" : -16.602902,
-      "longitude" :  -49.265041,
-      "pinColor" : "ROXO"
+      "name": "Faculdade de Administração, Ciências Contábeis e Ciências Econômicas",
+      "snippet": "FACE (D7)",
+      "latitude": -16.602902,
+      "longitude": -49.265041,
+      "pinColor": "ROXO"
     },
     {
-      "name" : "Laboratório de Engenharia Química",
-      "snippet" : "LEQ",
-      "latitude" : -16.603178,
-      "longitude" :  -49.261562,
-      "pinColor" : "GREEN"
+      "name": "Laboratório de Engenharia Química",
+      "snippet": "LEQ",
+      "latitude": -16.603178,
+      "longitude": -49.261562,
+      "pinColor": "GREEN"
     },
     {
-      "name" : "Media lab",
-      "snippet" : "A5",
-      "latitude" : -16.605348,
-      "longitude" : -49.262303,
-      "pinColor" : "GREEN"
+      "name": "Media lab",
+      "snippet": "A5",
+      "latitude": -16.605348,
+      "longitude": -49.262303,
+      "pinColor": "GREEN"
     },
     {
-      "name" : "Instituto de Informática",
-      "snippet" : "INF (D5)",
-      "latitude" : -16.603591,
-      "longitude" :  -49.266738,
-      "pinColor" : "ROXO"
+      "name": "Instituto de Informática",
+      "snippet": "INF (D5)",
+      "latitude": -16.603591,
+      "longitude": -49.266738,
+      "pinColor": "ROXO"
     },
     {
-      "name" : "Núcleo Takinahaky",
-      "snippet" : "F3",
-      "latitude" : -16.605982,
-      "longitude" : -49.265545,
-      "pinColor" : "ROSE"
+      "name": "Núcleo Takinahaky",
+      "snippet": "F3",
+      "latitude": -16.605982,
+      "longitude": -49.265545,
+      "pinColor": "ROSE"
     },
     {
-      "name" : "Laboratório multiusuário de alta resolução",
-      "snippet" : "LABMIC",
-      "latitude" : -16.603465,
-      "longitude" :  -49.262597,
-      "pinColor" : "GREEN"
+      "name": "Laboratório multiusuário de alta resolução",
+      "snippet": "LABMIC",
+      "latitude": -16.603465,
+      "longitude": -49.262597,
+      "pinColor": "GREEN"
     },
     {
-      "name" : "Laboratório de Processamento de Imagens e Geoprocessamento",
-      "snippet" : "LAPIG (I3)",
-      "latitude" : -16.602080,
-      "longitude" :  -49.265184,
-      "pinColor" : "AZUL"
+      "name": "Laboratório de Processamento de Imagens e Geoprocessamento",
+      "snippet": "LAPIG (I3)",
+      "latitude": -16.602080,
+      "longitude": -49.265184,
+      "pinColor": "AZUL"
     },
     {
-      "name" : "Laboratório de Tecnologia da Informação e mídias educacionais",
-      "snippet" : "Labtime (I5)",
-      "latitude" : -16.602224,
-      "longitude" :  -49.266225,
-      "pinColor" : "AZUL"
+      "name": "Laboratório de Tecnologia da Informação e mídias educacionais",
+      "snippet": "Labtime (I5)",
+      "latitude": -16.602224,
+      "longitude": -49.266225,
+      "pinColor": "AZUL"
     },
     {
-      "name" : "Centro Editorial Gráfico",
-      "snippet" : "CEGRAF (J8)",
-      "latitude" : -16.601340,
-      "longitude" :  -49.266434,
-      "pinColor" : ""
+      "name": "Centro Editorial Gráfico",
+      "snippet": "CEGRAF (J8)",
+      "latitude": -16.601340,
+      "longitude": -49.266434,
+      "pinColor": ""
     }
   ]
 }

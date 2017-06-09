@@ -1,2115 +1,2271 @@
- {
-	"regionais":[
-		{
-			"nome": "Goiânia",
-			"cursos":[
-				{
-					"nome": "Administração",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 3,
-					"n_vagas": 90,
-					"campus": 0,
-					"id_ei": "admin",
-					"ei_numero": ["52"],
-					"id_palestra": "admin",
-					"pal_numero": "20"
-				},
-
-				{
-					"nome": "Agronomia",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 10,
-					"turno": 0,
-					"n_vagas": 140,
-					"campus": 0,
-					"id_ei": "agro",
-					"ei_numero": ["59"],
-					"id_palestra": "agro",
-					"pal_numero": "2"
-				},
-
-				{
-					"nome": "Arquitetura e Urbanismo",
-					"grau": 0,
-					"ps": 2,
-					"duracao": 10,
-					"turno": 0,
-					"n_vagas": 35,
-					"campus": 0,
-					"id_ei": "arq_urb",
-					"ei_numero": ["46"],
-					"id_palestra": "arq_urb",
-					"pal_numero": "5"
-				},
-
-				{
-					"nome": "Artes Visuais",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 1,
-					"n_vagas": 30,
-					"campus": 0,
-					"id_ei": "art_visu_ba",
-					"ei_numero": ["44"],
-					"id_palestra": "art_visu",
-					"pal_numero": "48"
-				},
-
-				{
-					"nome": "Artes Visuais",
-					"grau": 1,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 1,
-					"n_vagas": 30,
-					"campus": 0,
-					"id_ei": "art_visu_li",
-					"ei_numero": ["45"],
-					"id_palestra": "art_visu",
-					"pal_numero": "48"
-				},
-
-				{
-					"nome": "Biblioteconomia",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 1,
-					"n_vagas": 50,
-					"campus": 0,
-					"id_ei": "bibliotecon",
-					"ei_numero": ["26"],
-					"id_palestra": "bibliotecon",
-					"pal_numero": "34"
-				},
-
-				{
-					"nome": "Biomedicina",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 0,
-					"n_vagas": 60,
-					"campus": 0,
-					"id_ei": "biomed",
-					"ei_numero": ["24"],
-					"id_palestra": "biomed",
-					"pal_numero": "4"
-				},
-
-				{
-					"nome": "Biotecnologia",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 0,
-					"n_vagas": 30,
-					"campus": 1,
-					"id_ei": "biotec",
-					"ei_numero": ["21"],
-					"id_palestra": "biotec",
-					"pal_numero": "45"
-				},
-
-				{
-					"nome": "Ciências Ambientais",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 0,
-					"n_vagas": 50,
-					"campus": 0,
-					"id_ei": "ciencias_amb",
-					"ei_numero": ["34"],
-					"id_palestra": "ciencias_amb",
-					"pal_numero": "19"
-				},
-
-				{
-					"nome": "Ciências Biológicas",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 0,
-					"n_vagas": 40,
-					"campus": 0,
-					"id_ei": "ciencias_bio",
-					"ei_numero": ["17"],
-					"id_palestra": "ciencias_bio",
-					"pal_numero": "3"
-				},
-
-				{
-					"nome": "Ciências Biológicas",
-					"grau": 1,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 3,
-					"n_vagas": 30,
-					"campus": 0,
-					"id_ei": "ciencias_bio",
-					"ei_numero": ["17"],
-					"id_palestra": "ciencias_bio",
-					"pal_numero": "3"
-				},
-
-				{
-					"nome": "Ciências Biológicas",
-					"grau": 1,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 0,
-					"n_vagas": 40,
-					"campus": 0,
-					"id_ei": "ciencias_bio",
-					"ei_numero": ["17"],
-					"id_palestra": "ciencias_bio",
-					"pal_numero": "3"
-				},
-
-				{
-					"nome": "Ciências Contábeis",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 1,
-					"n_vagas": 40,
-					"campus": 0,
-					"id_ei": "ciencias_cont",
-					"ei_numero": ["54"],
-					"id_palestra": "ciencias_cont",
-					"pal_numero": "40"
-				},
-
-				{
-					"nome": "Ciências Contábeis",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 3,
-					"n_vagas": 40,
-					"campus": 0,
-					"id_ei": "ciencias_cont",
-					"ei_numero": ["54"],
-					"id_palestra": "ciencias_cont",
-					"pal_numero": "40"
-				},
-
-				{
-					"nome": "Ciências da Computação",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 0,
-					"n_vagas": 80,
-					"campus": 0,
-					"id_ei": "ciencias_comp",
-					"ei_numero": ["14"],
-					"id_palestra": "ciencias_comp",
-					"pal_numero": "12"
-				},
-
-				{
-					"nome": "Ciências Econômicas",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 1,
-					"n_vagas": 40,
-					"campus": 0,
-					"id_ei": "ciencias_eco",
-					"ei_numero": ["53"],
-					"id_palestra": "ciencias_eco",
-					"pal_numero": "62"
-				},
-
-				{
-					"nome": "Ciências Econômicas",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 3,
-					"n_vagas": 40,
-					"campus": 0,
-					"id_ei": "ciencias_eco",
-					"ei_numero": ["53"],
-					"id_palestra": "ciencias_eco",
-					"pal_numero": "62"
-				},
-
-				{
-					"nome": "Ciências Sociais",
-					"grau": 2,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 1,
-					"n_vagas": 60,
-					"campus": 0,
-					"id_ei": "",
-					"ei_numero": ["38", "39"],
-					"id_palestra": "ciencias_soc",
-					"pal_numero": "37"
-				},
-
-				{
-					"nome": "Ciências Sociais - Políticas Públicas",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 3,
-					"n_vagas": 55,
-					"campus": 0,
-					"id_ei": "ciencias_soc_ba_pol_pub",
-					"ei_numero": ["38"],
-					"id_palestra": "ciencias_soc_pol_pub",
-					"pal_numero": "59"
-				},
-
-				{
-					"nome": "Comunicação Social - Jornalismo",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 1,
-					"n_vagas": 50,
-					"campus": 0,
-					"id_ei": "com_soc_jorn",
-					"ei_numero": ["28"],
-					"id_palestra": "com_soc_jorn",
-					"pal_numero": "16"
-				},
-
-				{
-					"nome": "Comunicação Social - Publicidade e Propaganda",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 2,
-					"n_vagas": 50,
-					"campus": 0,
-					"id_ei": "com_soc_pub_prop",
-					"ei_numero": ["27"],
-					"id_palestra": "com_soc_pub_prop",
-					"pal_numero": "35"
-				},
-
-				{
-					"nome": "Comunicação Social - Relações Públicas",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 1,
-					"n_vagas": 50,
-					"campus": 0,
-					"id_ei": "com_soc_rel_pub",
-					"ei_numero": ["29"],
-					"id_palestra": "com_soc_rel_pub",
-					"pal_numero": "57"
-				},
-
-				{
-					"nome": "Dança",
-					"grau": 1,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 1,
-					"n_vagas": 40,
-					"campus": 0,
-					"id_ei": "danca",
-					"ei_numero": ["65"],
-					"id_palestra": "danca",
-					"pal_numero": "63"
-				},
-
-				{
-					"nome": "Design de Ambientes",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 1,
-					"n_vagas": 30,
-					"campus": 0,
-					"id_ei": "des_amb",
-					"ei_numero": ["47"],
-					"id_palestra": "des_amb",
-					"pal_numero": "28"
-				},
-
-				{
-					"nome": "Design de Moda",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 3,
-					"n_vagas": 30,
-					"campus": 0,
-					"id_ei": "des_moda",
-					"ei_numero": ["48"],
-					"id_palestra": "des_moda",
-					"pal_numero": "8"
-				},
-
-				{
-					"nome": "Design Gráfico",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 2,
-					"n_vagas": 35,
-					"campus": 0,
-					"id_ei": "des_graf",
-					"ei_numero": ["49"],
-					"id_palestra": "des_graf",
-					"pal_numero": "50"
-				},
-
-				{
-					"nome": "Direção de Arte",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 2,
-					"n_vagas": 30,
-					"campus": 0,
-					"id_ei": "dir_arte",
-					"ei_numero": ["56"],
-					"id_palestra": "dir_arte",
-					"pal_numero": "26"
-				},
-
-				{
-					"nome": "Direito",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 10,
-					"turno": 1,
-					"n_vagas": 60,
-					"campus": 1,
-					"id_ei": "direito",
-					"ei_numero": ["37"],
-					"id_palestra": "direito",
-					"pal_numero": "7"
-				},
-
-				{
-					"nome": "Direito",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 10,
-					"turno": 3,
-					"n_vagas": 60,
-					"campus": 1,
-					"id_ei": "direito",
-					"ei_numero": ["37"],
-					"id_palestra": "direito",
-					"pal_numero": "7"
-				},
-
-				{
-					"nome": "Ecologia e Análise Ambiental",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 0,
-					"n_vagas": 50,
-					"campus": 0,
-					"id_ei": "eco_ana_amb",
-					"ei_numero": ["18"],
-					"id_palestra": "eco_ana_amb",
-					"pal_numero": "24"
-				},
-
-				{
-					"nome": "Educação Física",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 2,
-					"n_vagas": 40,
-					"campus": 0,
-					"id_ei": "ed_fisica",
-					"ei_numero": ["64"],
-					"id_palestra": "ed_fisica",
-					"pal_numero": "41"
-				},
-
-				{
-					"nome": "Educação Física",
-					"grau": 1,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 1,
-					"n_vagas": 40,
-					"campus": 0,
-					"id_ei": "ed_fisica",
-					"ei_numero": ["64"],
-					"id_palestra": "ed_fisica",
-					"pal_numero": "41"
-				},
-
-				{
-					"nome": "Educação Física",
-					"grau": 1,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 2,
-					"n_vagas": 40,
-					"campus": 0,
-					"id_ei": "ed_fisica",
-					"ei_numero": ["64"],
-					"id_palestra": "ed_fisica",
-					"pal_numero": "41"
-				},
-
-				{
-					"nome": "Educação Intercultural",
-					"grau": 1,
-					"ps": 1,
-					"duracao": 8,
-					"turno": 0,
-					"n_vagas": 35,
-					"campus": 0,
-					"id_ei": "",
-					"ei_numero": [""],
-					"id_palestra": "",
-					"pal_numero": ""
-				},
-
-				{
-					"nome": "Enfermagem",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 10,
-					"turno": 0,
-					"n_vagas": 50,
-					"campus": 1,
-					"id_ei": "enferm",
-					"ei_numero": ["20"],
-					"id_palestra": "enferm",
-					"pal_numero": "25"
-				},
-
-				{
-					"nome": "Engenharia Ambiental e Sanitária",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 10,
-					"turno": 0,
-					"n_vagas": 45,
-					"campus": 1,
-					"id_ei": "eng_amb_san",
-					"ei_numero": ["0"],
-					"id_palestra": "eng_amb_san",
-					"pal_numero": "22"
-				},
-
-				{
-					"nome": "Engenharia Civil",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 10,
-					"turno": 0,
-					"n_vagas": 90,
-					"campus": 1,
-					"id_ei": "eng_civ",
-					"ei_numero": ["1"],
-					"id_palestra": "eng_civ",
-					"pal_numero": "43"
-				},
-
-				{
-					"nome": "Engenharia de Alimentos",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 10,
-					"turno": 0,
-					"n_vagas": 60,
-					"campus": 0,
-					"id_ei": "eng_alim",
-					"ei_numero": ["61"],
-					"id_palestra": "eng_alim",
-					"pal_numero": "44"
-				},
-
-				{
-					"nome": "Engenharia de Computação",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 10,
-					"turno": 3,
-					"n_vagas": 80,
-					"campus": 1,
-					"id_ei": "eng_comp",
-					"ei_numero": ["8"],
-					"id_palestra": "eng_comp",
-					"pal_numero": "53"
-				},
-
-				{
-					"nome": "Engenharia de Produção",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 10,
-					"turno": 0,
-					"n_vagas": 40,
-					"campus": 2,
-					"id_ei": "eng_prod",
-					"ei_numero": ["4"],
-					"id_palestra": "eng_prod",
-					"pal_numero": "21"
-				},
-
-				{
-					"nome": "Engenharia de Software",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 3,
-					"n_vagas": 40,
-					"campus": 0,
-					"id_ei": "eng_soft",
-					"ei_numero": ["15"],
-					"id_palestra": "eng_soft",
-					"pal_numero": "54"
-				},
-
-				{
-					"nome": "Engenharia de Transporte",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 10,
-					"turno": 0,
-					"n_vagas": 40,
-					"campus": 2,
-					"id_ei": "eng_transp",
-					"ei_numero": ["3"],
-					"id_palestra": "eng_transp",
-					"pal_numero": "0"
-				},
-
-				{
-					"nome": "Engenharia Elétrica",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 10,
-					"turno": 0,
-					"n_vagas": 80,
-					"campus": 1,
-					"id_ei": "eng_elet",
-					"ei_numero": ["7"],
-					"id_palestra": "eng_elet",
-					"pal_numero": "31"
-				},
-
-				{
-					"nome": "Engenharia Física",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 10,
-					"turno": 0,
-					"n_vagas": 25,
-					"campus": 0,
-					"id_ei": "eng_fis",
-					"ei_numero": ["12"],
-					"id_palestra": "eng_fis",
-					"pal_numero": "55"
-				},
-
-				{
-					"nome": "Engenharia Florestal",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 10,
-					"turno": 0,
-					"n_vagas": 40,
-					"campus": 0,
-					"id_ei": "eng_florest",
-					"ei_numero": ["60"],
-					"id_palestra": "eng_florest",
-					"pal_numero": "23"
-				},
-
-				{
-					"nome": "Engenharia Mecânica",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 10,
-					"turno": 0,
-					"n_vagas": 40,
-					"campus": 1,
-					"id_ei": "eng_mec",
-					"ei_numero": ["6"],
-					"id_palestra": "eng_mec",
-					"pal_numero": "11"
-				},
-
-				{
-					"nome": "Engenharia Química",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 10,
-					"turno": 0,
-					"n_vagas": 20,
-					"campus": 0,
-					"id_ei": "eng_quim",
-					"ei_numero": ["9"],
-					"id_palestra": "eng_quim",
-					"pal_numero": "30"
-				},
-
-				{
-					"nome": "Estatística",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 9,
-					"turno": 3,
-					"n_vagas": 50,
-					"campus": 0,
-					"id_ei": "estat",
-					"ei_numero": ["35"],
-					"id_palestra": "estat",
-					"pal_numero": "39"
-				},
-
-				{
-					"nome": "Farmácia",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 10,
-					"turno": 0,
-					"n_vagas": 90,
-					"campus": 1,
-					"id_ei": "farm",
-					"ei_numero": ["23"],
-					"id_palestra": "farm",
-					"pal_numero": "29"
-				},
-
-				{
-					"nome": "Filosofia",
-					"grau": 2,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 1,
-					"n_vagas": 46,
-					"campus": 0,
-					"id_ei": "filos",
-					"ei_numero": ["43"],
-					"id_palestra": "filos",
-					"pal_numero": "52"
-				},
-
-				{
-					"nome": "Filosofia",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 3,
-					"n_vagas": 50,
-					"campus": 0,
-					"id_ei": "filos",
-					"ei_numero": ["43"],
-					"id_palestra": "filos",
-					"pal_numero": "52"
-				},
-
-				{
-					"nome": "Física",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 0,
-					"n_vagas": 25,
-					"campus": 0,
-					"id_ei": "fisica",
-					"ei_numero": ["10"],
-					"id_palestra": "fisica",
-					"pal_numero": "33"
-				},
-
-				{
-					"nome": "Física",
-					"grau": 1,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 0,
-					"n_vagas": 25,
-					"campus": 0,
-					"id_ei": "fisica",
-					"ei_numero": ["10"],
-					"id_palestra": "fisica",
-					"pal_numero": "33"
-				},
-
-				{
-					"nome": "Física",
-					"grau": 1,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 3,
-					"n_vagas": 40,
-					"campus": 0,
-					"id_ei": "fisica",
-					"ei_numero": ["10"],
-					"id_palestra": "fisica",
-					"pal_numero": "33"
-				},
-
-				{
-					"nome": "Física Médica",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 10,
-					"turno": 0,
-					"n_vagas": 25,
-					"campus": 0,
-					"id_ei": "fisica_med",
-					"ei_numero": ["11"],
-					"id_palestra": "fisica_med",
-					"pal_numero": "13"
-				},
-
-				{
-					"nome": "Geografia",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 1,
-					"n_vagas": 30,
-					"campus": 0,
-					"id_ei": "geo",
-					"ei_numero": ["33"],
-					"id_palestra": "geo",
-					"pal_numero": "60"
-				},
-
-				{
-					"nome": "Geografia",
-					"grau": 1,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 3,
-					"n_vagas": 40,
-					"campus": 0,
-					"id_ei": "geo",
-					"ei_numero": ["33"],
-					"id_palestra": "geo",
-					"pal_numero": "60"
-				},
-
-				{
-					"nome": "Geografia",
-					"grau": 1,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 1,
-					"n_vagas": 30,
-					"campus": 0,
-					"id_ei": "geo",
-					"ei_numero": ["33"],
-					"id_palestra": "geo",
-					"pal_numero": "60"
-				},
-
-				{
-					"nome": "Geologia",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 10,
-					"turno": 0,
-					"n_vagas": 40,
-					"campus": 2,
-					"id_ei": "geologia",
-					"ei_numero": ["5"],
-					"id_palestra": "geologia",
-					"pal_numero": "42"
-				},
-
-				{
-					"nome": "Gestão da Informação",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 1,
-					"n_vagas": 40,
-					"campus": 0,
-					"id_ei": "gest_info",
-					"ei_numero": ["30"],
-					"id_palestra": "gest_info",
-					"pal_numero": "15"
-				},
-
-				{
-					"nome": "História",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 3,
-					"n_vagas": 30,
-					"campus": 0,
-					"id_ei": "hist",
-					"ei_numero": ["41"],
-					"id_palestra": "hist",
-					"pal_numero": "17"
-				},
-
-				{
-					"nome": "História",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 1,
-					"n_vagas": 25,
-					"campus": 0,
-					"id_ei": "hist",
-					"ei_numero": ["41"],
-					"id_palestra": "hist",
-					"pal_numero": "17"
-				},
-
-				{
-					"nome": "História",
-					"grau": 1,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 1,
-					"n_vagas": 30,
-					"campus": 0,
-					"id_ei": "hist",
-					"ei_numero": ["41"],
-					"id_palestra": "hist",
-					"pal_numero": "17"
-				},
-
-				{
-					"nome": "História",
-					"grau": 1,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 3,
-					"n_vagas": 25,
-					"campus": 0,
-					"id_ei": "hist",
-					"ei_numero": ["41"],
-					"id_palestra": "hist",
-					"pal_numero": "17"
-				},
-
-				{
-					"nome": "Letras: Espanhol",
-					"grau": 1,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 1,
-					"n_vagas": 25,
-					"campus": 0,
-					"id_ei": "letras_linguas",
-					"ei_numero": ["50"],
-					"id_palestra": "letras_linguas",
-					"pal_numero": "18"
-				},
-
-				{
-					"nome": "Letras: Linguística",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 2,
-					"n_vagas": 10,
-					"campus": 0,
-					"id_ei": "letras_linguas",
-					"ei_numero": ["50"],
-					"id_palestra": "letras_linguas",
-					"pal_numero": "18"
-				},
-
-				{
-					"nome": "Letras: Estudos Literários",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 2,
-					"n_vagas": 10,
-					"campus": 0,
-					"id_ei": "letras_linguas",
-					"ei_numero": ["50"],
-					"id_palestra": "letras_linguas",
-					"pal_numero": "18"
-				},
-
-				{
-					"nome": "Letras: Francês",
-					"grau": 1,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 1,
-					"n_vagas": 10,
-					"campus": 0,
-					"id_ei": "letras_linguas",
-					"ei_numero": ["50"],
-					"id_palestra": "letras_linguas",
-					"pal_numero": "18"
-				},
-
-				{
-					"nome": "Letras: Inglês",
-					"grau": 1,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 1,
-					"n_vagas": 25,
-					"campus": 0,
-					"id_ei": "letras_linguas",
-					"ei_numero": ["50"],
-					"id_palestra": "letras_linguas",
-					"pal_numero": "18"
-				},
-
-				{
-					"nome": "Letras: Libras",
-					"grau": 1,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 3,
-					"n_vagas": 25,
-					"campus": 0,
-					"id_ei": "letras_libras",
-					"ei_numero": ["51"],
-					"id_palestra": "letras_libras",
-					"pal_numero": "38"
-				},
-
-				{
-					"nome": "Letras: Libras",
-					"grau": 1,
-					"ps": 1,
-					"duracao": 8,
-					"turno": 3,
-					"n_vagas": 15,
-					"campus": 0,
-					"id_ei": "letras_libras",
-					"ei_numero": ["51"],
-					"id_palestra": "letras_libras",
-					"pal_numero": "38"
-				},
-
-				{
-					"nome": "Letras: Português",
-					"grau": 1,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 2,
-					"n_vagas": 50,
-					"campus": 0,
-					"id_ei": "letras_linguas",
-					"ei_numero": ["51"],
-					"id_palestra": "letras_linguas",
-					"pal_numero": "18"
-				},
-
-				{
-					"nome": "Letras: Português",
-					"grau": 1,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 1,
-					"n_vagas": 40,
-					"campus": 0,
-					"id_ei": "letras_linguas",
-					"ei_numero": ["51"],
-					"id_palestra": "letras_linguas",
-					"pal_numero": "18"
-				},
-
-				{
-					"nome": "Letras: Trad. e Interpretação em Libras/Português",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 3,
-					"n_vagas": 30,
-					"campus": 0,
-					"id_ei": "letras_libras",
-					"ei_numero": ["51"],
-					"id_palestra": "letras_libras",
-					"pal_numero": "38"
-				},
-
-				{
-					"nome": "Matemática",
-					"grau": 2,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 2,
-					"n_vagas": 60,
-					"campus": 0,
-					"id_ei": "mat",
-					"ei_numero": ["36"],
-					"id_palestra": "mat",
-					"pal_numero": "61"
-				},
-
-				{
-					"nome": "Matemática",
-					"grau": 1,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 3,
-					"n_vagas": 50,
-					"campus": 0,
-					"id_ei": "mat",
-					"ei_numero": ["36"],
-					"id_palestra": "mat",
-					"pal_numero": "61"
-				},
-
-				{
-					"nome": "Medicina",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 12,
-					"turno": 0,
-					"n_vagas": 110,
-					"campus": 1,
-					"id_ei": "med",
-					"ei_numero": ["19"],
-					"id_palestra": "med",
-					"pal_numero": "49"
-				},
-
-				{
-					"nome": "Medicina Veterinária",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 10,
-					"turno": 0,
-					"n_vagas": 102,
-					"campus": 0,
-					"id_ei": "med_vet",
-					"ei_numero": ["62"],
-					"id_palestra": "med_vet",
-					"pal_numero": "9"
-				},
-
-				{
-					"nome": "Museologia",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 3,
-					"n_vagas": 30,
-					"campus": 0,
-					"id_ei": "museo",
-					"ei_numero": ["40"],
-					"id_palestra": "museo",
-					"pal_numero": "56"
-				},
-
-				{
-					"nome": "Música - Canto",
-					"grau": 0,
-					"ps": 2,
-					"duracao": 8,
-					"turno": 0,
-					"n_vagas": 2,
-					"campus": 0,
-					"id_ei": "musica",
-					"ei_numero": ["57"],
-					"id_palestra": "musica",
-					"pal_numero": "6"
-				},
-
-				{
-					"nome": "Música - Composição",
-					"grau": 0,
-					"ps": 2,
-					"duracao": 8,
-					"turno": 0,
-					"n_vagas": 2,
-					"campus": 0,
-					"id_ei": "musica",
-					"ei_numero": ["57"],
-					"id_palestra": "musica",
-					"pal_numero": "6"
-				},
-
-				{
-					"nome": "Música - Educação Musical",
-					"grau": 1,
-					"ps": 2,
-					"duracao": 8,
-					"turno": 0,
-					"n_vagas": 48,
-					"campus": 0,
-					"id_ei": "musica",
-					"ei_numero": ["57"],
-					"id_palestra": "musica",
-					"pal_numero": "6"
-				},
-
-				{
-					"nome": "Música - Ensino do Canto",
-					"grau": 1,
-					"ps": 2,
-					"duracao": 8,
-					"turno": 0,
-					"n_vagas": 4,
-					"campus": 0,
-					"id_ei": "musica",
-					"ei_numero": ["57"],
-					"id_palestra": "musica",
-					"pal_numero": "6"
-				},
-
-				{
-					"nome": "Música - Ensino do Instrumento Musical",
-					"grau": 1,
-					"ps": 2,
-					"duracao": 8,
-					"turno": 0,
-					"n_vagas": 36,
-					"campus": 0,
-					"id_ei": "musica",
-					"ei_numero": ["57"],
-					"id_palestra": "musica",
-					"pal_numero": "6"
-				},
-
-				{
-					"nome": "Música - Intrumento Musical",
-					"grau": 0,
-					"ps": 2,
-					"duracao": 8,
-					"turno": 0,
-					"n_vagas": 20,
-					"campus": 0,
-					"id_ei": "musica",
-					"ei_numero": ["57"],
-					"id_palestra": "musica",
-					"pal_numero": "6"
-				},
-
-				{
-					"nome": "Música - Regência",
-					"grau": 0,
-					"ps": 2,
-					"duracao": 8,
-					"turno": 0,
-					"n_vagas": 4,
-					"campus": 0,
-					"id_ei": "musica",
-					"ei_numero": ["57"],
-					"id_palestra": "musica",
-					"pal_numero": "6"
-				},
-
-				{
-					"nome": "Musicoterapia",
-					"grau": 0,
-					"ps": 2,
-					"duracao": 8,
-					"turno": 0,
-					"n_vagas": 24,
-					"campus": 0,
-					"id_ei": "musicotep",
-					"ei_numero": ["58"],
-					"id_palestra": "musicoter",
-					"pal_numero": "27"
-				},
-
-				{
-					"nome": "Nutrição",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 10,
-					"turno": 0,
-					"n_vagas": 72,
-					"campus": 1,
-					"id_ei": "nutri",
-					"ei_numero": ["25"],
-					"id_palestra": "nutri",
-					"pal_numero": "46"
-				},
-
-				{
-					"nome": "Odontologia",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 10,
-					"turno": 0,
-					"n_vagas": 60,
-					"campus": 1,
-					"id_ei": "odonto",
-					"ei_numero": ["22"],
-					"id_palestra": "odonto",
-					"pal_numero": "1"
-				},
-
-				{
-					"nome": "Pedagogia",
-					"grau": 1,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 1,
-					"n_vagas": 70,
-					"campus": 1,
-					"id_ei": "pedag",
-					"ei_numero": ["31"],
-					"id_palestra": "pedag",
-					"pal_numero": "58"
-				},
-
-				{
-					"nome": "Pedagogia",
-					"grau": 1,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 3,
-					"n_vagas": 70,
-					"campus": 1,
-					"id_ei": "pedag",
-					"ei_numero": ["31"],
-					"id_palestra": "pedag",
-					"pal_numero": "58"
-				},
-
-				{
-					"nome": "Psicologia",
-					"grau": 3,
-					"ps": 0,
-					"duracao": 10,
-					"turno": 0,
-					"n_vagas": 35,
-					"campus": 1,
-					"id_ei": "psic",
-					"ei_numero": ["32"],
-					"id_palestra": "psic",
-					"pal_numero": "36"
-				},
-
-				{
-					"nome": "Química",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 0,
-					"n_vagas": 46,
-					"campus": 0,
-					"id_ei": "quim_ba",
-					"ei_numero": ["2"],
-					"id_palestra": "quim",
-					"pal_numero": "10"
-				},
-
-				{
-					"nome": "Química",
-					"grau": 1,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 3,
-					"n_vagas": 40,
-					"campus": 0,
-					"id_ei": "quim_li",
-					"ei_numero": ["16"],
-					"id_palestra": "quim",
-					"pal_numero": "10"
-				},
-
-				{
-					"nome": "Química",
-					"grau": 1,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 0,
-					"n_vagas": 14,
-					"campus": 0,
-					"id_ei": "quim_li",
-					"ei_numero": ["16"],
-					"id_palestra": "quim",
-					"pal_numero": "10"
-				},
-
-				{
-					"nome": "Relações Internacionais",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 1,
-					"n_vagas": 40,
-					"campus": 0,
-					"id_ei": "rel_inter",
-					"ei_numero": ["42"],
-					"id_palestra": "rel_inter",
-					"pal_numero": "14"
-				},
-
-				{
-					"nome": "Sistemas de Informação",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 3,
-					"n_vagas": 80,
-					"campus": 0,
-					"id_ei": "sist_info",
-					"ei_numero": ["13"],
-					"id_palestra": "sist_info",
-					"pal_numero": "32"
-				},
-
-				{
-					"nome": "Teatro",
-					"grau": 1,
-					"ps": 2,
-					"duracao": 8,
-					"turno": 2,
-					"n_vagas": 30,
-					"campus": 0,
-					"id_ei": "teatro",
-					"ei_numero": ["55"],
-					"id_palestra": "teatro",
-					"pal_numero": "47"
-				},
-
-				{
-					"nome": "Zootecnia",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 10,
-					"turno": 0,
-					"n_vagas": 40,
-					"campus": 0,
-					"id_ei": "zoot",
-					"ei_numero": ["63"],
-					"id_palestra": "zoot",
-					"pal_numero": "51"
-				}
-
-			]
-		},
-
-		{
-			"nome": "Jataí",
-			"data_evento": "15 de junho",
-			"cursos":[
-				{
-					"nome": "Agronomia",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 10,
-					"turno": 0,
-					"n_vagas": 60,
-					"id_ei": "agro" ,
-					"ei_numero": ["59"],
-					"id_palestra": "agro",
-					"pal_numero": "2"
-				},
-
-				{
-					"nome": "Biomedicina",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 0,
-					"n_vagas": 40,
-					"id_ei": "biomed" ,
-					"ei_numero": ["24"],
-					"id_palestra": "biomed",
-					"pal_numero": "4"
-				},
-
-				{
-					"nome": "Ciências Biológicas",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 0,
-					"n_vagas": 40,
-					"id_ei": "ciencias_bio" ,
-					"ei_numero": ["17"],
-					"id_palestra": "ciencias_bio",
-					"pal_numero": "3"
-				},
-
-				{
-					"nome": "Ciências Biológicas",
-					"grau": 1,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 0,
-					"n_vagas": 30,
-					"id_ei": "ciencias_bio" ,
-					"ei_numero": ["17"],
-					"id_palestra": "ciencias_bio",
-					"pal_numero": "3"
-				},
-
-				{
-					"nome": "Ciências da Computação",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 0,
-					"n_vagas": 50,
-					"id_ei": "ciencias_comp" ,
-					"ei_numero": ["14"],
-					"id_palestra": "ciencias_comp",
-					"pal_numero": "12"
-				},
-
-				{
-					"nome": "Direito",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 10,
-					"turno": 3,
-					"n_vagas": 60,
-					"id_ei": "direito" ,
-					"ei_numero": ["37"],
-					"id_palestra": "direito",
-					"pal_numero": "7"
-				},
-
-				{
-					"nome": "Educação Física",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 3,
-					"n_vagas": 40,
-					"id_ei": "ed_fisica" ,
-					"ei_numero": ["64"],
-					"id_palestra": "ed_fisica",
-					"pal_numero": "41"
-				},
-
-				{
-					"nome": "Educação Física",
-					"grau": 1,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 1,
-					"n_vagas": 40,
-					"id_ei": "ed_fisica" ,
-					"ei_numero": ["64"],
-					"id_palestra": "ed_fisica",
-					"pal_numero": "41"
-				},
-
-				{
-					"nome": "Enfermagem",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 10,
-					"turno": 0,
-					"n_vagas": 30,
-					"id_ei": "enferm" ,
-					"ei_numero": ["20"],
-					"id_palestra": "enferm",
-					"pal_numero": "25"
-				},
-
-				{
-					"nome": "Engenharia Florestal",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 10,
-					"turno": 0,
-					"n_vagas": 50,
-					"id_ei": "eng_florest" ,
-					"ei_numero": ["60"],
-					"id_palestra": "eng_florest",
-					"pal_numero": "23"
-				},
-
-				{
-					"nome": "Física",
-					"grau": 1,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 3,
-					"n_vagas": 40,
-					"id_ei": "fisica" ,
-					"ei_numero": ["10"],
-					"id_palestra": "fisica",
-					"pal_numero": "33"
-				},
-
-				{
-					"nome": "Fisioterapia",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 10,
-					"turno": 0,
-					"n_vagas": 40,
-					"id_ei": "" ,
-					"ei_numero": [""],
-					"id_palestra": "",
-					"pal_numero": ""
-				},
-
-				{
-					"nome": "Geografia",
-					"grau": 2,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 3,
-					"n_vagas": 40,
-					"id_ei": "geo" ,
-					"ei_numero": ["33"],
-					"id_palestra": "geo",
-					"pal_numero": "60"
-				},
-
-				{
-					"nome": "História",
-					"grau": 1,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 3,
-					"n_vagas": 50,
-					"id_ei": "hist" ,
-					"ei_numero": ["41"],
-					"id_palestra": "hist",
-					"pal_numero": "17"
-				},
-
-				{
-					"nome": "Letras - Inglês",
-					"grau": 1,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 3,
-					"n_vagas": 30,
-					"id_ei": "letras_linguas" ,
-					"ei_numero": ["50"],
-					"id_palestra": "letras_linguas",
-					"pal_numero": "18"
-				},
-
-				{
-					"nome": "Letras - Português",
-					"grau": 1,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 3,
-					"n_vagas": 40,
-					"id_ei": "letras_linguas" ,
-					"ei_numero": ["51"],
-					"id_palestra": "letras_linguas",
-					"pal_numero": "18"
-				},
-
-				{
-					"nome": "Matemática",
-					"grau": 1,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 3,
-					"n_vagas": 45,
-					"id_ei": "mat" ,
-					"ei_numero": ["36"],
-					"id_palestra": "mat",
-					"pal_numero": "61"
-				},
-
-				{
-					"nome": "Medicina",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 12,
-					"turno": 0,
-					"n_vagas": 60,
-					"id_ei": "med" ,
-					"ei_numero": ["19"],
-					"id_palestra": "med",
-					"pal_numero": "49"
-				},
-
-				{
-					"nome": "Medicina Veterinária",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 10,
-					"turno": 0,
-					"n_vagas": 60,
-					"id_ei": "med_vet" ,
-					"ei_numero": ["62"],
-					"id_palestra": "med_vet",
-					"pal_numero": "9"
-				},
-
-				{
-					"nome": "Pedagogia",
-					"grau": 1,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 1,
-					"n_vagas": 40,
-					"id_ei": "pedag" ,
-					"ei_numero": ["31"],
-					"id_palestra": "pedag",
-					"pal_numero": "58"
-				},
-
-				{
-					"nome": "Pedagogia",
-					"grau": 1,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 3,
-					"n_vagas": 40,
-					"id_ei": "pedag" ,
-					"ei_numero": ["31"],
-					"id_palestra": "pedag",
-					"pal_numero": "58"
-				},
-
-				{
-					"nome": "Psicologia",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 10,
-					"turno": 0,
-					"n_vagas": 40,
-					"id_ei": "psic" ,
-					"ei_numero": ["32"],
-					"id_palestra": "psic",
-					"pal_numero": "36"
-				},
-
-				{
-					"nome": "Química",
-					"grau": 1,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 3,
-					"n_vagas": 45,
-					"id_ei": "quim_li" ,
-					"ei_numero": ["16"],
-					"id_palestra": "quim",
-					"pal_numero": "10"
-				},
-
-				{
-					"nome": "Química",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 0,
-					"n_vagas": 40,
-					"id_ei": "quim_ba" ,
-					"ei_numero": ["2"],
-					"id_palestra": "quim",
-					"pal_numero": "10"
-				},
-
-				{
-					"nome": "Zootecnia",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 10,
-					"turno": 0,
-					"n_vagas": 30,
-					"id_ei": "zoot" ,
-					"ei_numero": ["63"],
-					"id_palestra": "zoot",
-					"pal_numero": "51"
-				}
-			]
-		},
-
-		{
-			"nome": "Catalão",
-			"data_evento": "28 de setembro",
-			"cursos":[
-				{
-					"nome": "Administração",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 3,
-					"n_vagas": 50,
-					"id_ei": "admin",
-					"ei_numero": ["52"],
-					"id_palestra": "admin",
-					"pal_numero": "20"
-				},
-
-				{
-					"nome": "Ciências Biológicas",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 0,
-					"n_vagas": 30,
-					"id_ei": "ciencias_bio",
-					"ei_numero": ["17"],
-					"id_palestra": "ciencias_bio",
-					"pal_numero": "3"
-				},
-
-				{
-					"nome": "Ciências Biológicas",
-					"grau": 1,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 0,
-					"n_vagas": 50,
-					"id_ei": "ciencias_bio",
-					"ei_numero": ["17"],
-					"id_palestra": "ciencias_bio",
-					"pal_numero": "3"
-				},
-
-				{
-					"nome": "Ciências da Computação",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 0,
-					"n_vagas": 35,
-					"id_ei": "ciencias_comp",
-					"ei_numero": ["14"],
-					"id_palestra": "ciencias_comp",
-					"pal_numero": "12"
-				},
-
-				{
-					"nome": "Ciências Sociais",
-					"grau": 2,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 1,
-					"n_vagas": 60,
-					"id_ei": "ciencias_soc_ba_pol_pub, ciencias_soc_li",
-					"ei_numero": ["38", "39"],
-					"id_palestra": "ciencias_soc",
-					"pal_numero": "37"
-				},
-
-				{
-					"nome": "Educação Física",
-					"grau": 1,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 1,
-					"n_vagas": 45,
-					"id_ei": "ed_fisica",
-					"ei_numero": ["64"],
-					"id_palestra": "ed_fisica",
-					"pal_numero": "41"
-				},
-
-				{
-					"nome": "Educação no Campo",
-					"grau": 1,
-					"ps": 1,
-					"duracao": 8,
-					"turno": 0,
-					"n_vagas": 120,
-					"id_ei": "",
-					"ei_numero": [""],
-					"id_palestra": "",
-					"pal_numero": ""
-				},
-
-				{
-					"nome": "Enfermagem",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 10,
-					"turno": 0,
-					"n_vagas": 40,
-					"id_ei": "enferm",
-					"ei_numero": ["20"],
-					"id_palestra": "enferm",
-					"pal_numero": "25"
-				},
-
-				{
-					"nome": "Engenharia Civil",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 10,
-					"turno": 0,
-					"n_vagas": 50,
-					"id_ei": "eng_civil",
-					"ei_numero": ["1"],
-					"id_palestra": "eng_civil",
-					"pal_numero": "43"
-				},
-
-				{
-					"nome": "Engenharia de Minas",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 10,
-					"turno": 0,
-					"n_vagas": 50,
-					"id_ei": "",
-					"ei_numero": [""],
-					"id_palestra": "",
-					"pal_numero": ""
-				},
-
-				{
-					"nome": "Engenharia de Produção",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 10,
-					"turno": 0,
-					"n_vagas": 50,
-					"id_ei": "eng_prod",
-					"ei_numero": ["4"],
-					"id_palestra": "eng_prod",
-					"pal_numero": "21"
-				},
-
-				{
-					"nome": "Física",
-					"grau": 1,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 3,
-					"n_vagas": 50,
-					"id_ei": "fisica",
-					"ei_numero": ["10"],
-					"id_palestra": "fisica",
-					"pal_numero": "33"
-				},
-
-				{
-					"nome": "Geografia",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 3,
-					"n_vagas": 30,
-					"id_ei": "geo",
-					"ei_numero": ["33"],
-					"id_palestra": "geo",
-					"pal_numero": "60"
-				},
-
-				{
-					"nome": "Geografia",
-					"grau": 1,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 3,
-					"n_vagas": 50,
-					"id_ei": "geo",
-					"ei_numero": ["33"],
-					"id_palestra": "geo",
-					"pal_numero": "60"
-				},
-
-				{
-					"nome": "História",
-					"grau": 2,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 3,
-					"n_vagas": 50,
-					"id_ei": "hist",
-					"ei_numero": ["41"],
-					"id_palestra": "hist",
-					"pal_numero": "17"
-				},
-
-				{
-					"nome": "Letras - Português",
-					"grau": 1,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 3,
-					"n_vagas": 50,
-					"id_ei": "letras_linguas",
-					"ei_numero": ["51"],
-					"id_palestra": "letras_linguas",
-					"pal_numero": "18"
-				},
-
-				{
-					"nome": "Letras - Português/Inglês",
-					"grau": 1,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 1,
-					"n_vagas": 50,
-					"id_ei": "letras_linguas",
-					"ei_numero": ["51"],
-					"id_palestra": "letras_linguas",
-					"pal_numero": "18"
-				},
-
-				{
-					"nome": "Matemática",
-					"grau": 1,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 3,
-					"n_vagas": 50,
-					"id_ei": "mat",
-					"ei_numero": ["36"],
-					"id_palestra": "mat",
-					"pal_numero": "61"
-				},
-
-				{
-					"nome": "Matemática Industrial",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 1,
-					"n_vagas": 50,
-					"id_ei": "",
-					"ei_numero": [""],
-					"id_palestra": "",
-					"pal_numero": ""
-				},
-
-				{
-					"nome": "Pedagogia",
-					"grau": 1,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 3,
-					"n_vagas": 50,
-					"id_ei": "pedag",
-					"ei_numero": ["31"],
-					"id_palestra": "pedag",
-					"pal_numero": "58"
-				},
-
-				{
-					"nome": "Psicologia",
-					"grau": 3,
-					"ps": 0,
-					"duracao": 10,
-					"turno": 0,
-					"n_vagas": 50,
-					"id_ei": "psic",
-					"ei_numero": ["32"],
-					"id_palestra": "psic",
-					"pal_numero": "36"
-				},
-
-				{
-					"nome": "Química",
-					"grau": 2,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 3,
-					"n_vagas": 50,
-					"id_ei": "quim_ba, quim_li",
-					"ei_numero": ["2" ,"16"],
-					"id_palestra": "quim",
-					"pal_numero": "10"
-				}
-			]
-		},
-
-		{
-			"nome": "Goiás",
-			"data_evento": "14 de setembro",
-			"cursos":[
-				{
-					"nome": "Administração",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 1,
-					"n_vagas": 50,
-					"id_ei": "admin",
-					"ei_numero": ["52"],
-					"id_palestra": "admin",
-					"pal_numero": "20"
-				},
-
-				{
-					"nome": "Arquitetura e Urbanismo",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 10,
-					"turno": 0,
-					"n_vagas": 30,
-					"id_ei": "arq_urb",
-					"ei_numero": ["46"],
-					"id_palestra": "arq_urb",
-					"pal_numero": "5"
-				},
-
-				{
-					"nome": "Direito",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 10,
-					"turno": 3,
-					"n_vagas": 60,
-					"id_ei": "direito",
-					"ei_numero": ["37"],
-					"id_palestra": "direito",
-					"pal_numero": "7"
-				},
-
-				{
-					"nome": "Educação no Campo",
-					"grau": 1,
-					"ps": 1,
-					"duracao": 8,
-					"turno": 0,
-					"n_vagas": 120,
-					"id_ei": "",
-					"ei_numero": [""],
-					"id_palestra": "",
-					"pal_numero": ""
-				},
-
-				{
-					"nome": "Filosofia",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 3,
-					"n_vagas": 50,
-					"id_ei": "filos",
-					"ei_numero": ["43"],
-					"id_palestra": "filos",
-					"pal_numero": "52"
-				},
-
-				{
-					"nome": "Filosofia",
-					"grau": 1,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 3,
-					"n_vagas": 50,
-					"id_ei": "filos",
-					"ei_numero": ["43"],
-					"id_palestra": "filos",
-					"pal_numero": "52"
-				},
-
-				{
-					"nome": "Serviço Social",
-					"grau": 0,
-					"ps": 0,
-					"duracao": 8,
-					"turno": 3,
-					"n_vagas": 50,
-					"id_ei": "",
-					"ei_numero": [""],
-					"id_palestra": "",
-					"pal_numero": ""
-				}
-			]
-		}
-	]
+{
+  "regionais": [
+    {
+      "nome": "Goiânia",
+      "cursos": [
+        {
+          "nome": "Administração",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 3,
+          "n_vagas": 90,
+          "campus": 0,
+          "id_ei": "admin",
+          "ei_numero": [
+            "52"
+          ],
+          "id_palestra": "admin",
+          "pal_numero": "20"
+        },
+        {
+          "nome": "Agronomia",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 10,
+          "turno": 0,
+          "n_vagas": 140,
+          "campus": 0,
+          "id_ei": "agro",
+          "ei_numero": [
+            "59"
+          ],
+          "id_palestra": "agro",
+          "pal_numero": "2"
+        },
+        {
+          "nome": "Arquitetura e Urbanismo",
+          "grau": 0,
+          "ps": 2,
+          "duracao": 10,
+          "turno": 0,
+          "n_vagas": 35,
+          "campus": 0,
+          "id_ei": "arq_urb",
+          "ei_numero": [
+            "46"
+          ],
+          "id_palestra": "arq_urb",
+          "pal_numero": "5"
+        },
+        {
+          "nome": "Artes Visuais",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 1,
+          "n_vagas": 30,
+          "campus": 0,
+          "id_ei": "art_visu_ba",
+          "ei_numero": [
+            "44"
+          ],
+          "id_palestra": "art_visu",
+          "pal_numero": "48"
+        },
+        {
+          "nome": "Artes Visuais",
+          "grau": 1,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 1,
+          "n_vagas": 30,
+          "campus": 0,
+          "id_ei": "art_visu_li",
+          "ei_numero": [
+            "45"
+          ],
+          "id_palestra": "art_visu",
+          "pal_numero": "48"
+        },
+        {
+          "nome": "Biblioteconomia",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 1,
+          "n_vagas": 50,
+          "campus": 0,
+          "id_ei": "bibliotecon",
+          "ei_numero": [
+            "26"
+          ],
+          "id_palestra": "bibliotecon",
+          "pal_numero": "34"
+        },
+        {
+          "nome": "Biomedicina",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 0,
+          "n_vagas": 60,
+          "campus": 0,
+          "id_ei": "biomed",
+          "ei_numero": [
+            "24"
+          ],
+          "id_palestra": "biomed",
+          "pal_numero": "4"
+        },
+        {
+          "nome": "Biotecnologia",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 0,
+          "n_vagas": 30,
+          "campus": 1,
+          "id_ei": "biotec",
+          "ei_numero": [
+            "21"
+          ],
+          "id_palestra": "biotec",
+          "pal_numero": "45"
+        },
+        {
+          "nome": "Ciências Ambientais",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 0,
+          "n_vagas": 50,
+          "campus": 0,
+          "id_ei": "ciencias_amb",
+          "ei_numero": [
+            "34"
+          ],
+          "id_palestra": "ciencias_amb",
+          "pal_numero": "19"
+        },
+        {
+          "nome": "Ciências Biológicas",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 0,
+          "n_vagas": 40,
+          "campus": 0,
+          "id_ei": "ciencias_bio",
+          "ei_numero": [
+            "17"
+          ],
+          "id_palestra": "ciencias_bio",
+          "pal_numero": "3"
+        },
+        {
+          "nome": "Ciências Biológicas",
+          "grau": 1,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 3,
+          "n_vagas": 30,
+          "campus": 0,
+          "id_ei": "ciencias_bio",
+          "ei_numero": [
+            "17"
+          ],
+          "id_palestra": "ciencias_bio",
+          "pal_numero": "3"
+        },
+        {
+          "nome": "Ciências Biológicas",
+          "grau": 1,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 0,
+          "n_vagas": 40,
+          "campus": 0,
+          "id_ei": "ciencias_bio",
+          "ei_numero": [
+            "17"
+          ],
+          "id_palestra": "ciencias_bio",
+          "pal_numero": "3"
+        },
+        {
+          "nome": "Ciências Contábeis",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 1,
+          "n_vagas": 40,
+          "campus": 0,
+          "id_ei": "ciencias_cont",
+          "ei_numero": [
+            "54"
+          ],
+          "id_palestra": "ciencias_cont",
+          "pal_numero": "40"
+        },
+        {
+          "nome": "Ciências Contábeis",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 3,
+          "n_vagas": 40,
+          "campus": 0,
+          "id_ei": "ciencias_cont",
+          "ei_numero": [
+            "54"
+          ],
+          "id_palestra": "ciencias_cont",
+          "pal_numero": "40"
+        },
+        {
+          "nome": "Ciências da Computação",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 0,
+          "n_vagas": 80,
+          "campus": 0,
+          "id_ei": "ciencias_comp",
+          "ei_numero": [
+            "14"
+          ],
+          "id_palestra": "ciencias_comp",
+          "pal_numero": "12"
+        },
+        {
+          "nome": "Ciências Econômicas",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 1,
+          "n_vagas": 40,
+          "campus": 0,
+          "id_ei": "ciencias_eco",
+          "ei_numero": [
+            "53"
+          ],
+          "id_palestra": "ciencias_eco",
+          "pal_numero": "62"
+        },
+        {
+          "nome": "Ciências Econômicas",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 3,
+          "n_vagas": 40,
+          "campus": 0,
+          "id_ei": "ciencias_eco",
+          "ei_numero": [
+            "53"
+          ],
+          "id_palestra": "ciencias_eco",
+          "pal_numero": "62"
+        },
+        {
+          "nome": "Ciências Sociais",
+          "grau": 2,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 1,
+          "n_vagas": 60,
+          "campus": 0,
+          "id_ei": "",
+          "ei_numero": [
+            "38",
+            "39"
+          ],
+          "id_palestra": "ciencias_soc",
+          "pal_numero": "37"
+        },
+        {
+          "nome": "Ciências Sociais - Políticas Públicas",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 3,
+          "n_vagas": 55,
+          "campus": 0,
+          "id_ei": "ciencias_soc_ba_pol_pub",
+          "ei_numero": [
+            "38"
+          ],
+          "id_palestra": "ciencias_soc_pol_pub",
+          "pal_numero": "59"
+        },
+        {
+          "nome": "Comunicação Social - Jornalismo",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 1,
+          "n_vagas": 50,
+          "campus": 0,
+          "id_ei": "com_soc_jorn",
+          "ei_numero": [
+            "28"
+          ],
+          "id_palestra": "com_soc_jorn",
+          "pal_numero": "16"
+        },
+        {
+          "nome": "Comunicação Social - Publicidade e Propaganda",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 2,
+          "n_vagas": 50,
+          "campus": 0,
+          "id_ei": "com_soc_pub_prop",
+          "ei_numero": [
+            "27"
+          ],
+          "id_palestra": "com_soc_pub_prop",
+          "pal_numero": "35"
+        },
+        {
+          "nome": "Comunicação Social - Relações Públicas",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 1,
+          "n_vagas": 50,
+          "campus": 0,
+          "id_ei": "com_soc_rel_pub",
+          "ei_numero": [
+            "29"
+          ],
+          "id_palestra": "com_soc_rel_pub",
+          "pal_numero": "57"
+        },
+        {
+          "nome": "Dança",
+          "grau": 1,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 1,
+          "n_vagas": 40,
+          "campus": 0,
+          "id_ei": "danca",
+          "ei_numero": [
+            "65"
+          ],
+          "id_palestra": "danca",
+          "pal_numero": "63"
+        },
+        {
+          "nome": "Design de Ambientes",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 1,
+          "n_vagas": 30,
+          "campus": 0,
+          "id_ei": "des_amb",
+          "ei_numero": [
+            "47"
+          ],
+          "id_palestra": "des_amb",
+          "pal_numero": "28"
+        },
+        {
+          "nome": "Design de Moda",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 3,
+          "n_vagas": 30,
+          "campus": 0,
+          "id_ei": "des_moda",
+          "ei_numero": [
+            "48"
+          ],
+          "id_palestra": "des_moda",
+          "pal_numero": "8"
+        },
+        {
+          "nome": "Design Gráfico",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 2,
+          "n_vagas": 35,
+          "campus": 0,
+          "id_ei": "des_graf",
+          "ei_numero": [
+            "49"
+          ],
+          "id_palestra": "des_graf",
+          "pal_numero": "50"
+        },
+        {
+          "nome": "Direção de Arte",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 2,
+          "n_vagas": 30,
+          "campus": 0,
+          "id_ei": "dir_arte",
+          "ei_numero": [
+            "56"
+          ],
+          "id_palestra": "dir_arte",
+          "pal_numero": "26"
+        },
+        {
+          "nome": "Direito",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 10,
+          "turno": 1,
+          "n_vagas": 60,
+          "campus": 1,
+          "id_ei": "direito",
+          "ei_numero": [
+            "37"
+          ],
+          "id_palestra": "direito",
+          "pal_numero": "7"
+        },
+        {
+          "nome": "Direito",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 10,
+          "turno": 3,
+          "n_vagas": 60,
+          "campus": 1,
+          "id_ei": "direito",
+          "ei_numero": [
+            "37"
+          ],
+          "id_palestra": "direito",
+          "pal_numero": "7"
+        },
+        {
+          "nome": "Ecologia e Análise Ambiental",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 0,
+          "n_vagas": 50,
+          "campus": 0,
+          "id_ei": "eco_ana_amb",
+          "ei_numero": [
+            "18"
+          ],
+          "id_palestra": "eco_ana_amb",
+          "pal_numero": "24"
+        },
+        {
+          "nome": "Educação Física",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 2,
+          "n_vagas": 40,
+          "campus": 0,
+          "id_ei": "ed_fisica",
+          "ei_numero": [
+            "64"
+          ],
+          "id_palestra": "ed_fisica",
+          "pal_numero": "41"
+        },
+        {
+          "nome": "Educação Física",
+          "grau": 1,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 1,
+          "n_vagas": 40,
+          "campus": 0,
+          "id_ei": "ed_fisica",
+          "ei_numero": [
+            "64"
+          ],
+          "id_palestra": "ed_fisica",
+          "pal_numero": "41"
+        },
+        {
+          "nome": "Educação Física",
+          "grau": 1,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 2,
+          "n_vagas": 40,
+          "campus": 0,
+          "id_ei": "ed_fisica",
+          "ei_numero": [
+            "64"
+          ],
+          "id_palestra": "ed_fisica",
+          "pal_numero": "41"
+        },
+        {
+          "nome": "Educação Intercultural",
+          "grau": 1,
+          "ps": 1,
+          "duracao": 8,
+          "turno": 0,
+          "n_vagas": 35,
+          "campus": 0,
+          "id_ei": "",
+          "ei_numero": [
+            ""
+          ],
+          "id_palestra": "",
+          "pal_numero": ""
+        },
+        {
+          "nome": "Enfermagem",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 10,
+          "turno": 0,
+          "n_vagas": 50,
+          "campus": 1,
+          "id_ei": "enferm",
+          "ei_numero": [
+            "20"
+          ],
+          "id_palestra": "enferm",
+          "pal_numero": "25"
+        },
+        {
+          "nome": "Engenharia Ambiental e Sanitária",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 10,
+          "turno": 0,
+          "n_vagas": 45,
+          "campus": 1,
+          "id_ei": "eng_amb_san",
+          "ei_numero": [
+            "0"
+          ],
+          "id_palestra": "eng_amb_san",
+          "pal_numero": "22"
+        },
+        {
+          "nome": "Engenharia Civil",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 10,
+          "turno": 0,
+          "n_vagas": 90,
+          "campus": 1,
+          "id_ei": "eng_civ",
+          "ei_numero": [
+            "1"
+          ],
+          "id_palestra": "eng_civ",
+          "pal_numero": "43"
+        },
+        {
+          "nome": "Engenharia de Alimentos",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 10,
+          "turno": 0,
+          "n_vagas": 60,
+          "campus": 0,
+          "id_ei": "eng_alim",
+          "ei_numero": [
+            "61"
+          ],
+          "id_palestra": "eng_alim",
+          "pal_numero": "44"
+        },
+        {
+          "nome": "Engenharia de Computação",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 10,
+          "turno": 3,
+          "n_vagas": 80,
+          "campus": 1,
+          "id_ei": "eng_comp",
+          "ei_numero": [
+            "8"
+          ],
+          "id_palestra": "eng_comp",
+          "pal_numero": "53"
+        },
+        {
+          "nome": "Engenharia de Produção",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 10,
+          "turno": 0,
+          "n_vagas": 40,
+          "campus": 2,
+          "id_ei": "eng_prod",
+          "ei_numero": [
+            "4"
+          ],
+          "id_palestra": "eng_prod",
+          "pal_numero": "21"
+        },
+        {
+          "nome": "Engenharia de Software",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 3,
+          "n_vagas": 40,
+          "campus": 0,
+          "id_ei": "eng_soft",
+          "ei_numero": [
+            "15"
+          ],
+          "id_palestra": "eng_soft",
+          "pal_numero": "54"
+        },
+        {
+          "nome": "Engenharia de Transporte",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 10,
+          "turno": 0,
+          "n_vagas": 40,
+          "campus": 2,
+          "id_ei": "eng_transp",
+          "ei_numero": [
+            "3"
+          ],
+          "id_palestra": "eng_transp",
+          "pal_numero": "0"
+        },
+        {
+          "nome": "Engenharia Elétrica",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 10,
+          "turno": 0,
+          "n_vagas": 80,
+          "campus": 1,
+          "id_ei": "eng_elet",
+          "ei_numero": [
+            "7"
+          ],
+          "id_palestra": "eng_elet",
+          "pal_numero": "31"
+        },
+        {
+          "nome": "Engenharia Física",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 10,
+          "turno": 0,
+          "n_vagas": 25,
+          "campus": 0,
+          "id_ei": "eng_fis",
+          "ei_numero": [
+            "12"
+          ],
+          "id_palestra": "eng_fis",
+          "pal_numero": "55"
+        },
+        {
+          "nome": "Engenharia Florestal",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 10,
+          "turno": 0,
+          "n_vagas": 40,
+          "campus": 0,
+          "id_ei": "eng_florest",
+          "ei_numero": [
+            "60"
+          ],
+          "id_palestra": "eng_florest",
+          "pal_numero": "23"
+        },
+        {
+          "nome": "Engenharia Mecânica",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 10,
+          "turno": 0,
+          "n_vagas": 40,
+          "campus": 1,
+          "id_ei": "eng_mec",
+          "ei_numero": [
+            "6"
+          ],
+          "id_palestra": "eng_mec",
+          "pal_numero": "11"
+        },
+        {
+          "nome": "Engenharia Química",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 10,
+          "turno": 0,
+          "n_vagas": 20,
+          "campus": 0,
+          "id_ei": "eng_quim",
+          "ei_numero": [
+            "9"
+          ],
+          "id_palestra": "eng_quim",
+          "pal_numero": "30"
+        },
+        {
+          "nome": "Estatística",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 9,
+          "turno": 3,
+          "n_vagas": 50,
+          "campus": 0,
+          "id_ei": "estat",
+          "ei_numero": [
+            "35"
+          ],
+          "id_palestra": "estat",
+          "pal_numero": "39"
+        },
+        {
+          "nome": "Farmácia",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 10,
+          "turno": 0,
+          "n_vagas": 90,
+          "campus": 1,
+          "id_ei": "farm",
+          "ei_numero": [
+            "23"
+          ],
+          "id_palestra": "farm",
+          "pal_numero": "29"
+        },
+        {
+          "nome": "Filosofia",
+          "grau": 2,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 1,
+          "n_vagas": 46,
+          "campus": 0,
+          "id_ei": "filos",
+          "ei_numero": [
+            "43"
+          ],
+          "id_palestra": "filos",
+          "pal_numero": "52"
+        },
+        {
+          "nome": "Filosofia",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 3,
+          "n_vagas": 50,
+          "campus": 0,
+          "id_ei": "filos",
+          "ei_numero": [
+            "43"
+          ],
+          "id_palestra": "filos",
+          "pal_numero": "52"
+        },
+        {
+          "nome": "Física",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 0,
+          "n_vagas": 25,
+          "campus": 0,
+          "id_ei": "fisica",
+          "ei_numero": [
+            "10"
+          ],
+          "id_palestra": "fisica",
+          "pal_numero": "33"
+        },
+        {
+          "nome": "Física",
+          "grau": 1,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 0,
+          "n_vagas": 25,
+          "campus": 0,
+          "id_ei": "fisica",
+          "ei_numero": [
+            "10"
+          ],
+          "id_palestra": "fisica",
+          "pal_numero": "33"
+        },
+        {
+          "nome": "Física",
+          "grau": 1,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 3,
+          "n_vagas": 40,
+          "campus": 0,
+          "id_ei": "fisica",
+          "ei_numero": [
+            "10"
+          ],
+          "id_palestra": "fisica",
+          "pal_numero": "33"
+        },
+        {
+          "nome": "Física Médica",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 10,
+          "turno": 0,
+          "n_vagas": 25,
+          "campus": 0,
+          "id_ei": "fisica_med",
+          "ei_numero": [
+            "11"
+          ],
+          "id_palestra": "fisica_med",
+          "pal_numero": "13"
+        },
+        {
+          "nome": "Geografia",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 1,
+          "n_vagas": 30,
+          "campus": 0,
+          "id_ei": "geo",
+          "ei_numero": [
+            "33"
+          ],
+          "id_palestra": "geo",
+          "pal_numero": "60"
+        },
+        {
+          "nome": "Geografia",
+          "grau": 1,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 3,
+          "n_vagas": 40,
+          "campus": 0,
+          "id_ei": "geo",
+          "ei_numero": [
+            "33"
+          ],
+          "id_palestra": "geo",
+          "pal_numero": "60"
+        },
+        {
+          "nome": "Geografia",
+          "grau": 1,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 1,
+          "n_vagas": 30,
+          "campus": 0,
+          "id_ei": "geo",
+          "ei_numero": [
+            "33"
+          ],
+          "id_palestra": "geo",
+          "pal_numero": "60"
+        },
+        {
+          "nome": "Geologia",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 10,
+          "turno": 0,
+          "n_vagas": 40,
+          "campus": 2,
+          "id_ei": "geologia",
+          "ei_numero": [
+            "5"
+          ],
+          "id_palestra": "geologia",
+          "pal_numero": "42"
+        },
+        {
+          "nome": "Gestão da Informação",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 1,
+          "n_vagas": 40,
+          "campus": 0,
+          "id_ei": "gest_info",
+          "ei_numero": [
+            "30"
+          ],
+          "id_palestra": "gest_info",
+          "pal_numero": "15"
+        },
+        {
+          "nome": "História",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 3,
+          "n_vagas": 30,
+          "campus": 0,
+          "id_ei": "hist",
+          "ei_numero": [
+            "41"
+          ],
+          "id_palestra": "hist",
+          "pal_numero": "17"
+        },
+        {
+          "nome": "História",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 1,
+          "n_vagas": 25,
+          "campus": 0,
+          "id_ei": "hist",
+          "ei_numero": [
+            "41"
+          ],
+          "id_palestra": "hist",
+          "pal_numero": "17"
+        },
+        {
+          "nome": "História",
+          "grau": 1,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 1,
+          "n_vagas": 30,
+          "campus": 0,
+          "id_ei": "hist",
+          "ei_numero": [
+            "41"
+          ],
+          "id_palestra": "hist",
+          "pal_numero": "17"
+        },
+        {
+          "nome": "História",
+          "grau": 1,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 3,
+          "n_vagas": 25,
+          "campus": 0,
+          "id_ei": "hist",
+          "ei_numero": [
+            "41"
+          ],
+          "id_palestra": "hist",
+          "pal_numero": "17"
+        },
+        {
+          "nome": "Letras: Espanhol",
+          "grau": 1,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 1,
+          "n_vagas": 25,
+          "campus": 0,
+          "id_ei": "letras_linguas",
+          "ei_numero": [
+            "50"
+          ],
+          "id_palestra": "letras_linguas",
+          "pal_numero": "18"
+        },
+        {
+          "nome": "Letras: Linguística",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 2,
+          "n_vagas": 10,
+          "campus": 0,
+          "id_ei": "letras_linguas",
+          "ei_numero": [
+            "50"
+          ],
+          "id_palestra": "letras_linguas",
+          "pal_numero": "18"
+        },
+        {
+          "nome": "Letras: Estudos Literários",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 2,
+          "n_vagas": 10,
+          "campus": 0,
+          "id_ei": "letras_linguas",
+          "ei_numero": [
+            "50"
+          ],
+          "id_palestra": "letras_linguas",
+          "pal_numero": "18"
+        },
+        {
+          "nome": "Letras: Francês",
+          "grau": 1,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 1,
+          "n_vagas": 10,
+          "campus": 0,
+          "id_ei": "letras_linguas",
+          "ei_numero": [
+            "50"
+          ],
+          "id_palestra": "letras_linguas",
+          "pal_numero": "18"
+        },
+        {
+          "nome": "Letras: Inglês",
+          "grau": 1,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 1,
+          "n_vagas": 25,
+          "campus": 0,
+          "id_ei": "letras_linguas",
+          "ei_numero": [
+            "50"
+          ],
+          "id_palestra": "letras_linguas",
+          "pal_numero": "18"
+        },
+        {
+          "nome": "Letras: Libras",
+          "grau": 1,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 3,
+          "n_vagas": 25,
+          "campus": 0,
+          "id_ei": "letras_libras",
+          "ei_numero": [
+            "51"
+          ],
+          "id_palestra": "letras_libras",
+          "pal_numero": "38"
+        },
+        {
+          "nome": "Letras: Libras",
+          "grau": 1,
+          "ps": 1,
+          "duracao": 8,
+          "turno": 3,
+          "n_vagas": 15,
+          "campus": 0,
+          "id_ei": "letras_libras",
+          "ei_numero": [
+            "51"
+          ],
+          "id_palestra": "letras_libras",
+          "pal_numero": "38"
+        },
+        {
+          "nome": "Letras: Português",
+          "grau": 1,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 2,
+          "n_vagas": 50,
+          "campus": 0,
+          "id_ei": "letras_linguas",
+          "ei_numero": [
+            "51"
+          ],
+          "id_palestra": "letras_linguas",
+          "pal_numero": "18"
+        },
+        {
+          "nome": "Letras: Português",
+          "grau": 1,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 1,
+          "n_vagas": 40,
+          "campus": 0,
+          "id_ei": "letras_linguas",
+          "ei_numero": [
+            "51"
+          ],
+          "id_palestra": "letras_linguas",
+          "pal_numero": "18"
+        },
+        {
+          "nome": "Letras: Trad. e Interpretação em Libras/Português",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 3,
+          "n_vagas": 30,
+          "campus": 0,
+          "id_ei": "letras_libras",
+          "ei_numero": [
+            "51"
+          ],
+          "id_palestra": "letras_libras",
+          "pal_numero": "38"
+        },
+        {
+          "nome": "Matemática",
+          "grau": 2,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 2,
+          "n_vagas": 60,
+          "campus": 0,
+          "id_ei": "mat",
+          "ei_numero": [
+            "36"
+          ],
+          "id_palestra": "mat",
+          "pal_numero": "61"
+        },
+        {
+          "nome": "Matemática",
+          "grau": 1,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 3,
+          "n_vagas": 50,
+          "campus": 0,
+          "id_ei": "mat",
+          "ei_numero": [
+            "36"
+          ],
+          "id_palestra": "mat",
+          "pal_numero": "61"
+        },
+        {
+          "nome": "Medicina",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 12,
+          "turno": 0,
+          "n_vagas": 110,
+          "campus": 1,
+          "id_ei": "med",
+          "ei_numero": [
+            "19"
+          ],
+          "id_palestra": "med",
+          "pal_numero": "49"
+        },
+        {
+          "nome": "Medicina Veterinária",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 10,
+          "turno": 0,
+          "n_vagas": 102,
+          "campus": 0,
+          "id_ei": "med_vet",
+          "ei_numero": [
+            "62"
+          ],
+          "id_palestra": "med_vet",
+          "pal_numero": "9"
+        },
+        {
+          "nome": "Museologia",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 3,
+          "n_vagas": 30,
+          "campus": 0,
+          "id_ei": "museo",
+          "ei_numero": [
+            "40"
+          ],
+          "id_palestra": "museo",
+          "pal_numero": "56"
+        },
+        {
+          "nome": "Música - Canto",
+          "grau": 0,
+          "ps": 2,
+          "duracao": 8,
+          "turno": 0,
+          "n_vagas": 2,
+          "campus": 0,
+          "id_ei": "musica",
+          "ei_numero": [
+            "57"
+          ],
+          "id_palestra": "musica",
+          "pal_numero": "6"
+        },
+        {
+          "nome": "Música - Composição",
+          "grau": 0,
+          "ps": 2,
+          "duracao": 8,
+          "turno": 0,
+          "n_vagas": 2,
+          "campus": 0,
+          "id_ei": "musica",
+          "ei_numero": [
+            "57"
+          ],
+          "id_palestra": "musica",
+          "pal_numero": "6"
+        },
+        {
+          "nome": "Música - Educação Musical",
+          "grau": 1,
+          "ps": 2,
+          "duracao": 8,
+          "turno": 0,
+          "n_vagas": 48,
+          "campus": 0,
+          "id_ei": "musica",
+          "ei_numero": [
+            "57"
+          ],
+          "id_palestra": "musica",
+          "pal_numero": "6"
+        },
+        {
+          "nome": "Música - Ensino do Canto",
+          "grau": 1,
+          "ps": 2,
+          "duracao": 8,
+          "turno": 0,
+          "n_vagas": 4,
+          "campus": 0,
+          "id_ei": "musica",
+          "ei_numero": [
+            "57"
+          ],
+          "id_palestra": "musica",
+          "pal_numero": "6"
+        },
+        {
+          "nome": "Música - Ensino do Instrumento Musical",
+          "grau": 1,
+          "ps": 2,
+          "duracao": 8,
+          "turno": 0,
+          "n_vagas": 36,
+          "campus": 0,
+          "id_ei": "musica",
+          "ei_numero": [
+            "57"
+          ],
+          "id_palestra": "musica",
+          "pal_numero": "6"
+        },
+        {
+          "nome": "Música - Intrumento Musical",
+          "grau": 0,
+          "ps": 2,
+          "duracao": 8,
+          "turno": 0,
+          "n_vagas": 20,
+          "campus": 0,
+          "id_ei": "musica",
+          "ei_numero": [
+            "57"
+          ],
+          "id_palestra": "musica",
+          "pal_numero": "6"
+        },
+        {
+          "nome": "Música - Regência",
+          "grau": 0,
+          "ps": 2,
+          "duracao": 8,
+          "turno": 0,
+          "n_vagas": 4,
+          "campus": 0,
+          "id_ei": "musica",
+          "ei_numero": [
+            "57"
+          ],
+          "id_palestra": "musica",
+          "pal_numero": "6"
+        },
+        {
+          "nome": "Musicoterapia",
+          "grau": 0,
+          "ps": 2,
+          "duracao": 8,
+          "turno": 0,
+          "n_vagas": 24,
+          "campus": 0,
+          "id_ei": "musicotep",
+          "ei_numero": [
+            "58"
+          ],
+          "id_palestra": "musicoter",
+          "pal_numero": "27"
+        },
+        {
+          "nome": "Nutrição",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 10,
+          "turno": 0,
+          "n_vagas": 72,
+          "campus": 1,
+          "id_ei": "nutri",
+          "ei_numero": [
+            "25"
+          ],
+          "id_palestra": "nutri",
+          "pal_numero": "46"
+        },
+        {
+          "nome": "Odontologia",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 10,
+          "turno": 0,
+          "n_vagas": 60,
+          "campus": 1,
+          "id_ei": "odonto",
+          "ei_numero": [
+            "22"
+          ],
+          "id_palestra": "odonto",
+          "pal_numero": "1"
+        },
+        {
+          "nome": "Pedagogia",
+          "grau": 1,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 1,
+          "n_vagas": 70,
+          "campus": 1,
+          "id_ei": "pedag",
+          "ei_numero": [
+            "31"
+          ],
+          "id_palestra": "pedag",
+          "pal_numero": "58"
+        },
+        {
+          "nome": "Pedagogia",
+          "grau": 1,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 3,
+          "n_vagas": 70,
+          "campus": 1,
+          "id_ei": "pedag",
+          "ei_numero": [
+            "31"
+          ],
+          "id_palestra": "pedag",
+          "pal_numero": "58"
+        },
+        {
+          "nome": "Psicologia",
+          "grau": 3,
+          "ps": 0,
+          "duracao": 10,
+          "turno": 0,
+          "n_vagas": 35,
+          "campus": 1,
+          "id_ei": "psic",
+          "ei_numero": [
+            "32"
+          ],
+          "id_palestra": "psic",
+          "pal_numero": "36"
+        },
+        {
+          "nome": "Química",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 0,
+          "n_vagas": 46,
+          "campus": 0,
+          "id_ei": "quim_ba",
+          "ei_numero": [
+            "2"
+          ],
+          "id_palestra": "quim",
+          "pal_numero": "10"
+        },
+        {
+          "nome": "Química",
+          "grau": 1,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 3,
+          "n_vagas": 40,
+          "campus": 0,
+          "id_ei": "quim_li",
+          "ei_numero": [
+            "16"
+          ],
+          "id_palestra": "quim",
+          "pal_numero": "10"
+        },
+        {
+          "nome": "Química",
+          "grau": 1,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 0,
+          "n_vagas": 14,
+          "campus": 0,
+          "id_ei": "quim_li",
+          "ei_numero": [
+            "16"
+          ],
+          "id_palestra": "quim",
+          "pal_numero": "10"
+        },
+        {
+          "nome": "Relações Internacionais",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 1,
+          "n_vagas": 40,
+          "campus": 0,
+          "id_ei": "rel_inter",
+          "ei_numero": [
+            "42"
+          ],
+          "id_palestra": "rel_inter",
+          "pal_numero": "14"
+        },
+        {
+          "nome": "Sistemas de Informação",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 3,
+          "n_vagas": 80,
+          "campus": 0,
+          "id_ei": "sist_info",
+          "ei_numero": [
+            "13"
+          ],
+          "id_palestra": "sist_info",
+          "pal_numero": "32"
+        },
+        {
+          "nome": "Teatro",
+          "grau": 1,
+          "ps": 2,
+          "duracao": 8,
+          "turno": 2,
+          "n_vagas": 30,
+          "campus": 0,
+          "id_ei": "teatro",
+          "ei_numero": [
+            "55"
+          ],
+          "id_palestra": "teatro",
+          "pal_numero": "47"
+        },
+        {
+          "nome": "Zootecnia",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 10,
+          "turno": 0,
+          "n_vagas": 40,
+          "campus": 0,
+          "id_ei": "zoot",
+          "ei_numero": [
+            "63"
+          ],
+          "id_palestra": "zoot",
+          "pal_numero": "51"
+        }
+      ]
+    },
+    {
+      "nome": "Jataí",
+      "data_evento": "15 de junho",
+      "cursos": [
+        {
+          "nome": "Agronomia",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 10,
+          "turno": 0,
+          "n_vagas": 60,
+          "id_ei": "agro",
+          "ei_numero": [
+            "59"
+          ],
+          "id_palestra": "agro",
+          "pal_numero": "2"
+        },
+        {
+          "nome": "Biomedicina",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 0,
+          "n_vagas": 40,
+          "id_ei": "biomed",
+          "ei_numero": [
+            "24"
+          ],
+          "id_palestra": "biomed",
+          "pal_numero": "4"
+        },
+        {
+          "nome": "Ciências Biológicas",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 0,
+          "n_vagas": 40,
+          "id_ei": "ciencias_bio",
+          "ei_numero": [
+            "17"
+          ],
+          "id_palestra": "ciencias_bio",
+          "pal_numero": "3"
+        },
+        {
+          "nome": "Ciências Biológicas",
+          "grau": 1,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 0,
+          "n_vagas": 30,
+          "id_ei": "ciencias_bio",
+          "ei_numero": [
+            "17"
+          ],
+          "id_palestra": "ciencias_bio",
+          "pal_numero": "3"
+        },
+        {
+          "nome": "Ciências da Computação",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 0,
+          "n_vagas": 50,
+          "id_ei": "ciencias_comp",
+          "ei_numero": [
+            "14"
+          ],
+          "id_palestra": "ciencias_comp",
+          "pal_numero": "12"
+        },
+        {
+          "nome": "Direito",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 10,
+          "turno": 3,
+          "n_vagas": 60,
+          "id_ei": "direito",
+          "ei_numero": [
+            "37"
+          ],
+          "id_palestra": "direito",
+          "pal_numero": "7"
+        },
+        {
+          "nome": "Educação Física",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 3,
+          "n_vagas": 40,
+          "id_ei": "ed_fisica",
+          "ei_numero": [
+            "64"
+          ],
+          "id_palestra": "ed_fisica",
+          "pal_numero": "41"
+        },
+        {
+          "nome": "Educação Física",
+          "grau": 1,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 1,
+          "n_vagas": 40,
+          "id_ei": "ed_fisica",
+          "ei_numero": [
+            "64"
+          ],
+          "id_palestra": "ed_fisica",
+          "pal_numero": "41"
+        },
+        {
+          "nome": "Enfermagem",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 10,
+          "turno": 0,
+          "n_vagas": 30,
+          "id_ei": "enferm",
+          "ei_numero": [
+            "20"
+          ],
+          "id_palestra": "enferm",
+          "pal_numero": "25"
+        },
+        {
+          "nome": "Engenharia Florestal",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 10,
+          "turno": 0,
+          "n_vagas": 50,
+          "id_ei": "eng_florest",
+          "ei_numero": [
+            "60"
+          ],
+          "id_palestra": "eng_florest",
+          "pal_numero": "23"
+        },
+        {
+          "nome": "Física",
+          "grau": 1,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 3,
+          "n_vagas": 40,
+          "id_ei": "fisica",
+          "ei_numero": [
+            "10"
+          ],
+          "id_palestra": "fisica",
+          "pal_numero": "33"
+        },
+        {
+          "nome": "Fisioterapia",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 10,
+          "turno": 0,
+          "n_vagas": 40,
+          "id_ei": "",
+          "ei_numero": [
+            ""
+          ],
+          "id_palestra": "",
+          "pal_numero": ""
+        },
+        {
+          "nome": "Geografia",
+          "grau": 2,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 3,
+          "n_vagas": 40,
+          "id_ei": "geo",
+          "ei_numero": [
+            "33"
+          ],
+          "id_palestra": "geo",
+          "pal_numero": "60"
+        },
+        {
+          "nome": "História",
+          "grau": 1,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 3,
+          "n_vagas": 50,
+          "id_ei": "hist",
+          "ei_numero": [
+            "41"
+          ],
+          "id_palestra": "hist",
+          "pal_numero": "17"
+        },
+        {
+          "nome": "Letras - Inglês",
+          "grau": 1,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 3,
+          "n_vagas": 30,
+          "id_ei": "letras_linguas",
+          "ei_numero": [
+            "50"
+          ],
+          "id_palestra": "letras_linguas",
+          "pal_numero": "18"
+        },
+        {
+          "nome": "Letras - Português",
+          "grau": 1,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 3,
+          "n_vagas": 40,
+          "id_ei": "letras_linguas",
+          "ei_numero": [
+            "51"
+          ],
+          "id_palestra": "letras_linguas",
+          "pal_numero": "18"
+        },
+        {
+          "nome": "Matemática",
+          "grau": 1,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 3,
+          "n_vagas": 45,
+          "id_ei": "mat",
+          "ei_numero": [
+            "36"
+          ],
+          "id_palestra": "mat",
+          "pal_numero": "61"
+        },
+        {
+          "nome": "Medicina",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 12,
+          "turno": 0,
+          "n_vagas": 60,
+          "id_ei": "med",
+          "ei_numero": [
+            "19"
+          ],
+          "id_palestra": "med",
+          "pal_numero": "49"
+        },
+        {
+          "nome": "Medicina Veterinária",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 10,
+          "turno": 0,
+          "n_vagas": 60,
+          "id_ei": "med_vet",
+          "ei_numero": [
+            "62"
+          ],
+          "id_palestra": "med_vet",
+          "pal_numero": "9"
+        },
+        {
+          "nome": "Pedagogia",
+          "grau": 1,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 1,
+          "n_vagas": 40,
+          "id_ei": "pedag",
+          "ei_numero": [
+            "31"
+          ],
+          "id_palestra": "pedag",
+          "pal_numero": "58"
+        },
+        {
+          "nome": "Pedagogia",
+          "grau": 1,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 3,
+          "n_vagas": 40,
+          "id_ei": "pedag",
+          "ei_numero": [
+            "31"
+          ],
+          "id_palestra": "pedag",
+          "pal_numero": "58"
+        },
+        {
+          "nome": "Psicologia",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 10,
+          "turno": 0,
+          "n_vagas": 40,
+          "id_ei": "psic",
+          "ei_numero": [
+            "32"
+          ],
+          "id_palestra": "psic",
+          "pal_numero": "36"
+        },
+        {
+          "nome": "Química",
+          "grau": 1,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 3,
+          "n_vagas": 45,
+          "id_ei": "quim_li",
+          "ei_numero": [
+            "16"
+          ],
+          "id_palestra": "quim",
+          "pal_numero": "10"
+        },
+        {
+          "nome": "Química",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 0,
+          "n_vagas": 40,
+          "id_ei": "quim_ba",
+          "ei_numero": [
+            "2"
+          ],
+          "id_palestra": "quim",
+          "pal_numero": "10"
+        },
+        {
+          "nome": "Zootecnia",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 10,
+          "turno": 0,
+          "n_vagas": 30,
+          "id_ei": "zoot",
+          "ei_numero": [
+            "63"
+          ],
+          "id_palestra": "zoot",
+          "pal_numero": "51"
+        }
+      ]
+    },
+    {
+      "nome": "Catalão",
+      "data_evento": "28 de setembro",
+      "cursos": [
+        {
+          "nome": "Administração",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 3,
+          "n_vagas": 50,
+          "id_ei": "admin",
+          "ei_numero": [
+            "52"
+          ],
+          "id_palestra": "admin",
+          "pal_numero": "20"
+        },
+        {
+          "nome": "Ciências Biológicas",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 0,
+          "n_vagas": 30,
+          "id_ei": "ciencias_bio",
+          "ei_numero": [
+            "17"
+          ],
+          "id_palestra": "ciencias_bio",
+          "pal_numero": "3"
+        },
+        {
+          "nome": "Ciências Biológicas",
+          "grau": 1,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 0,
+          "n_vagas": 50,
+          "id_ei": "ciencias_bio",
+          "ei_numero": [
+            "17"
+          ],
+          "id_palestra": "ciencias_bio",
+          "pal_numero": "3"
+        },
+        {
+          "nome": "Ciências da Computação",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 0,
+          "n_vagas": 35,
+          "id_ei": "ciencias_comp",
+          "ei_numero": [
+            "14"
+          ],
+          "id_palestra": "ciencias_comp",
+          "pal_numero": "12"
+        },
+        {
+          "nome": "Ciências Sociais",
+          "grau": 2,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 1,
+          "n_vagas": 60,
+          "id_ei": "ciencias_soc_ba_pol_pub, ciencias_soc_li",
+          "ei_numero": [
+            "38",
+            "39"
+          ],
+          "id_palestra": "ciencias_soc",
+          "pal_numero": "37"
+        },
+        {
+          "nome": "Educação Física",
+          "grau": 1,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 1,
+          "n_vagas": 45,
+          "id_ei": "ed_fisica",
+          "ei_numero": [
+            "64"
+          ],
+          "id_palestra": "ed_fisica",
+          "pal_numero": "41"
+        },
+        {
+          "nome": "Educação no Campo",
+          "grau": 1,
+          "ps": 1,
+          "duracao": 8,
+          "turno": 0,
+          "n_vagas": 120,
+          "id_ei": "",
+          "ei_numero": [
+            ""
+          ],
+          "id_palestra": "",
+          "pal_numero": ""
+        },
+        {
+          "nome": "Enfermagem",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 10,
+          "turno": 0,
+          "n_vagas": 40,
+          "id_ei": "enferm",
+          "ei_numero": [
+            "20"
+          ],
+          "id_palestra": "enferm",
+          "pal_numero": "25"
+        },
+        {
+          "nome": "Engenharia Civil",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 10,
+          "turno": 0,
+          "n_vagas": 50,
+          "id_ei": "eng_civil",
+          "ei_numero": [
+            "1"
+          ],
+          "id_palestra": "eng_civil",
+          "pal_numero": "43"
+        },
+        {
+          "nome": "Engenharia de Minas",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 10,
+          "turno": 0,
+          "n_vagas": 50,
+          "id_ei": "",
+          "ei_numero": [
+            ""
+          ],
+          "id_palestra": "",
+          "pal_numero": ""
+        },
+        {
+          "nome": "Engenharia de Produção",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 10,
+          "turno": 0,
+          "n_vagas": 50,
+          "id_ei": "eng_prod",
+          "ei_numero": [
+            "4"
+          ],
+          "id_palestra": "eng_prod",
+          "pal_numero": "21"
+        },
+        {
+          "nome": "Física",
+          "grau": 1,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 3,
+          "n_vagas": 50,
+          "id_ei": "fisica",
+          "ei_numero": [
+            "10"
+          ],
+          "id_palestra": "fisica",
+          "pal_numero": "33"
+        },
+        {
+          "nome": "Geografia",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 3,
+          "n_vagas": 30,
+          "id_ei": "geo",
+          "ei_numero": [
+            "33"
+          ],
+          "id_palestra": "geo",
+          "pal_numero": "60"
+        },
+        {
+          "nome": "Geografia",
+          "grau": 1,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 3,
+          "n_vagas": 50,
+          "id_ei": "geo",
+          "ei_numero": [
+            "33"
+          ],
+          "id_palestra": "geo",
+          "pal_numero": "60"
+        },
+        {
+          "nome": "História",
+          "grau": 2,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 3,
+          "n_vagas": 50,
+          "id_ei": "hist",
+          "ei_numero": [
+            "41"
+          ],
+          "id_palestra": "hist",
+          "pal_numero": "17"
+        },
+        {
+          "nome": "Letras - Português",
+          "grau": 1,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 3,
+          "n_vagas": 50,
+          "id_ei": "letras_linguas",
+          "ei_numero": [
+            "51"
+          ],
+          "id_palestra": "letras_linguas",
+          "pal_numero": "18"
+        },
+        {
+          "nome": "Letras - Português/Inglês",
+          "grau": 1,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 1,
+          "n_vagas": 50,
+          "id_ei": "letras_linguas",
+          "ei_numero": [
+            "51"
+          ],
+          "id_palestra": "letras_linguas",
+          "pal_numero": "18"
+        },
+        {
+          "nome": "Matemática",
+          "grau": 1,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 3,
+          "n_vagas": 50,
+          "id_ei": "mat",
+          "ei_numero": [
+            "36"
+          ],
+          "id_palestra": "mat",
+          "pal_numero": "61"
+        },
+        {
+          "nome": "Matemática Industrial",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 1,
+          "n_vagas": 50,
+          "id_ei": "",
+          "ei_numero": [
+            ""
+          ],
+          "id_palestra": "",
+          "pal_numero": ""
+        },
+        {
+          "nome": "Pedagogia",
+          "grau": 1,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 3,
+          "n_vagas": 50,
+          "id_ei": "pedag",
+          "ei_numero": [
+            "31"
+          ],
+          "id_palestra": "pedag",
+          "pal_numero": "58"
+        },
+        {
+          "nome": "Psicologia",
+          "grau": 3,
+          "ps": 0,
+          "duracao": 10,
+          "turno": 0,
+          "n_vagas": 50,
+          "id_ei": "psic",
+          "ei_numero": [
+            "32"
+          ],
+          "id_palestra": "psic",
+          "pal_numero": "36"
+        },
+        {
+          "nome": "Química",
+          "grau": 2,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 3,
+          "n_vagas": 50,
+          "id_ei": "quim_ba, quim_li",
+          "ei_numero": [
+            "2",
+            "16"
+          ],
+          "id_palestra": "quim",
+          "pal_numero": "10"
+        }
+      ]
+    },
+    {
+      "nome": "Goiás",
+      "data_evento": "14 de setembro",
+      "cursos": [
+        {
+          "nome": "Administração",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 1,
+          "n_vagas": 50,
+          "id_ei": "admin",
+          "ei_numero": [
+            "52"
+          ],
+          "id_palestra": "admin",
+          "pal_numero": "20"
+        },
+        {
+          "nome": "Arquitetura e Urbanismo",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 10,
+          "turno": 0,
+          "n_vagas": 30,
+          "id_ei": "arq_urb",
+          "ei_numero": [
+            "46"
+          ],
+          "id_palestra": "arq_urb",
+          "pal_numero": "5"
+        },
+        {
+          "nome": "Direito",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 10,
+          "turno": 3,
+          "n_vagas": 60,
+          "id_ei": "direito",
+          "ei_numero": [
+            "37"
+          ],
+          "id_palestra": "direito",
+          "pal_numero": "7"
+        },
+        {
+          "nome": "Educação no Campo",
+          "grau": 1,
+          "ps": 1,
+          "duracao": 8,
+          "turno": 0,
+          "n_vagas": 120,
+          "id_ei": "",
+          "ei_numero": [
+            ""
+          ],
+          "id_palestra": "",
+          "pal_numero": ""
+        },
+        {
+          "nome": "Filosofia",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 3,
+          "n_vagas": 50,
+          "id_ei": "filos",
+          "ei_numero": [
+            "43"
+          ],
+          "id_palestra": "filos",
+          "pal_numero": "52"
+        },
+        {
+          "nome": "Filosofia",
+          "grau": 1,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 3,
+          "n_vagas": 50,
+          "id_ei": "filos",
+          "ei_numero": [
+            "43"
+          ],
+          "id_palestra": "filos",
+          "pal_numero": "52"
+        },
+        {
+          "nome": "Serviço Social",
+          "grau": 0,
+          "ps": 0,
+          "duracao": 8,
+          "turno": 3,
+          "n_vagas": 50,
+          "id_ei": "",
+          "ei_numero": [
+            ""
+          ],
+          "id_palestra": "",
+          "pal_numero": ""
+        }
+      ]
+    }
+  ]
 }

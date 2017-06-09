@@ -1,640 +1,843 @@
 {
-	"dias":{
-		"d1": [
-			{
-				"tipo": 2,
-				"Nome": "Tempos Modernos (EUA,1936, 87min)" ,
-				"extra": "Direção: Charles Chaplin" ,
-				"horario": "12h00" ,
-				"duracao": "1h30" ,
-				"local": "Cine UFG" ,
-				"id-local": "A15" 
-			},
-
-			{
-				"tipo": 2,
-				"Nome": "Recital dos Alunos de Formação de Repertório e Instrumento em Conjunto" ,
-				"extra": "Profs./Profas. Responsáveis: Consuelo Quireze, Dulce Regina, Pedro Martelli e Julio Lemos" ,
-				"horario": "14h00" ,
-				"duracao": "50 min" ,
-				"local": "Teatro EMAC" ,
-				"id-local": "A1" 
-			},
-
-			{
-				"tipo": 2,
-				"Nome": "Alunos de Teatro e de Direção de Arte" ,
-				"extra": "" ,
-				"horario": "14h00" ,
-				"duracao": "2h" ,
-				"local": "Palco Externo " ,
-				"id-local": "A7" 
-			},
-
-			{
-				"tipo": 2,
-				"Nome": "Grupo de Capoeira" ,
-				"extra": "Profa. Responsável: Renata Lima" ,
-				"horario": "Diversos" ,
-				"duracao": "" ,
-				"local": "Intervenção" ,
-				"id-local": "" 
-			},
-
-			{
-				"tipo": 0,
-				"Nome": "Nossa Universidade e as formas de ingresso nos cursos de graduação" ,
-				"extra": "#vempraUFG" ,
-				"horario": "14h20" ,
-				"duracao": "30 min" ,
-				"local": "Centro de Cultura e Eventos Professor Ricardo Freua Bufáiçal" ,
-				"id-local": "C2" 
-			},
-
-			{
-				"tipo": 1,
-				"Nome": ["Engenharia de Transportes", "Odontologia", "Agronomia", "Ciências Biológicas", "Biomedicina", "Arquitetura e Urbanismo", "Música", "Direito", "Design de Moda", "Veterinária", "Química", "Engenharia Mecânica", "Ciências da Computação", "Física Médica", "Relações Internacionais", "Gestão da Informação", "Jornalismo", "História", "Letras (todos)", "Ciências Ambientais", "Administração"] ,
-				"extra": "" ,
-				"horario": "14h20" ,
-				"duracao": "30 min" ,
-				"local": "" ,
-				"id-local": "" 
-			},
-
-			{
-				"tipo": 0,
-				"Nome": "Zicou? E agora?" ,
-				"extra": "#cienciaevoce - Profa. Dra. Sandra Maria Brunini de Souza" ,
-				"horario": "15h00" ,
-				"duracao": "30 min" ,
-				"local": "Centro de Cultura e Eventos Professor Ricardo Freua Bufáiçal" ,
-				"id-local": "C2" 
-			},
-
-			{
-				"tipo": 1,
-				"Nome": ["Engenharia de Produção", "Eng. Ambiental e Sanitária", "Engenharia Florestal", "Ecologia e Análise Ambiental", "Enfermagem", "Direção de Arte", "Musicoterapia", "Design de Ambientes", "Farmácia", "Engenharia Química", "Engenharia Elétrica", "Sistemas de Informação", "Física", "Biblioteconomia", "Publicidade e Propaganda", "Psicologia", "Ciências Sociais", "Letras (Libras/Trad. e Interp.)", "Estatística", "Ciências Contábeis", "Educação Física"] ,
-				"extra": "" ,
-				"horario": "15h00" ,
-				"duracao": "30 min" ,
-				"local": "" ,
-				"id-local": "" 
-			},
-
-			{
-				"tipo": 2,
-				"Nome": "Recital Percussão UFG" ,
-				"extra": "Prof. Responsável: Fábio Oliveira" ,
-				"horario": "15h00" ,
-				"duracao": "50 min" ,
-				"local": "Teatro EMAC" ,
-				"id-local": "A1" 
-			},
-
-			{
-				"tipo": 0,
-				"Nome": "Nossa Universidade e as formas de ingresso nos cursos de graduação" ,
-				"extra": "#vempraUFG" ,
-				"horario": "15h40" ,
-				"duracao": "30 min" ,
-				"local": "Centro de Cultura e Eventos Professor Ricardo Freua Bufáiçal" ,
-				"id-local": "C2" 
-			},
-
-			{
-				"tipo": 1,
-				"Nome": ["Geologia", "Engenharia Civil", "Engenharia de Alimentos", "Biotecnologia", "Nutrição", "Teatro", "Artes Visuais", "Medicina", "Design Gráfico", "Zootecnia", "Filosofia", "Engenharia de Computação", "Engenharia de Software", "Engenharia Física", "Museologia", "Relações Públicas", "Pedagogia", "C. Sociais (Políticas Públicas)", "Geografia", "Matemática", "Ciências Econômicas", "Dança"] ,
-				"extra": "" ,
-				"horario": "15h40" ,
-				"duracao": "30 min" ,
-				"local": "" ,
-				"id-local": "" 
-			},
-
-			{
-				"tipo": 2,
-				"Nome": "Oficinas de Contação de Histórias: Grupo GWAYA" ,
-				"extra": "" ,
-				"horario": "15h50" ,
-				"duracao": "30 min" ,
-				"local": "Biblioteca Central" ,
-				"id-local": "A2" 
-			},
-
-			{
-				"tipo": 2,
-				"Nome": "Grupo de Trombones" ,
-				"extra": "Prof. Responsável: Marcos Botelho" ,
-				"horario": "16h00" ,
-				"duracao": "30 min" ,
-				"local": "Palco Externo " ,
-				"id-local": "A7" 
-			},
-
-			{
-				"tipo": 0,
-				"Nome": "Nossa Universidade e as formas de ingresso nos cursos de graduação" ,
-				"extra": "#vempraUFG" ,
-				"horario": "16h20" ,
-				"duracao": "40 min" ,
-				"local": "Centro de Cultura e Eventos Professor Ricardo Freua Bufáiçal" ,
-				"id-local": "C2" 
-			},
-
-			{
-				"tipo": 2,
-				"Nome": "Palestra: “Processos da Técnica Vocal, Otimização da Voz e Saúde Vocal”" ,
-				"extra": "Professora Marília Álvares" ,
-				"horario": "16h20" ,
-				"duracao": "40 min" ,
-				"local": "Miniauditório EMAC" ,
-				"id-local": "A1" 
-			},
-
-			{
-				"tipo": 2,
-				"Nome": "Fabiano Chagas e alunos de Guitarra" ,
-				"extra": "Prof. Responsável: Fabiano Chagas" ,
-				"horario": "16h30" ,
-				"duracao": "30 min" ,
-				"local": "Palco Externo " ,
-				"id-local": "A7" 
-			},
-
-			{
-				"tipo": 2,
-				"Nome": "Recital de Piano: Diones Correntino" ,
-				"extra": "" ,
-				"horario": "17h00" ,
-				"duracao": "50 min" ,
-				"local": "Teatro EMAC" ,
-				"id-local": "A1" 
-			},
-
-			{
-				"tipo": 2,
-				"Nome": "São Paulo S/A (Brasil, 1965, 107min) " ,
-				"extra": "Direção: Luís Sérgio Person" ,
-				"horario": "17h30" ,
-				"duracao": "1h40" ,
-				"local": "Cine UFG" ,
-				"id-local": "A15" 
-			},
-
-			{
-				"tipo": 2,
-				"Nome": "Oficinas de Contação de Histórias: Grupo GWAYA " ,
-				"extra": "" ,
-				"horario": "18h00" ,
-				"duracao": "30 min" ,
-				"local": "Biblioteca Central" ,
-				"id-local": "A2" 
-			},
-
-			{
-				"tipo": 0,
-				"Nome": "Nossa Universidade e as formas de ingresso nos cursos de graduação" ,
-				"extra": "#vempraUFG" ,
-				"horario": "19h50" ,
-				"duracao": "30 min" ,
-				"local": "Centro de Cultura e Eventos Professor Ricardo Freua Bufáiçal" ,
-				"id-local": "C2" 
-			},
-
-			{
-				"tipo": 1,
-				"Nome": ["Engenharia de Transportes", "Odontologia", "Agronomia", "Ciências Biológicas", "Biomedicina", "Arquitetura e Urbanismo", "Música", "Direito", "Design de Moda", "Veterinária", "Química", "Engenharia Mecânica", "Ciências da Computação", "Física Médica", "Relações Internacionais", "Gestão da Informação", "Jornalismo", "História", "Letras (todos)", "Ciências Ambientais", "Administração"] ,
-				"extra": "" ,
-				"horario": "19h50" ,
-				"duracao": "30 min" ,
-				"local": "" ,
-				"id-local": "" 
-			},
-
-			{
-				"tipo": 2,
-				"Nome": "Oficinas de Contação de Histórias: Grupo GWAYA " ,
-				"extra": "" ,
-				"horario": "20h00" ,
-				"duracao": "30 min" ,
-				"local": "Biblioteca Central" ,
-				"id-local": "A2" 
-			},
-
-			{
-				"tipo": 0,
-				"Nome": "Nossa Universidade e as formas de ingresso nos cursos de graduação" ,
-				"extra": "#vempraUFG" ,
-				"horario": "20h25" ,
-				"duracao": "30 min" ,
-				"local": "Centro de Cultura e Eventos Professor Ricardo Freua Bufáiçal" ,
-				"id-local": "C2" 
-			},
-
-			{
-				"tipo": 1,
-				"Nome": ["Engenharia de Produção", "Eng. Ambiental e Sanitária", "Engenharia Florestal", "Ecologia e Análise Ambiental", "Enfermagem", "Direção de Arte", "Musicoterapia", "Design de Ambientes", "Farmácia", "Engenharia Química", "Engenharia Elétrica", "Sistemas de Informação", "Física", "Biblioteconomia", "Publicidade e Propaganda", "Psicologia", "Ciências Sociais", "Letras (Libras/Trad. e Interp.)", "Estatística", "Ciências Contábeis", "Educação Física"] ,
-				"extra": "" ,
-				"horario": "20h25" ,
-				"duracao": "30 min" ,
-				"local": "" ,
-				"id-local": "" 
-			},
-
-			{
-				"tipo": 0,
-				"Nome": "Nossa Universidade e as formas de ingresso nos cursos de graduação" ,
-				"extra": "#vempraUFG" ,
-				"horario": "21h00" ,
-				"duracao": "30 min" ,
-				"local": "Centro de Cultura e Eventos Professor Ricardo Freua Bufáiçal" ,
-				"id-local": "C2" 
-			},
-
-			{
-				"tipo": 1,
-				"Nome": ["Geologia", "Engenharia Civil", "Engenharia de Alimentos", "Biotecnologia", "Nutrição", "Teatro", "Artes Visuais", "Medicina", "Design Gráfico", "Zootecnia", "Filosofia", "Engenharia de Computação", "Engenharia de Software", "Engenharia Física", "Museologia", "Relações Públicas", "Pedagogia", "C. Sociais (Políticas Públicas)", "Geografia", "Matemática", "Ciências Econômicas", "Dança"] ,
-				"extra": "" ,
-				"horario": "21h00" ,
-				"duracao": "30 min" ,
-				"local": "" ,
-				"id-local": "" 
-			}
-
-		],
-
-		"d2": [
-			{
-				"tipo": 2,
-				"Nome": "Percussão UFG" ,
-				"extra": "Prof. Responsável: Fábio Oliveira. Obra: Drumming - Steve Reich" ,
-				"horario": "Diversos" ,
-				"duracao": "" ,
-				"local": "Intervenção" ,
-				"id-local": "" 
-			},
-
-			{
-				"tipo": 0,
-				"Nome": "Nossa Universidade e as formas de ingresso nos cursos de graduação" ,
-				"extra": "#vempraUFG" ,
-				"horario": "08h50" ,
-				"duracao": "30 min" ,
-				"local": "Centro de Cultura e Eventos Professor Ricardo Freua Bufáiçal" ,
-				"id-local": "C2" 
-			},
-
-			{
-				"tipo": 1,
-				"Nome": ["Engenharia de Transportes", "Odontologia", "Agronomia", "Ciências Biológicas", "Biomedicina", "Arquitetura e Urbanismo", "Música", "Direito", "Design de Moda", "Veterinária", "Química", "Engenharia Mecânica", "Ciências da Computação", "Física Médica", "Relações Internacionais", "Gestão da Informação", "Jornalismo", "História", "Letras (todos)", "Ciências Ambientais", "Administração"] ,
-				"extra": "" ,
-				"horario": "08h50" ,
-				"duracao": "30 min" ,
-				"local": "" ,
-				"id-local": "" 
-			},
-
-			{
-				"tipo": 2,
-				"Nome": "Oficinas de Contação de Histórias: Grupo GWAYA " ,
-				"extra": "" ,
-				"horario": "09h00" ,
-				"duracao": "30 min" ,
-				"local": "Biblioteca Central" ,
-				"id-local": "A2" 
-			},
-
-			{
-				"tipo": 2,
-				"Nome": "Dança" ,
-				"extra": "" ,
-				"horario": "09h00" ,
-				"duracao": "30 min" ,
-				"local": "Palco Externo" ,
-				"id-local": "A7" 
-			},
-
-			{
-				"tipo": 2,
-				"Nome": "Oficina de Jogos Matemáticos" ,
-				"extra": "" ,
-				"horario": "09h00" ,
-				"duracao": "9h" ,
-				"local": "Biblioteca Central" ,
-				"id-local": "A2" 
-			},
-
-			{
-				"tipo": 0,
-				"Nome": "Universidade: um lugar para se alimentar também de ideias" ,
-				"extra": "#cienciaevoce - Prof. Dr. Paulo de Marco Júnior" ,
-				"horario": "9h30" ,
-				"duracao": "30 min" ,
-				"local": "Centro de Cultura e Eventos Professor Ricardo Freua Bufáiçal" ,
-				"id-local": "C2" 
-			},
-
-			{
-				"tipo": 1,
-				"Nome": ["Engenharia de Produção", "Eng. Ambiental e Sanitária", "Engenharia Florestal", "Ecologia e Análise Ambiental", "Enfermagem", "Direção de Arte", "Musicoterapia", "Design de Ambientes", "Farmácia", "Engenharia Química", "Engenharia Elétrica", "Sistemas de Informação", "Física", "Biblioteconomia", "Publicidade e Propaganda", "Psicologia", "Ciências Sociais", "Letras (Libras/Trad. e Interp.)", "Estatística", "Ciências Contábeis", "Educação Física"] ,
-				"extra": "" ,
-				"horario": "9h30" ,
-				"duracao": "30 min" ,
-				"local": "" ,
-				"id-local": "" 
-			},
-
-			{
-				"tipo": 2,
-				"Nome": "Recital de Piano a 4 mãos" ,
-				"extra": "Alunos: Sarah Ciamberlini e Gabriel Caetano. Responsável: Profa. Maria Lúcia Roriz" ,
-				"horario": "09h30" ,
-				"duracao": "15 min" ,
-				"local": "Teatro EMAC" ,
-				"id-local": "A1" 
-			},
-
-			{
-				"tipo": 2,
-				"Nome": "Visita Orientada - Biblioteca Central" ,
-				"extra": "" ,
-				"horario": "09h30" ,
-				"duracao": "" ,
-				"local": "Biblioteca Central" ,
-				"id-local": "A1" 
-			},
-
-			{
-				"tipo": 2,
-				"Nome": "Banda Pequi" ,
-				"extra": "Prof. Jarbas Cavendish" ,
-				"horario": "10h00" ,
-				"duracao": "50 min" ,
-				"local": "Teatro EMAC" ,
-				"id-local": "A2" 
-			},
-
-			{
-				"tipo": 0,
-				"Nome": "Nossa Universidade e as formas de ingresso nos cursos de graduação" ,
-				"extra": "#vempraUFG" ,
-				"horario": "10h10" ,
-				"duracao": "30 min" ,
-				"local": "Centro de Cultura e Eventos Professor Ricardo Freua Bufáiçal" ,
-				"id-local": "C2" 
-			},
-
-			{
-				"tipo": 1,
-				"Nome": ["Geologia", "Engenharia Civil", "Engenharia de Alimentos", "Biotecnologia", "Nutrição", "Teatro", "Artes Visuais", "Medicina", "Design Gráfico", "Zootecnia", "Filosofia", "Engenharia de Computação", "Engenharia de Software", "Engenharia Física", "Museologia", "Relações Públicas", "Pedagogia", "C. Sociais (Políticas Públicas)", "Geografia", "Matemática", "Ciências Econômicas", "Dança"] ,
-				"extra": "" ,
-				"horario": "10h10" ,
-				"duracao": "30 min" ,
-				"local": "" ,
-				"id-local": "" 
-			},
-
-			{
-				"tipo": 0,
-				"Nome": "Nossa Universidade e as formas de ingresso nos cursos de graduação" ,
-				"extra": "#vempraUFG" ,
-				"horario": "10h50" ,
-				"duracao": "40 min" ,
-				"local": "Centro de Cultura e Eventos Professor Ricardo Freua Bufáiçal" ,
-				"id-local": "C2" 
-			},
-
-			{
-				"tipo": 2,
-				"Nome": "Coro de Câmara da EMAC" ,
-				"extra": "" ,
-				"horario": "11h00" ,
-				"duracao": "30 min" ,
-				"local": "Palco Externo" ,
-				"id-local": "A7" 
-			},
-
-			{
-				"tipo": 2,
-				"Nome": "Coro de Graduação da EMAC" ,
-				"extra": "" ,
-				"horario": "11h30" ,
-				"duracao": "30 min" ,
-				"local": "Palco Externo" ,
-				"id-local": "A7" 
-			},
-
-			{
-				"tipo": 2,
-				"Nome": "Oficinas de Contação de Histórias: Grupo GWAYA " ,
-				"extra": "" ,
-				"horario": "11h30" ,
-				"duracao": "30 min" ,
-				"local": "Biblioteca Central" ,
-				"id-local": "A2" 
-			},
-
-			{
-				"tipo": 2,
-				"Nome": "A Rede Social (EUA, 2010, 121min)" ,
-				"extra": "Direção: David Fischer" ,
-				"horario": "12h00" ,
-				"duracao": "1h40" ,
-				"local": "Cine UFG" ,
-				"id-local": "A15" 
-			},
-
-			{
-				"tipo": 2,
-				"Nome": "Visita Orientada - Biblioteca Central" ,
-				"extra": "" ,
-				"horario": "12h00" ,
-				"duracao": "" ,
-				"local": "Biblioteca Central" ,
-				"id-local": "A2" 
-			},
-
-			{
-				"tipo": 2,
-				"Nome": "Oficinas de Contação de Histórias: Grupo GWAYA " ,
-				"extra": "" ,
-				"horario": "14h00" ,
-				"duracao": "30 min" ,
-				"local": "Biblioteca Central" ,
-				"id-local": "A7" 
-			},
-
-			{
-				"tipo": 2,
-				"Nome": "Brasil in Trio" ,
-				"extra": "Prof. Responsável: Júlio Lemos" ,
-				"horario": "14h00" ,
-				"duracao": "30 min" ,
-				"local": "Palco Externo " ,
-				"id-local": "A7" 
-			},
-
-			{
-				"tipo": 0,
-				"Nome": "Nossa Universidade e as formas de ingresso nos cursos de graduação" ,
-				"extra": "#vempraUFG" ,
-				"horario": "14h20" ,
-				"duracao": "30 min" ,
-				"local": "Centro de Cultura e Eventos Professor Ricardo Freua Bufáiçal" ,
-				"id-local": "C2" 
-			},
-
-			{
-				"tipo": 1,
-				"Nome": ["Engenharia de Transportes", "Odontologia", "Agronomia", "Ciências Biológicas", "Biomedicina", "Arquitetura e Urbanismo", "Música", "Direito", "Design de Moda", "Veterinária", "Química", "Engenharia Mecânica", "Ciências da Computação", "Física Médica", "Relações Internacionais", "Gestão da Informação", "Jornalismo", "História", "Letras (todos)", "Ciências Ambientais", "Administração"] ,
-				"extra": "" ,
-				"horario": "14h20" ,
-				"duracao": "30 min" ,
-				"local": "" ,
-				"id-local": "" 
-			},
-
-			{
-				"tipo": 2,
-				"Nome": "Visita Orientada - Biblioteca Central" ,
-				"extra": "" ,
-				"horario": "14h30" ,
-				"duracao": "" ,
-				"local": "Biblioteca Central" ,
-				"id-local": "A7" 
-			},
-
-			{
-				"tipo": 2,
-				"Nome": "Núcleo de Choro" ,
-				"extra": "Prof. Responsável: Júlio Lemos" ,
-				"horario": "14h30" ,
-				"duracao": "30 min" ,
-				"local": "Palco Externo " ,
-				"id-local": "A7" 
-			},
-
-			{
-				"tipo": 0,
-				"Nome": "Como a ciência pode mudar a minha vida?" ,
-				"extra": "#cienciaevoce - Profa. Dra. Maria Clorinda Soares Fioravanti" ,
-				"horario": "15h00" ,
-				"duracao": "30 min" ,
-				"local": "Centro de Cultura e Eventos Professor Ricardo Freua Bufáiçal" ,
-				"id-local": "C2" 
-			},
-
-			{
-				"tipo": 1,
-				"Nome": ["Engenharia de Produção", "Eng. Ambiental e Sanitária", "Engenharia Florestal", "Ecologia e Análise Ambiental", "Enfermagem", "Direção de Arte", "Musicoterapia", "Design de Ambientes", "Farmácia", "Engenharia Química", "Engenharia Elétrica", "Sistemas de Informação", "Física", "Biblioteconomia", "Publicidade e Propaganda", "Psicologia", "Ciências Sociais", "Letras (Libras/Trad. e Interp.)", "Estatística", "Ciências Contábeis", "Educação Física"] ,
-				"extra": "" ,
-				"horario": "15h00" ,
-				"duracao": "30 min" ,
-				"local": "" ,
-				"id-local": "" 
-			},
-
-			{
-				"tipo": 2,
-				"Nome": "Percussão UFG – Mini-Concerto" ,
-				"extra": "Prof. Responsável: Fábio Oliveira" ,
-				"horario": "15h00" ,
-				"duracao": "30 min" ,
-				"local": "Palco Externo" ,
-				"id-local": "A7" 
-			},
-
-			{
-				"tipo": 0,
-				"Nome": "Nossa Universidade e as formas de ingresso nos cursos de graduação" ,
-				"extra": "#vempraUFG" ,
-				"horario": "15h40" ,
-				"duracao": "30 min" ,
-				"local": "Centro de Cultura e Eventos Professor Ricardo Freua Bufáiçal" ,
-				"id-local": "C2" 
-			},
-
-			{
-				"tipo": 1,
-				"Nome": ["Geologia", "Engenharia Civil", "Engenharia de Alimentos", "Biotecnologia", "Nutrição", "Teatro", "Artes Visuais", "Medicina", "Design Gráfico", "Zootecnia", "Filosofia", "Engenharia de Computação", "Engenharia de Software", "Engenharia Física", "Museologia", "Relações Públicas", "Pedagogia", "C. Sociais (Políticas Públicas)", "Geografia", "Matemática", "Ciências Econômicas", "Dança"] ,
-				"extra": "" ,
-				"horario": "15h40" ,
-				"duracao": "30 min" ,
-				"local": "" ,
-				"id-local": "" 
-			},
-
-			{
-				"tipo": 2,
-				"Nome": "Quarteto de Clarinetas e Quarteto de Saxofones" ,
-				"extra": "Prof. Responsável: Johnson Machado" ,
-				"horario": "16h00" ,
-				"duracao": "30 min" ,
-				"local": "Palco Externo" ,
-				"id-local": "A7" 
-			},
-
-			{
-				"tipo": 0,
-				"Nome": "Nossa Universidade e as formas de ingresso nos cursos de graduação" ,
-				"extra": "#vempraUFG" ,
-				"horario": "16h20" ,
-				"duracao": "40 min" ,
-				"local": "Centro de Cultura e Eventos Professor Ricardo Freua Bufáiçal" ,
-				"id-local": "C2" 
-			},
-
-			{
-				"tipo": 2,
-				"Nome": "Recital de Músicas Brasileiras: Consuelo Quireze e Marília Álvares" ,
-				"extra": "" ,
-				"horario": "16h20" ,
-				"duracao": "20 min" ,
-				"local": "Miniauditório EMAC" ,
-				"id-local": "A1" 
-			},
-
-			{
-				"tipo": 2,
-				"Nome": "Palestra: “Música Instrumental Brasileira e Processos Criativos na Contemporaneidade” - Diones Correntino" ,
-				"extra": "" ,
-				"horario": "17h00" ,
-				"duracao": "1h" ,
-				"local": "Miniauditório EMAC" ,
-				"id-local": "A1" 
-			},
-
-			{
-				"tipo": 2,
-				"Nome": "Oficinas de Contação de Histórias: Grupo GWAYA " ,
-				"extra": "" ,
-				"horario": "17h00" ,
-				"duracao": "30 min" ,
-				"local": "Biblioteca Central" ,
-				"id-local": "A2" 
-			},
-
-			{
-				"tipo": 2,
-				"Nome": "Visita Orientada" ,
-				"extra": "" ,
-				"horario": "17h30" ,
-				"duracao": "" ,
-				"local": "Biblioteca Central" ,
-				"id-local": "A2" 
-			},
-
-			{
-				"tipo": 2,
-				"Nome": "Dançando no Escuro (Dinamarca, 2000, 140min)" ,
-				"extra": "Direção: Lars von Trier" ,
-				"horario": "17h30" ,
-				"duracao": "1h30" ,
-				"local": "Cine UFG" ,
-				"id-local": "A15" 
-			}
-			
-		]
-
-	}
+  "dias": {
+    "d1": [
+      {
+        "tipo": 2,
+        "Nome": "Tempos Modernos (EUA,1936, 87min)",
+        "extra": "Direção: Charles Chaplin",
+        "horario": "12h00",
+        "duracao": "1h30",
+        "local": "Cine UFG",
+        "id-local": "A15"
+      },
+      {
+        "tipo": 2,
+        "Nome": "Recital dos Alunos de Formação de Repertório e Instrumento em Conjunto",
+        "extra": "Profs./Profas. Responsáveis: Consuelo Quireze, Dulce Regina, Pedro Martelli e Julio Lemos",
+        "horario": "14h00",
+        "duracao": "50 min",
+        "local": "Teatro EMAC",
+        "id-local": "A1"
+      },
+      {
+        "tipo": 2,
+        "Nome": "Alunos de Teatro e de Direção de Arte",
+        "extra": "",
+        "horario": "14h00",
+        "duracao": "2h",
+        "local": "Palco Externo ",
+        "id-local": "A7"
+      },
+      {
+        "tipo": 2,
+        "Nome": "Grupo de Capoeira",
+        "extra": "Profa. Responsável: Renata Lima",
+        "horario": "Diversos",
+        "duracao": "",
+        "local": "Intervenção",
+        "id-local": ""
+      },
+      {
+        "tipo": 0,
+        "Nome": "Nossa Universidade e as formas de ingresso nos cursos de graduação",
+        "extra": "#vempraUFG",
+        "horario": "14h20",
+        "duracao": "30 min",
+        "local": "Centro de Cultura e Eventos Professor Ricardo Freua Bufáiçal",
+        "id-local": "C2"
+      },
+      {
+        "tipo": 1,
+        "Nome": [
+          "Engenharia de Transportes",
+          "Odontologia",
+          "Agronomia",
+          "Ciências Biológicas",
+          "Biomedicina",
+          "Arquitetura e Urbanismo",
+          "Música",
+          "Direito",
+          "Design de Moda",
+          "Veterinária",
+          "Química",
+          "Engenharia Mecânica",
+          "Ciências da Computação",
+          "Física Médica",
+          "Relações Internacionais",
+          "Gestão da Informação",
+          "Jornalismo",
+          "História",
+          "Letras (todos)",
+          "Ciências Ambientais",
+          "Administração"
+        ],
+        "extra": "",
+        "horario": "14h20",
+        "duracao": "30 min",
+        "local": "",
+        "id-local": ""
+      },
+      {
+        "tipo": 0,
+        "Nome": "Zicou? E agora?",
+        "extra": "#cienciaevoce - Profa. Dra. Sandra Maria Brunini de Souza",
+        "horario": "15h00",
+        "duracao": "30 min",
+        "local": "Centro de Cultura e Eventos Professor Ricardo Freua Bufáiçal",
+        "id-local": "C2"
+      },
+      {
+        "tipo": 1,
+        "Nome": [
+          "Engenharia de Produção",
+          "Eng. Ambiental e Sanitária",
+          "Engenharia Florestal",
+          "Ecologia e Análise Ambiental",
+          "Enfermagem",
+          "Direção de Arte",
+          "Musicoterapia",
+          "Design de Ambientes",
+          "Farmácia",
+          "Engenharia Química",
+          "Engenharia Elétrica",
+          "Sistemas de Informação",
+          "Física",
+          "Biblioteconomia",
+          "Publicidade e Propaganda",
+          "Psicologia",
+          "Ciências Sociais",
+          "Letras (Libras/Trad. e Interp.)",
+          "Estatística",
+          "Ciências Contábeis",
+          "Educação Física"
+        ],
+        "extra": "",
+        "horario": "15h00",
+        "duracao": "30 min",
+        "local": "",
+        "id-local": ""
+      },
+      {
+        "tipo": 2,
+        "Nome": "Recital Percussão UFG",
+        "extra": "Prof. Responsável: Fábio Oliveira",
+        "horario": "15h00",
+        "duracao": "50 min",
+        "local": "Teatro EMAC",
+        "id-local": "A1"
+      },
+      {
+        "tipo": 0,
+        "Nome": "Nossa Universidade e as formas de ingresso nos cursos de graduação",
+        "extra": "#vempraUFG",
+        "horario": "15h40",
+        "duracao": "30 min",
+        "local": "Centro de Cultura e Eventos Professor Ricardo Freua Bufáiçal",
+        "id-local": "C2"
+      },
+      {
+        "tipo": 1,
+        "Nome": [
+          "Geologia",
+          "Engenharia Civil",
+          "Engenharia de Alimentos",
+          "Biotecnologia",
+          "Nutrição",
+          "Teatro",
+          "Artes Visuais",
+          "Medicina",
+          "Design Gráfico",
+          "Zootecnia",
+          "Filosofia",
+          "Engenharia de Computação",
+          "Engenharia de Software",
+          "Engenharia Física",
+          "Museologia",
+          "Relações Públicas",
+          "Pedagogia",
+          "C. Sociais (Políticas Públicas)",
+          "Geografia",
+          "Matemática",
+          "Ciências Econômicas",
+          "Dança"
+        ],
+        "extra": "",
+        "horario": "15h40",
+        "duracao": "30 min",
+        "local": "",
+        "id-local": ""
+      },
+      {
+        "tipo": 2,
+        "Nome": "Oficinas de Contação de Histórias: Grupo GWAYA",
+        "extra": "",
+        "horario": "15h50",
+        "duracao": "30 min",
+        "local": "Biblioteca Central",
+        "id-local": "A2"
+      },
+      {
+        "tipo": 2,
+        "Nome": "Grupo de Trombones",
+        "extra": "Prof. Responsável: Marcos Botelho",
+        "horario": "16h00",
+        "duracao": "30 min",
+        "local": "Palco Externo ",
+        "id-local": "A7"
+      },
+      {
+        "tipo": 0,
+        "Nome": "Nossa Universidade e as formas de ingresso nos cursos de graduação",
+        "extra": "#vempraUFG",
+        "horario": "16h20",
+        "duracao": "40 min",
+        "local": "Centro de Cultura e Eventos Professor Ricardo Freua Bufáiçal",
+        "id-local": "C2"
+      },
+      {
+        "tipo": 2,
+        "Nome": "Palestra: “Processos da Técnica Vocal, Otimização da Voz e Saúde Vocal”",
+        "extra": "Professora Marília Álvares",
+        "horario": "16h20",
+        "duracao": "40 min",
+        "local": "Miniauditório EMAC",
+        "id-local": "A1"
+      },
+      {
+        "tipo": 2,
+        "Nome": "Fabiano Chagas e alunos de Guitarra",
+        "extra": "Prof. Responsável: Fabiano Chagas",
+        "horario": "16h30",
+        "duracao": "30 min",
+        "local": "Palco Externo ",
+        "id-local": "A7"
+      },
+      {
+        "tipo": 2,
+        "Nome": "Recital de Piano: Diones Correntino",
+        "extra": "",
+        "horario": "17h00",
+        "duracao": "50 min",
+        "local": "Teatro EMAC",
+        "id-local": "A1"
+      },
+      {
+        "tipo": 2,
+        "Nome": "São Paulo S/A (Brasil, 1965, 107min) ",
+        "extra": "Direção: Luís Sérgio Person",
+        "horario": "17h30",
+        "duracao": "1h40",
+        "local": "Cine UFG",
+        "id-local": "A15"
+      },
+      {
+        "tipo": 2,
+        "Nome": "Oficinas de Contação de Histórias: Grupo GWAYA ",
+        "extra": "",
+        "horario": "18h00",
+        "duracao": "30 min",
+        "local": "Biblioteca Central",
+        "id-local": "A2"
+      },
+      {
+        "tipo": 0,
+        "Nome": "Nossa Universidade e as formas de ingresso nos cursos de graduação",
+        "extra": "#vempraUFG",
+        "horario": "19h50",
+        "duracao": "30 min",
+        "local": "Centro de Cultura e Eventos Professor Ricardo Freua Bufáiçal",
+        "id-local": "C2"
+      },
+      {
+        "tipo": 1,
+        "Nome": [
+          "Engenharia de Transportes",
+          "Odontologia",
+          "Agronomia",
+          "Ciências Biológicas",
+          "Biomedicina",
+          "Arquitetura e Urbanismo",
+          "Música",
+          "Direito",
+          "Design de Moda",
+          "Veterinária",
+          "Química",
+          "Engenharia Mecânica",
+          "Ciências da Computação",
+          "Física Médica",
+          "Relações Internacionais",
+          "Gestão da Informação",
+          "Jornalismo",
+          "História",
+          "Letras (todos)",
+          "Ciências Ambientais",
+          "Administração"
+        ],
+        "extra": "",
+        "horario": "19h50",
+        "duracao": "30 min",
+        "local": "",
+        "id-local": ""
+      },
+      {
+        "tipo": 2,
+        "Nome": "Oficinas de Contação de Histórias: Grupo GWAYA ",
+        "extra": "",
+        "horario": "20h00",
+        "duracao": "30 min",
+        "local": "Biblioteca Central",
+        "id-local": "A2"
+      },
+      {
+        "tipo": 0,
+        "Nome": "Nossa Universidade e as formas de ingresso nos cursos de graduação",
+        "extra": "#vempraUFG",
+        "horario": "20h25",
+        "duracao": "30 min",
+        "local": "Centro de Cultura e Eventos Professor Ricardo Freua Bufáiçal",
+        "id-local": "C2"
+      },
+      {
+        "tipo": 1,
+        "Nome": [
+          "Engenharia de Produção",
+          "Eng. Ambiental e Sanitária",
+          "Engenharia Florestal",
+          "Ecologia e Análise Ambiental",
+          "Enfermagem",
+          "Direção de Arte",
+          "Musicoterapia",
+          "Design de Ambientes",
+          "Farmácia",
+          "Engenharia Química",
+          "Engenharia Elétrica",
+          "Sistemas de Informação",
+          "Física",
+          "Biblioteconomia",
+          "Publicidade e Propaganda",
+          "Psicologia",
+          "Ciências Sociais",
+          "Letras (Libras/Trad. e Interp.)",
+          "Estatística",
+          "Ciências Contábeis",
+          "Educação Física"
+        ],
+        "extra": "",
+        "horario": "20h25",
+        "duracao": "30 min",
+        "local": "",
+        "id-local": ""
+      },
+      {
+        "tipo": 0,
+        "Nome": "Nossa Universidade e as formas de ingresso nos cursos de graduação",
+        "extra": "#vempraUFG",
+        "horario": "21h00",
+        "duracao": "30 min",
+        "local": "Centro de Cultura e Eventos Professor Ricardo Freua Bufáiçal",
+        "id-local": "C2"
+      },
+      {
+        "tipo": 1,
+        "Nome": [
+          "Geologia",
+          "Engenharia Civil",
+          "Engenharia de Alimentos",
+          "Biotecnologia",
+          "Nutrição",
+          "Teatro",
+          "Artes Visuais",
+          "Medicina",
+          "Design Gráfico",
+          "Zootecnia",
+          "Filosofia",
+          "Engenharia de Computação",
+          "Engenharia de Software",
+          "Engenharia Física",
+          "Museologia",
+          "Relações Públicas",
+          "Pedagogia",
+          "C. Sociais (Políticas Públicas)",
+          "Geografia",
+          "Matemática",
+          "Ciências Econômicas",
+          "Dança"
+        ],
+        "extra": "",
+        "horario": "21h00",
+        "duracao": "30 min",
+        "local": "",
+        "id-local": ""
+      }
+    ],
+    "d2": [
+      {
+        "tipo": 2,
+        "Nome": "Percussão UFG",
+        "extra": "Prof. Responsável: Fábio Oliveira. Obra: Drumming - Steve Reich",
+        "horario": "Diversos",
+        "duracao": "",
+        "local": "Intervenção",
+        "id-local": ""
+      },
+      {
+        "tipo": 0,
+        "Nome": "Nossa Universidade e as formas de ingresso nos cursos de graduação",
+        "extra": "#vempraUFG",
+        "horario": "08h50",
+        "duracao": "30 min",
+        "local": "Centro de Cultura e Eventos Professor Ricardo Freua Bufáiçal",
+        "id-local": "C2"
+      },
+      {
+        "tipo": 1,
+        "Nome": [
+          "Engenharia de Transportes",
+          "Odontologia",
+          "Agronomia",
+          "Ciências Biológicas",
+          "Biomedicina",
+          "Arquitetura e Urbanismo",
+          "Música",
+          "Direito",
+          "Design de Moda",
+          "Veterinária",
+          "Química",
+          "Engenharia Mecânica",
+          "Ciências da Computação",
+          "Física Médica",
+          "Relações Internacionais",
+          "Gestão da Informação",
+          "Jornalismo",
+          "História",
+          "Letras (todos)",
+          "Ciências Ambientais",
+          "Administração"
+        ],
+        "extra": "",
+        "horario": "08h50",
+        "duracao": "30 min",
+        "local": "",
+        "id-local": ""
+      },
+      {
+        "tipo": 2,
+        "Nome": "Oficinas de Contação de Histórias: Grupo GWAYA ",
+        "extra": "",
+        "horario": "09h00",
+        "duracao": "30 min",
+        "local": "Biblioteca Central",
+        "id-local": "A2"
+      },
+      {
+        "tipo": 2,
+        "Nome": "Dança",
+        "extra": "",
+        "horario": "09h00",
+        "duracao": "30 min",
+        "local": "Palco Externo",
+        "id-local": "A7"
+      },
+      {
+        "tipo": 2,
+        "Nome": "Oficina de Jogos Matemáticos",
+        "extra": "",
+        "horario": "09h00",
+        "duracao": "9h",
+        "local": "Biblioteca Central",
+        "id-local": "A2"
+      },
+      {
+        "tipo": 0,
+        "Nome": "Universidade: um lugar para se alimentar também de ideias",
+        "extra": "#cienciaevoce - Prof. Dr. Paulo de Marco Júnior",
+        "horario": "9h30",
+        "duracao": "30 min",
+        "local": "Centro de Cultura e Eventos Professor Ricardo Freua Bufáiçal",
+        "id-local": "C2"
+      },
+      {
+        "tipo": 1,
+        "Nome": [
+          "Engenharia de Produção",
+          "Eng. Ambiental e Sanitária",
+          "Engenharia Florestal",
+          "Ecologia e Análise Ambiental",
+          "Enfermagem",
+          "Direção de Arte",
+          "Musicoterapia",
+          "Design de Ambientes",
+          "Farmácia",
+          "Engenharia Química",
+          "Engenharia Elétrica",
+          "Sistemas de Informação",
+          "Física",
+          "Biblioteconomia",
+          "Publicidade e Propaganda",
+          "Psicologia",
+          "Ciências Sociais",
+          "Letras (Libras/Trad. e Interp.)",
+          "Estatística",
+          "Ciências Contábeis",
+          "Educação Física"
+        ],
+        "extra": "",
+        "horario": "9h30",
+        "duracao": "30 min",
+        "local": "",
+        "id-local": ""
+      },
+      {
+        "tipo": 2,
+        "Nome": "Recital de Piano a 4 mãos",
+        "extra": "Alunos: Sarah Ciamberlini e Gabriel Caetano. Responsável: Profa. Maria Lúcia Roriz",
+        "horario": "09h30",
+        "duracao": "15 min",
+        "local": "Teatro EMAC",
+        "id-local": "A1"
+      },
+      {
+        "tipo": 2,
+        "Nome": "Visita Orientada - Biblioteca Central",
+        "extra": "",
+        "horario": "09h30",
+        "duracao": "",
+        "local": "Biblioteca Central",
+        "id-local": "A1"
+      },
+      {
+        "tipo": 2,
+        "Nome": "Banda Pequi",
+        "extra": "Prof. Jarbas Cavendish",
+        "horario": "10h00",
+        "duracao": "50 min",
+        "local": "Teatro EMAC",
+        "id-local": "A2"
+      },
+      {
+        "tipo": 0,
+        "Nome": "Nossa Universidade e as formas de ingresso nos cursos de graduação",
+        "extra": "#vempraUFG",
+        "horario": "10h10",
+        "duracao": "30 min",
+        "local": "Centro de Cultura e Eventos Professor Ricardo Freua Bufáiçal",
+        "id-local": "C2"
+      },
+      {
+        "tipo": 1,
+        "Nome": [
+          "Geologia",
+          "Engenharia Civil",
+          "Engenharia de Alimentos",
+          "Biotecnologia",
+          "Nutrição",
+          "Teatro",
+          "Artes Visuais",
+          "Medicina",
+          "Design Gráfico",
+          "Zootecnia",
+          "Filosofia",
+          "Engenharia de Computação",
+          "Engenharia de Software",
+          "Engenharia Física",
+          "Museologia",
+          "Relações Públicas",
+          "Pedagogia",
+          "C. Sociais (Políticas Públicas)",
+          "Geografia",
+          "Matemática",
+          "Ciências Econômicas",
+          "Dança"
+        ],
+        "extra": "",
+        "horario": "10h10",
+        "duracao": "30 min",
+        "local": "",
+        "id-local": ""
+      },
+      {
+        "tipo": 0,
+        "Nome": "Nossa Universidade e as formas de ingresso nos cursos de graduação",
+        "extra": "#vempraUFG",
+        "horario": "10h50",
+        "duracao": "40 min",
+        "local": "Centro de Cultura e Eventos Professor Ricardo Freua Bufáiçal",
+        "id-local": "C2"
+      },
+      {
+        "tipo": 2,
+        "Nome": "Coro de Câmara da EMAC",
+        "extra": "",
+        "horario": "11h00",
+        "duracao": "30 min",
+        "local": "Palco Externo",
+        "id-local": "A7"
+      },
+      {
+        "tipo": 2,
+        "Nome": "Coro de Graduação da EMAC",
+        "extra": "",
+        "horario": "11h30",
+        "duracao": "30 min",
+        "local": "Palco Externo",
+        "id-local": "A7"
+      },
+      {
+        "tipo": 2,
+        "Nome": "Oficinas de Contação de Histórias: Grupo GWAYA ",
+        "extra": "",
+        "horario": "11h30",
+        "duracao": "30 min",
+        "local": "Biblioteca Central",
+        "id-local": "A2"
+      },
+      {
+        "tipo": 2,
+        "Nome": "A Rede Social (EUA, 2010, 121min)",
+        "extra": "Direção: David Fischer",
+        "horario": "12h00",
+        "duracao": "1h40",
+        "local": "Cine UFG",
+        "id-local": "A15"
+      },
+      {
+        "tipo": 2,
+        "Nome": "Visita Orientada - Biblioteca Central",
+        "extra": "",
+        "horario": "12h00",
+        "duracao": "",
+        "local": "Biblioteca Central",
+        "id-local": "A2"
+      },
+      {
+        "tipo": 2,
+        "Nome": "Oficinas de Contação de Histórias: Grupo GWAYA ",
+        "extra": "",
+        "horario": "14h00",
+        "duracao": "30 min",
+        "local": "Biblioteca Central",
+        "id-local": "A7"
+      },
+      {
+        "tipo": 2,
+        "Nome": "Brasil in Trio",
+        "extra": "Prof. Responsável: Júlio Lemos",
+        "horario": "14h00",
+        "duracao": "30 min",
+        "local": "Palco Externo ",
+        "id-local": "A7"
+      },
+      {
+        "tipo": 0,
+        "Nome": "Nossa Universidade e as formas de ingresso nos cursos de graduação",
+        "extra": "#vempraUFG",
+        "horario": "14h20",
+        "duracao": "30 min",
+        "local": "Centro de Cultura e Eventos Professor Ricardo Freua Bufáiçal",
+        "id-local": "C2"
+      },
+      {
+        "tipo": 1,
+        "Nome": [
+          "Engenharia de Transportes",
+          "Odontologia",
+          "Agronomia",
+          "Ciências Biológicas",
+          "Biomedicina",
+          "Arquitetura e Urbanismo",
+          "Música",
+          "Direito",
+          "Design de Moda",
+          "Veterinária",
+          "Química",
+          "Engenharia Mecânica",
+          "Ciências da Computação",
+          "Física Médica",
+          "Relações Internacionais",
+          "Gestão da Informação",
+          "Jornalismo",
+          "História",
+          "Letras (todos)",
+          "Ciências Ambientais",
+          "Administração"
+        ],
+        "extra": "",
+        "horario": "14h20",
+        "duracao": "30 min",
+        "local": "",
+        "id-local": ""
+      },
+      {
+        "tipo": 2,
+        "Nome": "Visita Orientada - Biblioteca Central",
+        "extra": "",
+        "horario": "14h30",
+        "duracao": "",
+        "local": "Biblioteca Central",
+        "id-local": "A7"
+      },
+      {
+        "tipo": 2,
+        "Nome": "Núcleo de Choro",
+        "extra": "Prof. Responsável: Júlio Lemos",
+        "horario": "14h30",
+        "duracao": "30 min",
+        "local": "Palco Externo ",
+        "id-local": "A7"
+      },
+      {
+        "tipo": 0,
+        "Nome": "Como a ciência pode mudar a minha vida?",
+        "extra": "#cienciaevoce - Profa. Dra. Maria Clorinda Soares Fioravanti",
+        "horario": "15h00",
+        "duracao": "30 min",
+        "local": "Centro de Cultura e Eventos Professor Ricardo Freua Bufáiçal",
+        "id-local": "C2"
+      },
+      {
+        "tipo": 1,
+        "Nome": [
+          "Engenharia de Produção",
+          "Eng. Ambiental e Sanitária",
+          "Engenharia Florestal",
+          "Ecologia e Análise Ambiental",
+          "Enfermagem",
+          "Direção de Arte",
+          "Musicoterapia",
+          "Design de Ambientes",
+          "Farmácia",
+          "Engenharia Química",
+          "Engenharia Elétrica",
+          "Sistemas de Informação",
+          "Física",
+          "Biblioteconomia",
+          "Publicidade e Propaganda",
+          "Psicologia",
+          "Ciências Sociais",
+          "Letras (Libras/Trad. e Interp.)",
+          "Estatística",
+          "Ciências Contábeis",
+          "Educação Física"
+        ],
+        "extra": "",
+        "horario": "15h00",
+        "duracao": "30 min",
+        "local": "",
+        "id-local": ""
+      },
+      {
+        "tipo": 2,
+        "Nome": "Percussão UFG – Mini-Concerto",
+        "extra": "Prof. Responsável: Fábio Oliveira",
+        "horario": "15h00",
+        "duracao": "30 min",
+        "local": "Palco Externo",
+        "id-local": "A7"
+      },
+      {
+        "tipo": 0,
+        "Nome": "Nossa Universidade e as formas de ingresso nos cursos de graduação",
+        "extra": "#vempraUFG",
+        "horario": "15h40",
+        "duracao": "30 min",
+        "local": "Centro de Cultura e Eventos Professor Ricardo Freua Bufáiçal",
+        "id-local": "C2"
+      },
+      {
+        "tipo": 1,
+        "Nome": [
+          "Geologia",
+          "Engenharia Civil",
+          "Engenharia de Alimentos",
+          "Biotecnologia",
+          "Nutrição",
+          "Teatro",
+          "Artes Visuais",
+          "Medicina",
+          "Design Gráfico",
+          "Zootecnia",
+          "Filosofia",
+          "Engenharia de Computação",
+          "Engenharia de Software",
+          "Engenharia Física",
+          "Museologia",
+          "Relações Públicas",
+          "Pedagogia",
+          "C. Sociais (Políticas Públicas)",
+          "Geografia",
+          "Matemática",
+          "Ciências Econômicas",
+          "Dança"
+        ],
+        "extra": "",
+        "horario": "15h40",
+        "duracao": "30 min",
+        "local": "",
+        "id-local": ""
+      },
+      {
+        "tipo": 2,
+        "Nome": "Quarteto de Clarinetas e Quarteto de Saxofones",
+        "extra": "Prof. Responsável: Johnson Machado",
+        "horario": "16h00",
+        "duracao": "30 min",
+        "local": "Palco Externo",
+        "id-local": "A7"
+      },
+      {
+        "tipo": 0,
+        "Nome": "Nossa Universidade e as formas de ingresso nos cursos de graduação",
+        "extra": "#vempraUFG",
+        "horario": "16h20",
+        "duracao": "40 min",
+        "local": "Centro de Cultura e Eventos Professor Ricardo Freua Bufáiçal",
+        "id-local": "C2"
+      },
+      {
+        "tipo": 2,
+        "Nome": "Recital de Músicas Brasileiras: Consuelo Quireze e Marília Álvares",
+        "extra": "",
+        "horario": "16h20",
+        "duracao": "20 min",
+        "local": "Miniauditório EMAC",
+        "id-local": "A1"
+      },
+      {
+        "tipo": 2,
+        "Nome": "Palestra: “Música Instrumental Brasileira e Processos Criativos na Contemporaneidade” - Diones Correntino",
+        "extra": "",
+        "horario": "17h00",
+        "duracao": "1h",
+        "local": "Miniauditório EMAC",
+        "id-local": "A1"
+      },
+      {
+        "tipo": 2,
+        "Nome": "Oficinas de Contação de Histórias: Grupo GWAYA ",
+        "extra": "",
+        "horario": "17h00",
+        "duracao": "30 min",
+        "local": "Biblioteca Central",
+        "id-local": "A2"
+      },
+      {
+        "tipo": 2,
+        "Nome": "Visita Orientada",
+        "extra": "",
+        "horario": "17h30",
+        "duracao": "",
+        "local": "Biblioteca Central",
+        "id-local": "A2"
+      },
+      {
+        "tipo": 2,
+        "Nome": "Dançando no Escuro (Dinamarca, 2000, 140min)",
+        "extra": "Direção: Lars von Trier",
+        "horario": "17h30",
+        "duracao": "1h30",
+        "local": "Cine UFG",
+        "id-local": "A15"
+      }
+    ]
+  }
 }
