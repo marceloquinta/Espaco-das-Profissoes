@@ -12,6 +12,51 @@
       },
       {
         "tipo": 2,
+        "Nome": "Laboratório de Bioengenharia e Biomecânica - Porta aberta para atendimento",
+        "extra": "",
+        "horario": "14h00",
+        "duracao": "",
+        "local": "Laboratório de Bioengenharia e Biomecânica",
+        "id-local": "E1"
+      },        
+      {
+        "tipo": 2,
+        "Nome": "Projeto de Extensão Práticas Aquáticas",
+        "extra": "",
+        "horario": "14h00",
+        "duracao": "04h00",
+        "local": "Piscina",
+        "id-local": "E1"
+      },
+      {
+        "tipo": 2,
+        "Nome": "PRÁKSIS - Porta aberta para atendimento",
+        "extra": "PRÁKSIS - Grupo de Estudos e Pesquisas em Educação Física, Teoria Social e Educação. Desenvolve pesquisas sobre educação física escolar, currículo, formação de professores, trabalho docente, prática pedagógica e educação estética. ",
+        "horario": "14h00",
+        "duracao": "",
+        "local": "PRÁKSIS",
+        "id-local": "E1"
+      },          
+      {
+        "tipo": 2,
+        "Nome": "Laboratório Paralímpico - Porta aberta para atendimento",
+        "extra": "",
+        "horario": "14h00",
+        "duracao": "",
+        "local": "Laboratório Paralímpico",
+        "id-local": "E1"
+      },            
+      {
+        "tipo": 2,
+        "Nome": "GEPELC - Porta aberta para atendimentos",
+        "extra": "Projetos de pesquisa em esporte e lazer",
+        "horario": "14h00",
+        "duracao": "",
+        "local": "Pista de Atletismo",
+        "id-local": "E1"
+      },      
+      {
+        "tipo": 2,
         "Nome": "História das Bibliotecas na UFG",
         "extra": "",
         "horario": "14h00",
@@ -28,6 +73,15 @@
         "local": "Biblioteca Central",
         "id-local": "A2"
       },
+      {
+        "tipo": 2,
+        "Nome": "Porta Aberta para atendimento",
+        "extra": "",
+        "horario": "14h00",
+        "duracao": "04h00",
+        "local": "ECOS - Educação Física, Trabalho e Formação",
+        "id-local": "E1"
+      },        
       {
         "tipo": 1,
         "Nome": [
@@ -100,6 +154,15 @@
         "id-local": ""
       },      
       {
+        "tipo": 2,
+        "Nome": "Oficinas e apresentações",
+        "extra": "Projeto de extensão em Atletismo",
+        "horario": "15h00",
+        "duracao": "",
+        "local": "Pista de Atletismo",
+        "id-local": "E2"
+      },  
+      {
         "tipo": 0,
         "Nome": "Nossa Universidade e as formas de ingresso nos cursos de graduação",
         "extra": "",
@@ -117,6 +180,15 @@
         "local": "Biblioteca Central",
         "id-local": "A2"
       },
+      {
+        "tipo": 2,
+        "Nome": "Vivências de ginástica e lutas",
+        "extra": "",
+        "horario": "15h30",
+        "duracao": "01h30",
+        "local": "Ginásio de Lutas e Ginástica",
+        "id-local": "E4"
+      },        
       {
         "tipo": 1,
         "Nome": [
@@ -211,7 +283,7 @@
       }
     ],
 
-    "d2": [
+    "d2": [     
       {
         "tipo": 2,
         "Nome": "Exposição \"História das Bibliotecas na UFG\"",
@@ -250,7 +322,61 @@
         "duracao": "30 min",
         "local": "",
         "id-local": ""
-      },      
+      }, 
+      {
+        "tipo": 2,
+        "Nome": "PRÁKSIS - Porta aberta para atendimento",
+        "extra": "PRÁKSIS - Grupo de Estudos e Pesquisas em Educação Física, Teoria Social e Educação. Desenvolve pesquisas sobre educação física escolar, currículo, formação de professores, trabalho docente, prática pedagógica e educação estética. ",
+        "horario": "09h00",
+        "duracao": "",
+        "local": "PRÁKSIS",
+        "id-local": "E1"
+      },   
+      {
+        "tipo": 2,
+        "Nome": "Laboratório de Bioengenharia e Biomecânica - Porta aberta para atendimento",
+        "extra": "",
+        "horario": "09h00",
+        "duracao": "",
+        "local": "Laboratório de Bioengenharia e Biomecânica",
+        "id-local": "E1"
+      },                    
+      {
+        "tipo": 2,
+        "Nome": "LABPHYSIS - Porta aberta para atendimento",
+        "extra": "Pesquisas em análise da Educação Física nas inter-relações Cultura e Natureza, mediadas pelas interseccionalidades corpo, práticas corporais, gênero e sexualidade; e tecnologias sociais, formação e intervenção profissional.",
+        "horario": "09h00",
+        "duracao": "",
+        "local": "LABPHYSIS",
+        "id-local": "E1"
+      },   
+      {
+        "tipo": 2,
+        "Nome": "Laboratório Paralímpico - Porta aberta para atendimento",
+        "extra": "",
+        "horario": "09h00",
+        "duracao": "",
+        "local": "Laboratório Paralímpico",
+        "id-local": "E1"
+      },       
+      {
+        "tipo": 2,
+        "Nome": "GEPELC - Porta aberta para atendimentos",
+        "extra": "Projetos de pesquisa em esporte e lazer",
+        "horario": "09h00",
+        "duracao": "",
+        "local": "Pista de Atletismo",
+        "id-local": "E1"
+      },                 
+      {
+        "tipo": 2,
+        "Nome": "Avaliação Física e Nutricional",
+        "extra": "",
+        "horario": "09h00",
+        "duracao": "02h00",
+        "local": "Laboratório de Fisiologia, Nutrição e Saúde",
+        "id-local": "E1"
+      },        
       {
         "tipo": 2,
         "Nome": "Oficina de Jogos Temáticos",
@@ -329,6 +455,15 @@
         "id-local": "A2"
       },
       {
+        "tipo": 2,
+        "Nome": "Vivências de ginástica e lutas",
+        "extra": "",
+        "horario": "10h00",
+        "duracao": "02h00",
+        "local": "Ginásio de Lutas e Ginástica",
+        "id-local": "E4"
+      },        
+      {
         "tipo": 1,
         "Nome": [
           "Farmácia",
@@ -398,6 +533,24 @@
         "local": "Palco Externo",
         "id-local": "A7"
       },
+      {
+        "tipo": 2,
+        "Nome": "Avaliação Física e Nutricional",
+        "extra": "",
+        "horario": "14h00",
+        "duracao": "03h00",
+        "local": "Laboratório de Fisiologia, Nutrição e Saúde",
+        "id-local": "E1"
+      },   
+      {
+        "tipo": 2,
+        "Nome": "Porta Aberta para atendimento",
+        "extra": "",
+        "horario": "14h00",
+        "duracao": "04h00",
+        "local": "ECOS - Educação Física, Trabalho e Formação",
+        "id-local": "E1"
+      },           
       {
         "tipo": 1,
         "Nome": [
@@ -477,7 +630,16 @@
         "duracao": "30 min",
         "local": "Biblioteca Central",
         "id-local": "A2"
-      },      
+      },   
+      {
+        "tipo": 2,
+        "Nome": "Vivências de ginástica e lutas",
+        "extra": "",
+        "horario": "15h30",
+        "duracao": "01h30",
+        "local": "Ginásio de Lutas e Ginástica",
+        "id-local": "E4"
+      },           
       {
         "tipo": 1,
         "Nome": [
@@ -522,6 +684,15 @@
       },
       {
         "tipo": 2,
+        "Nome": "Oficinas, ensaios e apresentações",
+        "extra": "",
+        "horario": "16h20",
+        "duracao": "",
+        "local": "Centro de Aulas / Sala de Dança",
+        "id-local": "E5"
+      },      
+      {
+        "tipo": 2,
         "Nome": "Apresentação cultural",
         "extra": "",
         "horario": "16h30",
@@ -537,6 +708,27 @@
         "duracao": "",
         "local": "Cine UFG",
         "id-local": "A15"
+      }
+    ],
+
+    "d3": [
+      {
+        "tipo": 2,
+        "Nome": "Oficinas, ensaios e apresentações",
+        "extra": "",
+        "horario": "10h50",
+        "duracao": "",
+        "local": "Centro de Aulas / Sala de Dança",
+        "id-local": "E5"
+      },  
+      {
+        "tipo": 2,
+        "Nome": "Oficinas, ensaios e apresentações",
+        "extra": "",
+        "horario": "16h20",
+        "duracao": "",
+        "local": "Centro de Aulas / Sala de Dança",
+        "id-local": "E5"
       }
     ]
   }

@@ -1,374 +1,141 @@
 {
   "d1": [
     {
-      "rota": "Buriti",
+      "rota": "Sugestões de lugares para conhecer",
       "espacos": [
         {
-          "nome": "Laboratório de Genética e Biodiversidade",
-          "extra": "LGBIO",
+          "nome": "Planetário",
+          "extra": "Tempo de Visita: 20 min",
+          "id_local": "C2",
           "horario": [
-            "14h - 17h"
+            "14h - 18h",
+            "19h - 21h"
           ],
-          "local": "Instituto de Ciências Biológicas - ICB I e II",
-          "id_local": "A8",
           "transporte": false
         },
         {
-          "nome": "Laboratório de Radiobiologia e Mutagênese",
-          "extra": "",
-          "horario": [
-            "14h - 17h"
-          ],
-          "local": "Instituto de Ciências Biológicas - ICB I e II",
-          "id_local": "A8",
-          "transporte": false
-        },
-        {
-          "nome": "Central de Análise Multiusuário - Química",
-          "extra": "",
-          "horario": [
-            "14h - 17h"
-          ],
-          "local": "Instituto de Química",
-          "id_local": "A9",
-          "transporte": false
-        },
-        {
-          "nome": "Centro de Convivência: Formas de Ingresso Na UFG",
-          "extra": "",
-          "horario": [
-            "14h - 17h"
-          ],
-          "local": "Centro de Convivência",
-          "id_local": "A7",
-          "transporte": false
-        }
-      ]
-    },
-    {
-      "rota": "Cajá-manga",
-      "espacos": [
-        {
-          "nome": "Biblioteca Central",
-          "extra": "",
-          "horario": [
-            "14h - 17h"
-          ],
-          "local": "",
-          "id_local": "A2",
-          "transporte": false
-        },
-        {
-          "nome": "Laboratório de Pesquisa, Desenvolvimento e Inovação em Mídias Interativas",
-          "extra": "MEDIALAB",
-          "horario": [
-            "14h - 17h"
-          ],
-          "local": "",
-          "id_local": "A5",
-          "transporte": false
-        },
-        {
-          "nome": "Núcleo Takinahaky: Conhecimento e Culturas Indígenas",
-          "extra": "",
-          "horario": [
-            "14h - 17h"
-          ],
-          "local": "",
-          "id_local": "F3",
-          "transporte": false
-        }
-      ]
-    },
-    {
-      "rota": "Jatobá",
-      "espacos": [
-        {
-          "nome": "Laboratório Multiusuário de Microscopia de Alta Resolução",
-          "extra": "LABMIC",
-          "horario": [
-            "14h - 15h30"
-          ],
-          "local": "Instituto de Física",
-          "id_local": "A10",
-          "transporte": false
-        },
-        {
-          "nome": "Laboratório de Processamento de Imagens e Geoprocessamento",
-          "extra": "LAPIG",
-          "horario": [
-            "14h - 17h"
-          ],
-          "local": "",
-          "id_local": "I3",
-          "transporte": false
-        },
-        {
-          "nome": "Laboratório de Tecnologia da Informação e Mídias Educacionais",
-          "extra": "LABTIME",
-          "horario": [
-            "14h - 17h"
-          ],
-          "local": "",
-          "id_local": "I5",
-          "transporte": false
-        }
-      ]
-    },
-    {
-      "rota": "Pequi",
-      "espacos": [
-        {
-          "nome": "Faculdade de Educação Física e Dança",
-          "extra": "FEFD",
-          "horario": [
-            "14h - 17h"
-          ],
-          "local": "",
-          "id_local": "E1",
-          "transporte": false
-        },
-        {
-          "nome": "Escola de Veterinária e Zootecnia",
-          "extra": "EVZ",
-          "horario": [
-            "14h - 17h"
-          ],
-          "local": "",
+          "nome": "Veterinária",
+          "extra": "Tempo de Visita: 1 hora",
           "id_local": "K1",
-          "transporte": true
-        },
-        {
-          "nome": "Escola de Agronomia",
-          "extra": "EA",
           "horario": [
             "14h - 17h"
           ],
-          "local": "",
-          "id_local": "K2",
-          "transporte": true
+          "transporte": false
         },
         {
-          "nome": "Centro Editorial e Gráfico",
-          "extra": "CEGRAF - A fábrica de livros",
+          "nome": "Laboratório multiusuário de microscopia de alta resolução - LABMIC",
+          "extra": "Tempo de Visita: 30 min",
+          "id_local": "A10",
           "horario": [
-            "14h - 17h"
+            "14h - 15:30h"
           ],
-          "local": "",
+          "transporte": false
+        },
+        {
+          "nome": "CEGRAF",
+          "extra": "Tempo de Visita: 30 min",
           "id_local": "J8",
-          "transporte": true
+          "horario": [
+            "14h - 17h"
+          ],
+          "transporte": false
         }
       ]
     }
   ],
   "d2": [
     {
-      "rota": "Buriti",
+      "rota": "Sugestões de lugares para conhecer",
       "espacos": [
         {
-          "nome": "Laboratório de Genética e Biodiversidade",
-          "extra": "LGBIO",
+          "nome": "Planetário",
+          "extra": "Tempo de Visita: 20 min",
+          "id_local": "C2",
           "horario": [
-            "09h - 12h"
+            "08:30h - 12h",
+            "14h - 18h"
           ],
-          "local": "Instituto de Ciências Biológicas - ICB I e II",
-          "id_local": "A8",
           "transporte": false
         },
         {
-          "nome": "Laboratório de Radiobiologia e Mutagênese",
-          "extra": "",
+          "nome": "Veterinária",
+          "extra": "Tempo de Visita: 1 hora",
+          "id_local": "K1",
           "horario": [
-            "09h - 12h"
-          ],
-          "local": "Instituto de Ciências Biológicas - ICB I e II",
-          "id_local": "A8",
-          "transporte": false
-        },
-        {
-          "nome": "Central de Análise Multiusuário - Química",
-          "extra": "",
-          "horario": [
+            "9h - 12h",
             "14h - 17h"
           ],
-          "local": "Instituto de Química",
-          "id_local": "A9",
           "transporte": false
         },
         {
-          "nome": "Centro de Convivência: Formas de Ingresso Na UFG",
-          "extra": "",
-          "horario": [
-            "09h - 12h",
-            "14h - 17h"
-          ],
-          "local": "Centro de Convivência",
-          "id_local": "A7",
-          "transporte": false
-        },
-        {
-          "nome": "Laboratório de Ecologia e Evolução",
-          "extra": "",
-          "horario": [
-            "14h - 17h"
-          ],
-          "local": "Instituto de Ciências Biológicas - ICB V",
-          "id_local": "C3",
-          "transporte": false
-        },
-        {
-          "nome": "Laboratório de Ecologia Teórica, Metacomunidades e Ecologia de Paisagem",
-          "extra": "",
-          "horario": [
-            "14h - 17h"
-          ],
-          "local": "Instituto de Ciências Biológicas - ICB V",
-          "id_local": "C3",
-          "transporte": false
-        }
-      ]
-    },
-    {
-      "rota": "Cajá-manga",
-      "espacos": [
-        {
-          "nome": "Biblioteca Central",
-          "extra": "",
-          "horario": [
-            "09h - 12h"
-          ],
-          "local": "",
-          "id_local": "A2",
-          "transporte": false
-        },
-        {
-          "nome": "Laboratório de Pesquisa, Desenvolvimento e Inovação em Mídias Interativas",
-          "extra": "MEDIALAB",
-          "horario": [
-            "09h - 12h",
-            "14h - 17h"
-          ],
-          "local": "",
-          "id_local": "A5",
-          "transporte": false
-        },
-        {
-          "nome": "Núcleo Takinahaky: Conhecimento e Culturas Indígenas",
-          "extra": "",
-          "horario": [
-            "14h - 17h"
-          ],
-          "local": "",
-          "id_local": "F3",
-          "transporte": false
-        },
-        {
-          "nome": "Unidade de Conservação",
-          "extra": "",
-          "horario": [
-            "09h - 12h",
-            "14h - 17h"
-          ],
-          "local": "Herbário",
+          "nome": "Herbário",
+          "extra": "Tempo de Visita: 30 min",
           "id_local": "G2",
-          "transporte": false
-        }
-      ]
-    },
-    {
-      "rota": "Jatobá",
-      "espacos": [
-        {
-          "nome": "Laboratório Multiusuário de Microscopia de Alta Resolução",
-          "extra": "LABMIC",
           "horario": [
-            "09h - 11h30",
-            "14h - 15h30"
+            "09:30h - 10h",
+            "14:30h - 15h"
           ],
-          "local": "Instituto de Física",
-          "id_local": "A10",
           "transporte": false
         },
         {
-          "nome": "Laboratório de Processamento de Imagens e Geoprocessamento",
-          "extra": "LAPIG",
-          "horario": [
-            "09h - 12h",
-            "15h"
-          ],
-          "local": "",
+          "nome": "LABPIG /  Programa Pró-Vant (Vôo com drones)",
+          "extra": "Tempo de Visita: 1 hora",
           "id_local": "I3",
-          "transporte": false
-        },
-        {
-          "nome": "Laboratório de Tecnologia da Informação e Mídias Educacionais",
-          "extra": "LABTIME",
           "horario": [
             "11h - 12h",
             "14h - 15h"
           ],
-          "local": "",
-          "id_local": "i5",
+          "transporte": false
+        },        
+        {
+          "nome": "LABPIG na escola: Aprendendo sobre Geotecnologias",
+          "extra": "Tempo de Visita: 1 hora",
+          "id_local": "I3",
+          "horario": [
+            "10h - 11h",
+            "15h - 16h"
+          ],
+          "transporte": false
+        },        
+        {
+          "nome": "Laboratório multiusuário de microscopia de alta resolução - LABMIC",
+          "extra": "Tempo de Visita: 30 min",
+          "id_local": "A10",
+          "horario": [
+            "9h - 11:30h",
+            "14h - 15:30h"
+          ],
+          "transporte": false
+        },   
+        {
+          "nome": "Laboratório de Tecnologia da Informação e Mídias Educacionais - LABTIME",
+          "extra": "Tempo de Visita: 30 min",
+          "id_local": "I5",
+          "horario": [
+            "9h - 12h",
+            "14h - 16h"
+          ],
+          "transporte": false
+        },        
+        {
+          "nome": "CEGRAF",
+          "extra": "Tempo de Visita: 30 min",
+          "id_local": "J8",
+          "horario": [
+            "9h - 12h",
+            "14h - 17h"
+          ],
           "transporte": false
         },
         {
           "nome": "Biblioteca Letras",
-          "extra": "",
-          "horario": [
-            "10h - 15h"
-          ],
-          "local": "Faculdade de Letras",
+          "extra": "Tempo de Visita: 1 hora",
           "id_local": "A19",
+          "horario": [
+            "10h - 11h",
+            "15h - 16h"
+          ],
           "transporte": false
-        }
-      ]
-    },
-    {
-      "rota": "Pequi",
-      "espacos": [
-        {
-          "nome": "Faculdade de Educação Física e Dança",
-          "extra": "FEFD",
-          "horario": [
-            "09h - 12h",
-            "14h - 17h"
-          ],
-          "local": "",
-          "id_local": "E1",
-          "transporte": false
-        },
-        {
-          "nome": "Escola de Veterinária e Zootecnia",
-          "extra": "EVZ",
-          "horario": [
-            "09h - 12h",
-            "14h - 17h"
-          ],
-          "local": "",
-          "id_local": "K1",
-          "transporte": true
-        },
-        {
-          "nome": "Escola de Agronomia",
-          "extra": "EA",
-          "horario": [
-            "09h - 12h",
-            "14h - 17h"
-          ],
-          "local": "",
-          "id_local": "K2",
-          "transporte": true
-        },
-        {
-          "nome": "Centro Editorial e Gráfico",
-          "extra": "CEGRAF - A fábrica de livros",
-          "horario": [
-            "09h - 12h",
-            "14h - 17h"
-          ],
-          "local": "",
-          "id_local": "J8",
-          "transporte": true
         }
       ]
     }
