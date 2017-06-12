@@ -21,8 +21,9 @@
 
         <!-- DEBUG ! -->
         <!--<meta-data-->
-            <!--android:name="com.google.android.geo.API_KEY"-->
-            <!--android:value="AIzaSyAMIcdUHtANzdAbkUc6ILhpG7Qg2HbNRPM" />-->
+        <!--android:name="com.google.android.geo.API_KEY"-->
+        <!--android:value="AIzaSyAMIcdUHtANzdAbkUc6ILhpG7Qg2HbNRPM" />-->
+
         <!-- PRODUCAO -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
@@ -46,7 +47,7 @@
         <activity
             android:name=".RouteDetailActivity"
             android:configChanges="keyboardHidden|orientation|screenSize" />
-        <activity android:name=".UselessSplash"></activity>
+        <activity android:name=".UselessSplash" />
     </application>
 
 </manifest>
