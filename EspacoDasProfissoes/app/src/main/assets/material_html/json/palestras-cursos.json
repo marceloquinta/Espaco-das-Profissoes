@@ -1,20 +1,6 @@
 {
   "palestras": [
-    {
-      "curso": "Engenharia de Transportes",
-      "local": "Sala 1 do Centro de Eventos",
-      "id_local": "C2",
-      "id": "eng_transp",
-      "horarios": 0
-    },
-    {
-      "curso": "Odontologia",
-      "local": "Sala 2 do Centro de Eventos",
-      "id_local": "C2",
-      "id": "odonto",
-      "horarios": 0
-    },
-    {
+  {
       "curso": "Agronomia",
       "local": "Auditório do ICB I",
       "id_local": "A8",
@@ -36,10 +22,17 @@
       "horarios": 0
     },
     {
-      "curso": "Arquitetura e Urbanismo",
+      "curso": "Eng. Ambiental e Sanitária",
       "local": "Auditório do ICB IV",
-      "id_local": "A16",
-      "id": "arq_urb",
+      "id_local": "A16",      
+      "id": "eng_amb_san",
+      "horarios": 0
+    },
+    {
+      "curso": "Direção de Arte",
+      "local": "Sala 242 EMAC - 1",
+      "id_local": "A1",
+      "id": "dir_arte",
       "horarios": 0
     },
     {
@@ -48,12 +41,12 @@
       "id_local": "A1",
       "id": "musica",
       "horarios": 0
-    },
+    },    
     {
-      "curso": "Direito",
+      "curso": "Odontologia",
       "local": "Auditório da Biblioteca",
       "id_local": "A2",
-      "id": "direito",
+      "id": "odonto",
       "horarios": 0
     },
     {
@@ -64,11 +57,11 @@
       "horarios": 0
     },
     {
-      "curso": "Veterinária",
-      "local": "Auditório do IQ I",
-      "id_local": "A9",
-      "id": "med_vet",
-      "horarios": 0
+      "curso": "Engenharia Elétrica",
+      "local": "Auditório do IF 1",
+      "id_local": "A10",
+      "id": "eng_elet",
+      "horarios": 1
     },
     {
       "curso": "Química",
@@ -85,7 +78,7 @@
       "horarios": 0
     },
     {
-      "curso": "Ciências da Computação",
+      "curso": "Ciência da Computação",
       "local": "Auditório do IF 2",
       "id_local": "A10",
       "id": "ciencias_comp",
@@ -113,17 +106,17 @@
       "horarios": 0
     },
     {
-      "curso": "Jornalismo",
-      "local": "Auditório da FH",
-      "id_local": "A11",
-      "id": "com_soc_jorn",
-      "horarios": 0
-    },
-    {
       "curso": "História",
       "local": "Miniauditório da FH",
       "id_local": "A11",
       "id": "hist",
+      "horarios": 0
+    },
+    {
+      "curso": "Filosofia",
+      "local": "Miniauditório da FH",
+      "id_local": "A11",
+      "id": "filos",
       "horarios": 0
     },
     {
@@ -148,17 +141,17 @@
       "horarios": 0
     },
     {
-      "curso": "Engenharia de Produção",
+      "curso": "Arquitetura e Urbanismo",
       "local": "Sala 1 do Centro de Eventos",
       "id_local": "C2",
-      "id": "eng_prod",
+      "id": "arq_urb",
       "horarios": 1
     },
     {
-      "curso": "Eng. Ambiental e Sanitária",
-      "local": "Sala 2 do Centro de Eventos",
+      "curso": "Direito",
+      "local": "Salão do Centro de Eventos",
       "id_local": "C2",
-      "id": "eng_amb_san",
+      "id": "direito",
       "horarios": 1
     },
     {
@@ -183,10 +176,10 @@
       "horarios": 1
     },
     {
-      "curso": "Direção de Arte",
+      "curso": "Veterinária",
       "local": "Auditório do ICB IV",
       "id_local": "A16",
-      "id": "dir_arte",
+      "id": "med_vet",
       "horarios": 1
     },
     {
@@ -204,10 +197,10 @@
       "horarios": 1
     },
     {
-      "curso": "Farmácia",
+      "curso": "Engenharia de Transportes",
       "local": "Auditório do IQ I",
       "id_local": "A9",
-      "id": "farm",
+      "id": "eng_transp",
       "horarios": 1
     },
     {
@@ -218,10 +211,10 @@
       "horarios": 1
     },
     {
-      "curso": "Engenharia Elétrica",
-      "local": "Auditório do IF 1",
+      "curso": "Geologia",
+      "local": "Auditório do IF 2",
       "id_local": "A10",
-      "id": "eng_elet",
+      "id": "geologia",
       "horarios": 1
     },
     {
@@ -239,13 +232,6 @@
       "horarios": 1
     },
     {
-      "curso": "Biblioteconomia",
-      "local": "Miniauditório do IF",
-      "id_local": "A10",
-      "id": "bibliotecon",
-      "horarios": 1
-    },
-    {
       "curso": "Publicidade e Propaganda",
       "local": "Auditório da FIC",
       "id_local": "A12",
@@ -253,17 +239,17 @@
       "horarios": 1
     },
     {
-      "curso": "Psicologia",
-      "local": "Auditório da FH",
-      "id_local": "A11",
-      "id": "psic",
-      "horarios": 1
-    },
-    {
       "curso": "Ciências Sociais",
       "local": "Miniauditório da FH",
       "id_local": "A11",
       "id": "ciencias_soc",
+      "horarios": 1
+    },
+    {
+      "curso": "Jornalismo",
+      "local": "Miniauditório da FH",
+      "id_local": "A11",
+      "id": "com_soc_jorn",
       "horarios": 1
     },
     {
@@ -295,38 +281,52 @@
       "horarios": 1
     },
     {
-      "curso": "Geologia",
-      "local": "Sala 1 do Centro de Eventos",
+      "curso": "Biblioteconomia",
+      "local": "FIC - Sala 4",
+      "id_local": "A12",
+      "id": "bibliotecon",
+      "horarios": 1
+    },
+    {
+      "curso": "Farmácia",
+      "local": "Sala 2 do Centro de Eventos",
       "id_local": "C2",
-      "id": "geologia",
+      "id": "farm",
       "horarios": 2
     },
     {
-      "curso": "Engenharia Civil",
-      "local": "Sala 2 do Centro de Eventos",
+      "curso": "Medicina",
+      "local": "Sala 1 do Centro de Eventos",
       "id_local": "C2",
-      "id": "eng_civ",
+      "id": "med",
       "horarios": 2
     },
     {
       "curso": "Engenharia de Alimentos",
-      "local": "Auditório do ICB I",
-      "id_local": "A8",
+      "local": "Salão do Centro de Eventos",
+      "id_local": "C2",
       "id": "eng_alim",
       "horarios": 2
     },
     {
       "curso": "Biotecnologia",
-      "local": "Auditório do ICB II",
+      "local": "Auditório do ICB I",
       "id_local": "A8",
       "id": "biotec",
       "horarios": 2
     },
     {
       "curso": "Nutrição",
+      "local": "Auditório do ICB II",
+      "id_local": "A8",
+      "id": "nutri",
+      "horarios": 2
+    },
+    {
+      "curso": "Zootecnia",
       "local": "Auditório do ICB III",
       "id_local": "A16",
-      "id": "nutri",
+      "id": "zoot",
       "horarios": 2
     },
     {
@@ -338,43 +338,43 @@
     },
     {
       "curso": "Artes Visuais",
-      "local": "Miniauditório da EMAC – 1",
+      "local": "Sala 242 EMAC - 1",
       "id_local": "A1",
       "id": "art_visu",
       "horarios": 2
     },
     {
-      "curso": "Medicina",
-      "local": "Auditório da Biblioteca",
-      "id_local": "A2",
-      "id": "med",
+      "curso": "Engenharia Civil",
+      "local": "Miniauditório da EMAC – 1",
+      "id_local": "A1",
+      "id": "eng_civ",
       "horarios": 2
     },
     {
       "curso": "Design Gráfico",
-      "local": "Auditório da FAV",
-      "id_local": "A3",
+      "local": "Auditório da Biblioteca",
+      "id_local": "A2",
       "id": "des_graf",
       "horarios": 2
     },
+   {
+      "curso": "Psicologia",
+      "local": "Auditório da FAV",
+      "id_local": "A3",
+      "id": "psic",
+      "horarios": 2
+    },
     {
-      "curso": "Zootecnia",
+      "curso": "Engenharia de Produção",
       "local": "Auditório do IQ I",
       "id_local": "A9",
-      "id": "zoot",
+      "id": "eng_prod",
       "horarios": 2
-    },
-    {
-      "curso": "Filosofia",
-      "local": "Auditório do IQ II",
-      "id_local": "A9",
-      "id": "filos",
-      "horarios": 2
-    },
+    },    
     {
       "curso": "Engenharia de Computação",
-      "local": "Auditório do IF 1",
-      "id_local": "A10",
+      "local": "Auditório do IQ II",
+      "id_local": "A9",
       "id": "eng_comp",
       "horarios": 2
     },
@@ -387,23 +387,30 @@
     },
     {
       "curso": "Engenharia Física",
-      "local": "Auditório do Pátio da Ciência",
+      "local": "Auditório do IF 2",
       "id_local": "A10",
       "id": "eng_fis",
       "horarios": 2
     },
     {
       "curso": "Museologia",
-      "local": "Miniauditório do IF",
+      "local": "Auditório do Pátio da Ciência",
       "id_local": "A10",
       "id": "museo",
       "horarios": 2
     },
     {
       "curso": "Relações Públicas",
-      "local": "Auditório da FIC",
-      "id_local": "A12",
+      "local": "Miniauditório da IF",
+      "id_local": "A10",
       "id": "com_soc_rel_pub",
+      "horarios": 2
+    },
+    {
+      "curso": "C. Sociais (Políticas Públicas)",
+      "local": "Miniauditório da FIC",
+      "id_local": "A12",
+      "id": "ciencias_soc_pol_pub",
       "horarios": 2
     },
     {
@@ -412,39 +419,32 @@
       "id_local": "A11",
       "id": "pedag",
       "horarios": 2
-    },
-    {
-      "curso": "C. Sociais (Políticas Públicas)",
-      "local": "Miniauditório da FH",
-      "id_local": "A11",
-      "id": "ciencias_soc_pol_pub",
-      "horarios": 2
-    },
+    },    
     {
       "curso": "Geografia",
-      "local": "Cinema (FL)",
-      "id_local": "A15",
+      "local": "Miniauditório FH",
+      "id_local": "A11",
       "id": "geo",
       "horarios": 2
     },
     {
       "curso": "Matemática",
-      "local": "Miniauditório da FL",
-      "id_local": "A19",
+      "local": "Cinema (FL)",
+      "id_local": "A15",
       "id": "mat",
       "horarios": 2
     },
     {
       "curso": "Ciências Econômicas",
-      "local": "Miniauditório da FACE",
-      "id_local": "D7",
+      "local": "Miniauditório da FL",
+      "id_local": "A19",
       "id": "ciencias_eco",
       "horarios": 2
     },
     {
       "curso": "Dança",
-      "local": "Fac. de Ed. Física e Dança",
-      "id_local": "E1",
+      "local": "Miniauditório da FACE",
+      "id_local": "D7",
       "id": "danca",
       "horarios": 2
     }
