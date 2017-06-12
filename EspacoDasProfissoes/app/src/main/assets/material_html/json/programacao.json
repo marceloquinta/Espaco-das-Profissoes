@@ -382,7 +382,7 @@
         "Nome": "Oficina de Jogos Temáticos",
         "extra": "",
         "horario": "09h00",
-        "duracao": "9h",
+        "duracao": "",
         "local": "Biblioteca Central",
         "id-local": "A2"
       },
@@ -391,7 +391,7 @@
         "Nome": "Matematicando com o Connect Math - CEI/UFG",
         "extra": "",
         "horario": "09h00",
-        "duracao": "9h",
+        "duracao": "",
         "local": "Biblioteca Central",
         "id-local": "A2"
       },
