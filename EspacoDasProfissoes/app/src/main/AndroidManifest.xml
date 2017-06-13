@@ -20,14 +20,15 @@
         android:theme="@style/AppTheme">
 
         <!-- DEBUG ! -->
-        <!--<meta-data-->
-        <!--android:name="com.google.android.geo.API_KEY"-->
-        <!--android:value="AIzaSyAMIcdUHtANzdAbkUc6ILhpG7Qg2HbNRPM" />-->
-
-        <!-- PRODUCAO -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyABhfdtBq26paWdqf1n2ZXSKX8pZnTi01s" />
+
+        <!-- PRODUCAO -->
+        <!--<meta-data
+            android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyCMMLnPSg6zPu_LayF_HRV4jSf74BsEjB8" />
+            -->
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
