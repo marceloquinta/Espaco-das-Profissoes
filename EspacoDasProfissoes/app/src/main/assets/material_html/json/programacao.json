@@ -745,27 +745,6 @@
         "local": "Cine UFG",
         "id-local": "A15"
       }
-    ],
-
-    "d3": [
-      {
-        "tipo": 2,
-        "Nome": "Oficinas, ensaios e apresentações",
-        "extra": "",
-        "horario": "10h50",
-        "duracao": "",
-        "local": "Centro de Aulas / Sala de Dança",
-        "id-local": "E5"
-      },  
-      {
-        "tipo": 2,
-        "Nome": "Oficinas, ensaios e apresentações",
-        "extra": "",
-        "horario": "16h20",
-        "duracao": "",
-        "local": "Centro de Aulas / Sala de Dança",
-        "id-local": "E5"
-      }
     ]
   }
 }
