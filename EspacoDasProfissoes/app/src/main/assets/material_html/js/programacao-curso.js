@@ -95,7 +95,10 @@ jQuery(document).ready(function($) {
           var horariosPalestra = cardPalestra.find('span.horario');
           horariosPalestra.each(function(index, el) {
             horarios = dadosPalestras.palestras[numeroPalestra].horarios;
-           $(el).text(dadosRedundantes.horarios_palestras_cursos[horarios][index])   
+            var text = dadosRedundantes.horarios_palestras_cursos[horarios][index];
+            
+            if(!text) $(el).remove();
+            else $(el).text(text);
           });
 
           cardPalestra.find('span.local').text(
