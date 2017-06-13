@@ -122,6 +122,15 @@
         "id-local": "A2"
       },
       {
+        "tipo": 2,
+        "Nome": "Oficina de iniciação teatral – jogos (Profª. Joana)",
+        "extra": "",
+        "horario": "14h30",
+        "duracao": "1h00",
+        "local": "Laboratório 2 da EMAC",
+        "id-local": "A1"
+      },
+      {
         "tipo": 1,
         "Nome": [
           "PALESTRA GERAL",
@@ -180,6 +189,15 @@
         "local": "Biblioteca Central",
         "id-local": "A2"
       },
+      {
+        "tipo": 2,
+        "Nome": "Apresentação de cenas curtas Oficina VII (Prof. Guilherme e Saulo)",
+        "extra": "",
+        "horario": "15h30",
+        "duracao": "1h00",
+        "local": "Laboratório 2 da EMAC",
+        "id-local": "A1"
+      },      
       {
         "tipo": 2,
         "Nome": "Vivências de ginástica e lutas",
@@ -582,6 +600,15 @@
         "id-local": ""
       },
       {
+        "tipo": 2,
+        "Nome": "Vivência com o Teatro Ludos (Profª. Clarice)",
+        "extra": "",
+        "horario": "14h30",
+        "duracao": "1h00",
+        "local": "Laboratório 2 da EMAC",
+        "id-local": "A1"
+      },           
+      {
         "tipo": 1,
         "Nome": [
           "PALESTRA GERAL",
@@ -673,6 +700,15 @@
         "local": "",
         "id-local": ""
       },   
+      {
+        "tipo": 2,
+        "Nome": "Ensaio aberto – Oficina V (Prof. Alexandre)",
+        "extra": "",
+        "horario": "14h30",
+        "duracao": "1h00",
+        "local": "Laboratório 2 da EMAC",
+        "id-local": "A1"
+      },        
       {
         "tipo": 2,
         "Nome": "Visita Orientada",
