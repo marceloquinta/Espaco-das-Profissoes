@@ -101,12 +101,6 @@ jQuery(document).ready(function($) {
             else $(el).text(text);
           });
 
-          cardPalestra.find('span.local').text(
-            dadosPalestras
-            .palestras[
-              numeroPalestra]
-            .local);
-
           var cloneDadosEspaco = cardEspaco.find('div.content').eq(0).clone();
           cardEspaco.find('div.content').remove();
 

@@ -1,5 +1,12 @@
 {
   "palestras": [
+    {
+      "curso": "Sistemas de Informação",
+      "local": "Auditório do IF 2",
+      "id_local": "A10",
+      "id": "sist_info",
+      "horarios": 4
+    },
   {
       "curso": "Agronomia",
       "local": "Auditório do ICB I",
@@ -61,7 +68,7 @@
       "local": "Auditório do IF 1",
       "id_local": "A10",
       "id": "eng_elet",
-      "horarios": 1
+      "horarios": 0
     },
     {
       "curso": "Química",
@@ -215,13 +222,6 @@
       "local": "Auditório do IF 2",
       "id_local": "A10",
       "id": "geologia",
-      "horarios": 1
-    },
-    {
-      "curso": "Sistemas de Informação",
-      "local": "Auditório do IF 2",
-      "id_local": "A10",
-      "id": "sist_info",
       "horarios": 1
     },
     {
@@ -383,7 +383,7 @@
       "local": "Auditório do IF 2",
       "id_local": "A10",
       "id": "eng_soft",
-      "horarios": 2
+      "horarios": 3
     },
     {
       "curso": "Engenharia Física",

@@ -5,7 +5,7 @@
       "ID": "eng_mina",
       "local": "0",
       "sala": "102"
-    },
+    },//0
     {
       "curso": "Engenharia de Computação",
       "ID": "eng_comp",
@@ -65,7 +65,7 @@
       "ID": "eng_quim",
       "local": "1",
       "sala": ""
-    },
+    },//10
     {
       "curso": "Física",
       "ID": "fisica",
@@ -125,7 +125,7 @@
       "ID": "com_soc_rel_pub",
       "local": "5",
       "sala": "7"
-    },
+    },//20
     {
       "curso": "Odontologia",
       "ID": "odonto",
@@ -155,7 +155,7 @@
       "ID": "eng_florest",
       "local": "6",
       "sala": "109"
-    },    
+    },
     {
       "curso": "Agronomia",
       "ID": "agro",
@@ -185,7 +185,7 @@
       "ID": "enferm",
       "local": "6",
       "sala": "208"
-    },    
+    },//30
     {
       "curso": "Ciências Biológicas",
       "ID": "ciencias_bio",
@@ -245,7 +245,7 @@
       "ID": "ciencias_comp",
       "local": "7",
       "sala": "204"
-    },
+    },//40
     {
       "curso": "Matemática",
       "ID": "mat",
@@ -305,7 +305,7 @@
       "ID": "filos",
       "local": "8",
       "sala": "F1"
-    },
+    },//50
     {
       "curso": "Artes Visuais - Bacharelado (Expolab)",
       "ID": "art_visu_ba",
@@ -365,7 +365,7 @@
       "ID": "ciencias_eco",
       "local": "10",
       "sala": "17"
-    },
+    },//60
     {
       "curso": "Ciências Contábeis",
       "ID": "ciencias_cont",
@@ -425,7 +425,7 @@
       "ID": "zoot",
       "local": "12",
       "sala": ""
-    },
+    },//70
     {
       "curso": "Educação Física",
       "ID": "ed_fisica",

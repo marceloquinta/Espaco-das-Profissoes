@@ -13,7 +13,7 @@
           "campus": 0,
           "id_ei": "admin",
           "ei_numero": [
-            "52"
+            "62"
           ],
           "id_palestra": "admin",
           "pal_numero": "20"
@@ -28,7 +28,7 @@
           "campus": 0,
           "id_ei": "agro",
           "ei_numero": [
-            "59"
+            "26"
           ],
           "id_palestra": "agro",
           "pal_numero": "2"
@@ -43,7 +43,7 @@
           "campus": 0,
           "id_ei": "arq_urb",
           "ei_numero": [
-            "46"
+            "52"
           ],
           "id_palestra": "arq_urb",
           "pal_numero": "5"
@@ -58,7 +58,7 @@
           "campus": 0,
           "id_ei": "art_visu_ba",
           "ei_numero": [
-            "44"
+            "51"
           ],
           "id_palestra": "art_visu",
           "pal_numero": "48"
@@ -73,7 +73,7 @@
           "campus": 0,
           "id_ei": "art_visu_li",
           "ei_numero": [
-            "45"
+            "51"
           ],
           "id_palestra": "art_visu",
           "pal_numero": "48"
@@ -734,7 +734,7 @@
           "campus": 1,
           "id_ei": "farm",
           "ei_numero": [
-            "23"
+            "32"
           ],
           "id_palestra": "farm",
           "pal_numero": "29"
@@ -1574,7 +1574,7 @@
           "n_vagas": 60,
           "id_ei": "direito",
           "ei_numero": [
-            "37"
+            "39"
           ],
           "id_palestra": "direito",
           "pal_numero": "7"
