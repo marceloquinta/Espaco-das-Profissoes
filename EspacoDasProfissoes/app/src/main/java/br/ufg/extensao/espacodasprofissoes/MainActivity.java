@@ -41,9 +41,11 @@ public class MainActivity extends AppCompatActivity {
         setupToolbar();
         setupViewPager();
 
-        Intent intent = new Intent(this, UselessSplash.class);
-        intent.putExtra(UselessSplash.BACKGROUND_IMAGE,R.drawable.splash);
-        startActivity(intent);
+        if (savedInstanceState == null) {
+            Intent intent = new Intent(this, UselessSplash.class);
+            intent.putExtra(UselessSplash.BACKGROUND_IMAGE,R.drawable.splash);
+            startActivity(intent);
+        }
     }
 
     @Override
