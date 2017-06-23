@@ -88,7 +88,7 @@
           "campus": 0,
           "id_ei": "bibliotecon",
           "ei_numero": [
-            "26"
+            "17"
           ],
           "id_palestra": "bibliotecon",
           "pal_numero": "34"
@@ -103,7 +103,7 @@
           "campus": 0,
           "id_ei": "biomed",
           "ei_numero": [
-            "24"
+            "15","16"
           ],
           "id_palestra": "biomed",
           "pal_numero": "4"
@@ -118,7 +118,7 @@
           "campus": 1,
           "id_ei": "biotec",
           "ei_numero": [
-            "21"
+            "22"
           ],
           "id_palestra": "biotec",
           "pal_numero": "45"
@@ -133,7 +133,7 @@
           "campus": 0,
           "id_ei": "ciencias_amb",
           "ei_numero": [
-            "34"
+            "36"
           ],
           "id_palestra": "ciencias_amb",
           "pal_numero": "19"
@@ -148,7 +148,7 @@
           "campus": 0,
           "id_ei": "ciencias_bio",
           "ei_numero": [
-            "17"
+            "31"
           ],
           "id_palestra": "ciencias_bio",
           "pal_numero": "3"
@@ -163,7 +163,7 @@
           "campus": 0,
           "id_ei": "ciencias_bio",
           "ei_numero": [
-            "17"
+            "31"
           ],
           "id_palestra": "ciencias_bio",
           "pal_numero": "3"
@@ -178,7 +178,7 @@
           "campus": 0,
           "id_ei": "ciencias_bio",
           "ei_numero": [
-            "17"
+            "31"
           ],
           "id_palestra": "ciencias_bio",
           "pal_numero": "3"
@@ -193,7 +193,7 @@
           "campus": 0,
           "id_ei": "ciencias_cont",
           "ei_numero": [
-            "54"
+            "61"
           ],
           "id_palestra": "ciencias_cont",
           "pal_numero": "40"
@@ -208,7 +208,7 @@
           "campus": 0,
           "id_ei": "ciencias_cont",
           "ei_numero": [
-            "54"
+            "61"
           ],
           "id_palestra": "ciencias_cont",
           "pal_numero": "40"
@@ -223,7 +223,7 @@
           "campus": 0,
           "id_ei": "ciencias_comp",
           "ei_numero": [
-            "14"
+            "40"
           ],
           "id_palestra": "ciencias_comp",
           "pal_numero": "12"
@@ -238,7 +238,7 @@
           "campus": 0,
           "id_ei": "ciencias_eco",
           "ei_numero": [
-            "53"
+            "60"
           ],
           "id_palestra": "ciencias_eco",
           "pal_numero": "62"
@@ -253,7 +253,7 @@
           "campus": 0,
           "id_ei": "ciencias_eco",
           "ei_numero": [
-            "53"
+            "60"
           ],
           "id_palestra": "ciencias_eco",
           "pal_numero": "62"
@@ -268,8 +268,7 @@
           "campus": 0,
           "id_ei": "",
           "ei_numero": [
-            "38",
-            "39"
+            "47"
           ],
           "id_palestra": "ciencias_soc",
           "pal_numero": "37"
@@ -284,7 +283,7 @@
           "campus": 0,
           "id_ei": "ciencias_soc_ba_pol_pub",
           "ei_numero": [
-            "38"
+            "45"
           ],
           "id_palestra": "ciencias_soc_pol_pub",
           "pal_numero": "59"
@@ -299,7 +298,7 @@
           "campus": 0,
           "id_ei": "com_soc_jorn",
           "ei_numero": [
-            "28"
+            "19"
           ],
           "id_palestra": "com_soc_jorn",
           "pal_numero": "16"
@@ -314,7 +313,7 @@
           "campus": 0,
           "id_ei": "com_soc_pub_prop",
           "ei_numero": [
-            "27"
+            "18"
           ],
           "id_palestra": "com_soc_pub_prop",
           "pal_numero": "35"
@@ -329,7 +328,7 @@
           "campus": 0,
           "id_ei": "com_soc_rel_pub",
           "ei_numero": [
-            "29"
+            "20"
           ],
           "id_palestra": "com_soc_rel_pub",
           "pal_numero": "57"
@@ -344,7 +343,7 @@
           "campus": 0,
           "id_ei": "danca",
           "ei_numero": [
-            "65"
+            "72"
           ],
           "id_palestra": "danca",
           "pal_numero": "63"
@@ -359,7 +358,7 @@
           "campus": 0,
           "id_ei": "des_amb",
           "ei_numero": [
-            "47"
+            "54"
           ],
           "id_palestra": "des_amb",
           "pal_numero": "28"
@@ -374,7 +373,7 @@
           "campus": 0,
           "id_ei": "des_moda",
           "ei_numero": [
-            "48"
+            "56"
           ],
           "id_palestra": "des_moda",
           "pal_numero": "8"
@@ -389,7 +388,7 @@
           "campus": 0,
           "id_ei": "des_graf",
           "ei_numero": [
-            "49"
+            "57"
           ],
           "id_palestra": "des_graf",
           "pal_numero": "50"
@@ -404,7 +403,7 @@
           "campus": 0,
           "id_ei": "dir_arte",
           "ei_numero": [
-            "56"
+            "65"
           ],
           "id_palestra": "dir_arte",
           "pal_numero": "26"
@@ -419,7 +418,7 @@
           "campus": 1,
           "id_ei": "direito",
           "ei_numero": [
-            "37"
+            "7"
           ],
           "id_palestra": "direito",
           "pal_numero": "7"
@@ -449,7 +448,7 @@
           "campus": 0,
           "id_ei": "eco_ana_amb",
           "ei_numero": [
-            "18"
+            "34"
           ],
           "id_palestra": "eco_ana_amb",
           "pal_numero": "24"
@@ -464,7 +463,7 @@
           "campus": 0,
           "id_ei": "ed_fisica",
           "ei_numero": [
-            "64"
+            "71"
           ],
           "id_palestra": "ed_fisica",
           "pal_numero": "41"
@@ -479,7 +478,7 @@
           "campus": 0,
           "id_ei": "ed_fisica",
           "ei_numero": [
-            "64"
+            "71"
           ],
           "id_palestra": "ed_fisica",
           "pal_numero": "41"
@@ -494,7 +493,7 @@
           "campus": 0,
           "id_ei": "ed_fisica",
           "ei_numero": [
-            "64"
+            "71"
           ],
           "id_palestra": "ed_fisica",
           "pal_numero": "41"
@@ -524,7 +523,7 @@
           "campus": 1,
           "id_ei": "enferm",
           "ei_numero": [
-            "20"
+            "30"
           ],
           "id_palestra": "enferm",
           "pal_numero": "25"
@@ -539,7 +538,7 @@
           "campus": 1,
           "id_ei": "eng_amb_san",
           "ei_numero": [
-            "0"
+            "4"
           ],
           "id_palestra": "eng_amb_san",
           "pal_numero": "22"
@@ -554,7 +553,7 @@
           "campus": 1,
           "id_ei": "eng_civ",
           "ei_numero": [
-            "1"
+            "6"
           ],
           "id_palestra": "eng_civ",
           "pal_numero": "43"
@@ -569,7 +568,7 @@
           "campus": 0,
           "id_ei": "eng_alim",
           "ei_numero": [
-            "61"
+            "24"
           ],
           "id_palestra": "eng_alim",
           "pal_numero": "44"
@@ -584,7 +583,7 @@
           "campus": 1,
           "id_ei": "eng_comp",
           "ei_numero": [
-            "8"
+            "1"
           ],
           "id_palestra": "eng_comp",
           "pal_numero": "53"
@@ -599,7 +598,7 @@
           "campus": 2,
           "id_ei": "eng_prod",
           "ei_numero": [
-            "4"
+            "8"
           ],
           "id_palestra": "eng_prod",
           "pal_numero": "21"
@@ -614,7 +613,7 @@
           "campus": 0,
           "id_ei": "eng_soft",
           "ei_numero": [
-            "15"
+            "42"
           ],
           "id_palestra": "eng_soft",
           "pal_numero": "54"
@@ -629,7 +628,7 @@
           "campus": 2,
           "id_ei": "eng_transp",
           "ei_numero": [
-            "3"
+            "7"
           ],
           "id_palestra": "eng_transp",
           "pal_numero": "0"
@@ -644,7 +643,7 @@
           "campus": 1,
           "id_ei": "eng_elet",
           "ei_numero": [
-            "7"
+            "9"
           ],
           "id_palestra": "eng_elet",
           "pal_numero": "31"
@@ -659,7 +658,7 @@
           "campus": 0,
           "id_ei": "eng_fis",
           "ei_numero": [
-            "12"
+            "13"
           ],
           "id_palestra": "eng_fis",
           "pal_numero": "55"
@@ -674,7 +673,7 @@
           "campus": 0,
           "id_ei": "eng_florest",
           "ei_numero": [
-            "60"
+            "25"
           ],
           "id_palestra": "eng_florest",
           "pal_numero": "23"
@@ -689,7 +688,7 @@
           "campus": 1,
           "id_ei": "eng_mec",
           "ei_numero": [
-            "6"
+            "3"
           ],
           "id_palestra": "eng_mec",
           "pal_numero": "11"
@@ -704,7 +703,7 @@
           "campus": 0,
           "id_ei": "eng_quim",
           "ei_numero": [
-            "9"
+            "10"
           ],
           "id_palestra": "eng_quim",
           "pal_numero": "30"
@@ -719,7 +718,7 @@
           "campus": 0,
           "id_ei": "estat",
           "ei_numero": [
-            "35"
+            "63"
           ],
           "id_palestra": "estat",
           "pal_numero": "39"
@@ -749,7 +748,7 @@
           "campus": 0,
           "id_ei": "filos",
           "ei_numero": [
-            "43"
+            "50"
           ],
           "id_palestra": "filos",
           "pal_numero": "52"
@@ -764,7 +763,7 @@
           "campus": 0,
           "id_ei": "filos",
           "ei_numero": [
-            "43"
+            "50"
           ],
           "id_palestra": "filos",
           "pal_numero": "52"
@@ -779,7 +778,7 @@
           "campus": 0,
           "id_ei": "fisica",
           "ei_numero": [
-            "10"
+            "11"
           ],
           "id_palestra": "fisica",
           "pal_numero": "33"
@@ -794,7 +793,7 @@
           "campus": 0,
           "id_ei": "fisica",
           "ei_numero": [
-            "10"
+            "11"
           ],
           "id_palestra": "fisica",
           "pal_numero": "33"
@@ -809,7 +808,7 @@
           "campus": 0,
           "id_ei": "fisica",
           "ei_numero": [
-            "10"
+            "11"
           ],
           "id_palestra": "fisica",
           "pal_numero": "33"
@@ -824,7 +823,7 @@
           "campus": 0,
           "id_ei": "fisica_med",
           "ei_numero": [
-            "11"
+            "12"
           ],
           "id_palestra": "fisica_med",
           "pal_numero": "13"
@@ -839,7 +838,7 @@
           "campus": 0,
           "id_ei": "geo",
           "ei_numero": [
-            "33"
+            "35"
           ],
           "id_palestra": "geo",
           "pal_numero": "60"
@@ -854,7 +853,7 @@
           "campus": 0,
           "id_ei": "geo",
           "ei_numero": [
-            "33"
+            "35"
           ],
           "id_palestra": "geo",
           "pal_numero": "60"
@@ -869,7 +868,7 @@
           "campus": 0,
           "id_ei": "geo",
           "ei_numero": [
-            "33"
+            "35"
           ],
           "id_palestra": "geo",
           "pal_numero": "60"
@@ -899,7 +898,7 @@
           "campus": 0,
           "id_ei": "gest_info",
           "ei_numero": [
-            "30"
+            "43"
           ],
           "id_palestra": "gest_info",
           "pal_numero": "15"
@@ -914,7 +913,7 @@
           "campus": 0,
           "id_ei": "hist",
           "ei_numero": [
-            "41"
+            "48"
           ],
           "id_palestra": "hist",
           "pal_numero": "17"
@@ -929,7 +928,7 @@
           "campus": 0,
           "id_ei": "hist",
           "ei_numero": [
-            "41"
+            "48"
           ],
           "id_palestra": "hist",
           "pal_numero": "17"
@@ -944,7 +943,7 @@
           "campus": 0,
           "id_ei": "hist",
           "ei_numero": [
-            "41"
+            "48"
           ],
           "id_palestra": "hist",
           "pal_numero": "17"
@@ -959,7 +958,7 @@
           "campus": 0,
           "id_ei": "hist",
           "ei_numero": [
-            "41"
+            "48"
           ],
           "id_palestra": "hist",
           "pal_numero": "17"
@@ -974,7 +973,7 @@
           "campus": 0,
           "id_ei": "letras_linguas",
           "ei_numero": [
-            "50"
+            "58"
           ],
           "id_palestra": "letras_linguas",
           "pal_numero": "18"
@@ -989,7 +988,7 @@
           "campus": 0,
           "id_ei": "letras_linguas",
           "ei_numero": [
-            "50"
+            "58"
           ],
           "id_palestra": "letras_linguas",
           "pal_numero": "18"
@@ -1004,7 +1003,7 @@
           "campus": 0,
           "id_ei": "letras_linguas",
           "ei_numero": [
-            "50"
+            "58"
           ],
           "id_palestra": "letras_linguas",
           "pal_numero": "18"
@@ -1019,7 +1018,7 @@
           "campus": 0,
           "id_ei": "letras_linguas",
           "ei_numero": [
-            "50"
+            "58"
           ],
           "id_palestra": "letras_linguas",
           "pal_numero": "18"
@@ -1034,7 +1033,7 @@
           "campus": 0,
           "id_ei": "letras_linguas",
           "ei_numero": [
-            "50"
+            "58"
           ],
           "id_palestra": "letras_linguas",
           "pal_numero": "18"
@@ -1049,7 +1048,7 @@
           "campus": 0,
           "id_ei": "letras_libras",
           "ei_numero": [
-            "51"
+            "59"
           ],
           "id_palestra": "letras_libras",
           "pal_numero": "38"
@@ -1064,7 +1063,7 @@
           "campus": 0,
           "id_ei": "letras_libras",
           "ei_numero": [
-            "51"
+            "59"
           ],
           "id_palestra": "letras_libras",
           "pal_numero": "38"
@@ -1079,7 +1078,7 @@
           "campus": 0,
           "id_ei": "letras_linguas",
           "ei_numero": [
-            "51"
+            "58"
           ],
           "id_palestra": "letras_linguas",
           "pal_numero": "18"
@@ -1094,7 +1093,7 @@
           "campus": 0,
           "id_ei": "letras_linguas",
           "ei_numero": [
-            "51"
+            "58"
           ],
           "id_palestra": "letras_linguas",
           "pal_numero": "18"
@@ -1109,7 +1108,7 @@
           "campus": 0,
           "id_ei": "letras_libras",
           "ei_numero": [
-            "51"
+            "59"
           ],
           "id_palestra": "letras_libras",
           "pal_numero": "38"
@@ -1124,7 +1123,7 @@
           "campus": 0,
           "id_ei": "mat",
           "ei_numero": [
-            "36"
+            "41"
           ],
           "id_palestra": "mat",
           "pal_numero": "61"
@@ -1139,7 +1138,7 @@
           "campus": 0,
           "id_ei": "mat",
           "ei_numero": [
-            "36"
+            "41"
           ],
           "id_palestra": "mat",
           "pal_numero": "61"
@@ -1154,7 +1153,7 @@
           "campus": 1,
           "id_ei": "med",
           "ei_numero": [
-            "19"
+            "28","29"
           ],
           "id_palestra": "med",
           "pal_numero": "49"
@@ -1169,7 +1168,7 @@
           "campus": 0,
           "id_ei": "med_vet",
           "ei_numero": [
-            "62"
+            "69"
           ],
           "id_palestra": "med_vet",
           "pal_numero": "9"
@@ -1184,7 +1183,7 @@
           "campus": 0,
           "id_ei": "museo",
           "ei_numero": [
-            "40"
+            "46"
           ],
           "id_palestra": "museo",
           "pal_numero": "56"
@@ -1199,7 +1198,7 @@
           "campus": 0,
           "id_ei": "musica",
           "ei_numero": [
-            "57"
+            ""
           ],
           "id_palestra": "musica",
           "pal_numero": "6"
@@ -1214,7 +1213,7 @@
           "campus": 0,
           "id_ei": "musica",
           "ei_numero": [
-            "57"
+            ""
           ],
           "id_palestra": "musica",
           "pal_numero": "6"
@@ -1229,7 +1228,7 @@
           "campus": 0,
           "id_ei": "musica",
           "ei_numero": [
-            "57"
+            ""
           ],
           "id_palestra": "musica",
           "pal_numero": "6"
@@ -1244,7 +1243,7 @@
           "campus": 0,
           "id_ei": "musica",
           "ei_numero": [
-            "57"
+            ""
           ],
           "id_palestra": "musica",
           "pal_numero": "6"
@@ -1259,7 +1258,7 @@
           "campus": 0,
           "id_ei": "musica",
           "ei_numero": [
-            "57"
+            ""
           ],
           "id_palestra": "musica",
           "pal_numero": "6"
@@ -1274,7 +1273,7 @@
           "campus": 0,
           "id_ei": "musica",
           "ei_numero": [
-            "57"
+            ""
           ],
           "id_palestra": "musica",
           "pal_numero": "6"
@@ -1289,7 +1288,7 @@
           "campus": 0,
           "id_ei": "musica",
           "ei_numero": [
-            "57"
+            ""
           ],
           "id_palestra": "musica",
           "pal_numero": "6"
@@ -1304,7 +1303,7 @@
           "campus": 0,
           "id_ei": "musicotep",
           "ei_numero": [
-            "58"
+            "68"
           ],
           "id_palestra": "musicoter",
           "pal_numero": "27"
@@ -1319,7 +1318,7 @@
           "campus": 1,
           "id_ei": "nutri",
           "ei_numero": [
-            "25"
+            "27"
           ],
           "id_palestra": "nutri",
           "pal_numero": "46"
@@ -1334,7 +1333,7 @@
           "campus": 1,
           "id_ei": "odonto",
           "ei_numero": [
-            "22"
+            "21"
           ],
           "id_palestra": "odonto",
           "pal_numero": "1"
@@ -1349,7 +1348,7 @@
           "campus": 1,
           "id_ei": "pedag",
           "ei_numero": [
-            "31"
+            "37"
           ],
           "id_palestra": "pedag",
           "pal_numero": "58"
@@ -1364,7 +1363,7 @@
           "campus": 1,
           "id_ei": "pedag",
           "ei_numero": [
-            "31"
+            "37"
           ],
           "id_palestra": "pedag",
           "pal_numero": "58"
@@ -1379,7 +1378,7 @@
           "campus": 1,
           "id_ei": "psic",
           "ei_numero": [
-            "32"
+            "33"
           ],
           "id_palestra": "psic",
           "pal_numero": "36"
@@ -1409,7 +1408,7 @@
           "campus": 0,
           "id_ei": "quim_li",
           "ei_numero": [
-            "16"
+            "23"
           ],
           "id_palestra": "quim",
           "pal_numero": "10"
@@ -1424,7 +1423,7 @@
           "campus": 0,
           "id_ei": "quim_li",
           "ei_numero": [
-            "16"
+            "23"
           ],
           "id_palestra": "quim",
           "pal_numero": "10"
@@ -1439,7 +1438,7 @@
           "campus": 0,
           "id_ei": "rel_inter",
           "ei_numero": [
-            "42"
+            "49"
           ],
           "id_palestra": "rel_inter",
           "pal_numero": "14"
@@ -1454,7 +1453,7 @@
           "campus": 0,
           "id_ei": "sist_info",
           "ei_numero": [
-            "13"
+            "39"
           ],
           "id_palestra": "sist_info",
           "pal_numero": "32"
@@ -1469,7 +1468,7 @@
           "campus": 0,
           "id_ei": "teatro",
           "ei_numero": [
-            "55"
+            "64"
           ],
           "id_palestra": "teatro",
           "pal_numero": "47"
@@ -1484,7 +1483,7 @@
           "campus": 0,
           "id_ei": "zoot",
           "ei_numero": [
-            "63"
+            "70"
           ],
           "id_palestra": "zoot",
           "pal_numero": "51"
@@ -1504,7 +1503,7 @@
           "n_vagas": 60,
           "id_ei": "agro",
           "ei_numero": [
-            "59"
+            "26"
           ],
           "id_palestra": "agro",
           "pal_numero": "2"
@@ -1518,7 +1517,7 @@
           "n_vagas": 40,
           "id_ei": "biomed",
           "ei_numero": [
-            "24"
+            "15"
           ],
           "id_palestra": "biomed",
           "pal_numero": "4"
@@ -1532,7 +1531,7 @@
           "n_vagas": 40,
           "id_ei": "ciencias_bio",
           "ei_numero": [
-            "17"
+            "31"
           ],
           "id_palestra": "ciencias_bio",
           "pal_numero": "3"
@@ -1546,7 +1545,7 @@
           "n_vagas": 30,
           "id_ei": "ciencias_bio",
           "ei_numero": [
-            "17"
+            "31"
           ],
           "id_palestra": "ciencias_bio",
           "pal_numero": "3"
@@ -1560,7 +1559,7 @@
           "n_vagas": 50,
           "id_ei": "ciencias_comp",
           "ei_numero": [
-            "14"
+            "40"
           ],
           "id_palestra": "ciencias_comp",
           "pal_numero": "12"
@@ -1574,7 +1573,7 @@
           "n_vagas": 60,
           "id_ei": "direito",
           "ei_numero": [
-            "39"
+            "38"
           ],
           "id_palestra": "direito",
           "pal_numero": "7"
@@ -1588,7 +1587,7 @@
           "n_vagas": 40,
           "id_ei": "ed_fisica",
           "ei_numero": [
-            "64"
+            "71"
           ],
           "id_palestra": "ed_fisica",
           "pal_numero": "41"
@@ -1602,7 +1601,7 @@
           "n_vagas": 40,
           "id_ei": "ed_fisica",
           "ei_numero": [
-            "64"
+            "71"
           ],
           "id_palestra": "ed_fisica",
           "pal_numero": "41"
@@ -1616,7 +1615,7 @@
           "n_vagas": 30,
           "id_ei": "enferm",
           "ei_numero": [
-            "20"
+            "30"
           ],
           "id_palestra": "enferm",
           "pal_numero": "25"
@@ -1630,7 +1629,7 @@
           "n_vagas": 50,
           "id_ei": "eng_florest",
           "ei_numero": [
-            "60"
+            "25"
           ],
           "id_palestra": "eng_florest",
           "pal_numero": "23"
@@ -1644,7 +1643,7 @@
           "n_vagas": 40,
           "id_ei": "fisica",
           "ei_numero": [
-            "10"
+            "11"
           ],
           "id_palestra": "fisica",
           "pal_numero": "33"
@@ -1672,7 +1671,7 @@
           "n_vagas": 40,
           "id_ei": "geo",
           "ei_numero": [
-            "33"
+            "35"
           ],
           "id_palestra": "geo",
           "pal_numero": "60"
@@ -1686,7 +1685,7 @@
           "n_vagas": 50,
           "id_ei": "hist",
           "ei_numero": [
-            "41"
+            "48"
           ],
           "id_palestra": "hist",
           "pal_numero": "17"
@@ -1700,7 +1699,7 @@
           "n_vagas": 30,
           "id_ei": "letras_linguas",
           "ei_numero": [
-            "50"
+            "58"
           ],
           "id_palestra": "letras_linguas",
           "pal_numero": "18"
@@ -1714,7 +1713,7 @@
           "n_vagas": 40,
           "id_ei": "letras_linguas",
           "ei_numero": [
-            "51"
+            "58"
           ],
           "id_palestra": "letras_linguas",
           "pal_numero": "18"
@@ -1728,7 +1727,7 @@
           "n_vagas": 45,
           "id_ei": "mat",
           "ei_numero": [
-            "36"
+            "41"
           ],
           "id_palestra": "mat",
           "pal_numero": "61"
@@ -1742,7 +1741,7 @@
           "n_vagas": 60,
           "id_ei": "med",
           "ei_numero": [
-            "19"
+            "28"
           ],
           "id_palestra": "med",
           "pal_numero": "49"
@@ -1756,7 +1755,7 @@
           "n_vagas": 60,
           "id_ei": "med_vet",
           "ei_numero": [
-            "62"
+            "69"
           ],
           "id_palestra": "med_vet",
           "pal_numero": "9"
@@ -1770,7 +1769,7 @@
           "n_vagas": 40,
           "id_ei": "pedag",
           "ei_numero": [
-            "31"
+            "37"
           ],
           "id_palestra": "pedag",
           "pal_numero": "58"
@@ -1784,7 +1783,7 @@
           "n_vagas": 40,
           "id_ei": "pedag",
           "ei_numero": [
-            "31"
+            "37"
           ],
           "id_palestra": "pedag",
           "pal_numero": "58"
@@ -1798,7 +1797,7 @@
           "n_vagas": 40,
           "id_ei": "psic",
           "ei_numero": [
-            "32"
+            "33"
           ],
           "id_palestra": "psic",
           "pal_numero": "36"
@@ -1812,7 +1811,7 @@
           "n_vagas": 45,
           "id_ei": "quim_li",
           "ei_numero": [
-            "16"
+            "23"
           ],
           "id_palestra": "quim",
           "pal_numero": "10"
@@ -1840,7 +1839,7 @@
           "n_vagas": 30,
           "id_ei": "zoot",
           "ei_numero": [
-            "63"
+            "70"
           ],
           "id_palestra": "zoot",
           "pal_numero": "51"
@@ -1860,7 +1859,7 @@
           "n_vagas": 50,
           "id_ei": "admin",
           "ei_numero": [
-            "52"
+            "62"
           ],
           "id_palestra": "admin",
           "pal_numero": "20"
@@ -1874,7 +1873,7 @@
           "n_vagas": 30,
           "id_ei": "ciencias_bio",
           "ei_numero": [
-            "17"
+            "31"
           ],
           "id_palestra": "ciencias_bio",
           "pal_numero": "3"
@@ -1888,7 +1887,7 @@
           "n_vagas": 50,
           "id_ei": "ciencias_bio",
           "ei_numero": [
-            "17"
+            "31"
           ],
           "id_palestra": "ciencias_bio",
           "pal_numero": "3"
@@ -1902,7 +1901,7 @@
           "n_vagas": 35,
           "id_ei": "ciencias_comp",
           "ei_numero": [
-            "14"
+            "40"
           ],
           "id_palestra": "ciencias_comp",
           "pal_numero": "12"
@@ -1916,8 +1915,8 @@
           "n_vagas": 60,
           "id_ei": "ciencias_soc_ba_pol_pub, ciencias_soc_li",
           "ei_numero": [
-            "38",
-            "39"
+            "47",
+            "45"
           ],
           "id_palestra": "ciencias_soc",
           "pal_numero": "37"
@@ -1931,7 +1930,7 @@
           "n_vagas": 45,
           "id_ei": "ed_fisica",
           "ei_numero": [
-            "64"
+            "71"
           ],
           "id_palestra": "ed_fisica",
           "pal_numero": "41"
@@ -1959,7 +1958,7 @@
           "n_vagas": 40,
           "id_ei": "enferm",
           "ei_numero": [
-            "20"
+            "30"
           ],
           "id_palestra": "enferm",
           "pal_numero": "25"
@@ -1973,7 +1972,7 @@
           "n_vagas": 50,
           "id_ei": "eng_civil",
           "ei_numero": [
-            "1"
+            "6"
           ],
           "id_palestra": "eng_civil",
           "pal_numero": "43"
@@ -1987,7 +1986,7 @@
           "n_vagas": 50,
           "id_ei": "eng_mina",
           "ei_numero": [
-            ""
+            "0"
           ],
           "id_palestra": "",
           "pal_numero": ""
@@ -2001,7 +2000,7 @@
           "n_vagas": 50,
           "id_ei": "eng_prod",
           "ei_numero": [
-            "4"
+            "8"
           ],
           "id_palestra": "eng_prod",
           "pal_numero": "21"
@@ -2015,7 +2014,7 @@
           "n_vagas": 50,
           "id_ei": "fisica",
           "ei_numero": [
-            "10"
+            "11"
           ],
           "id_palestra": "fisica",
           "pal_numero": "33"
@@ -2029,7 +2028,7 @@
           "n_vagas": 30,
           "id_ei": "geo",
           "ei_numero": [
-            "33"
+            "35"
           ],
           "id_palestra": "geo",
           "pal_numero": "60"
@@ -2043,7 +2042,7 @@
           "n_vagas": 50,
           "id_ei": "geo",
           "ei_numero": [
-            "33"
+            "35"
           ],
           "id_palestra": "geo",
           "pal_numero": "60"
@@ -2057,7 +2056,7 @@
           "n_vagas": 50,
           "id_ei": "hist",
           "ei_numero": [
-            "41"
+            "48"
           ],
           "id_palestra": "hist",
           "pal_numero": "17"
@@ -2071,7 +2070,7 @@
           "n_vagas": 50,
           "id_ei": "letras_linguas",
           "ei_numero": [
-            "51"
+            "58"
           ],
           "id_palestra": "letras_linguas",
           "pal_numero": "18"
@@ -2085,7 +2084,7 @@
           "n_vagas": 50,
           "id_ei": "letras_linguas",
           "ei_numero": [
-            "51"
+            "58"
           ],
           "id_palestra": "letras_linguas",
           "pal_numero": "18"
@@ -2099,7 +2098,7 @@
           "n_vagas": 50,
           "id_ei": "mat",
           "ei_numero": [
-            "36"
+            "41"
           ],
           "id_palestra": "mat",
           "pal_numero": "61"
@@ -2113,7 +2112,7 @@
           "n_vagas": 50,
           "id_ei": "mat_ind",
           "ei_numero": [
-            ""
+            "44"
           ],
           "id_palestra": "",
           "pal_numero": ""
@@ -2127,7 +2126,7 @@
           "n_vagas": 50,
           "id_ei": "pedag",
           "ei_numero": [
-            "31"
+            "37"
           ],
           "id_palestra": "pedag",
           "pal_numero": "58"
@@ -2141,7 +2140,7 @@
           "n_vagas": 50,
           "id_ei": "psic",
           "ei_numero": [
-            "32"
+            "33"
           ],
           "id_palestra": "psic",
           "pal_numero": "36"
@@ -2155,8 +2154,7 @@
           "n_vagas": 50,
           "id_ei": "quim_ba, quim_li",
           "ei_numero": [
-            "2",
-            "16"
+            "14"
           ],
           "id_palestra": "quim",
           "pal_numero": "10"
@@ -2176,7 +2174,7 @@
           "n_vagas": 50,
           "id_ei": "admin",
           "ei_numero": [
-            "52"
+            "62"
           ],
           "id_palestra": "admin",
           "pal_numero": "20"
@@ -2190,7 +2188,7 @@
           "n_vagas": 30,
           "id_ei": "arq_urb",
           "ei_numero": [
-            "46"
+            "52"
           ],
           "id_palestra": "arq_urb",
           "pal_numero": "5"
@@ -2204,7 +2202,7 @@
           "n_vagas": 60,
           "id_ei": "direito",
           "ei_numero": [
-            "37"
+            "38"
           ],
           "id_palestra": "direito",
           "pal_numero": "7"
@@ -2232,7 +2230,7 @@
           "n_vagas": 50,
           "id_ei": "filos",
           "ei_numero": [
-            "43"
+            "50"
           ],
           "id_palestra": "filos",
           "pal_numero": "52"
@@ -2246,7 +2244,7 @@
           "n_vagas": 50,
           "id_ei": "filos",
           "ei_numero": [
-            "43"
+            "50"
           ],
           "id_palestra": "filos",
           "pal_numero": "52"
